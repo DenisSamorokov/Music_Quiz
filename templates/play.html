@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block title %}Игра{% endblock %}
+
+{% block content %}
+    <div class="text-center">
+        <div class="block-background p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">Выберите сложность</h2>
+            <div class="flex justify-center space-x-4">
+                <a href="{{ url_for('play', difficulty='easy', language=language, style=style) }}" class="px-6 py-3 rounded-lg bg-green-600 hover:bg-green-700 text-white text-center">
+                    Легко <span class="ml-2">+5 очков</span>
+                </a>
+                <a href="{{ url_for('play', difficulty='medium', language=language, style=style) }}" class="px-6 py-3 rounded-lg bg-yellow-600 hover:bg-yellow-700 text-white text-center">
+                    Средне <span class="ml-2">+10 очков</span>
+                </a>
+                <a href="{{ url_for('play', difficulty='hard', language=language, style=style) }}" class="px-6 py-3 rounded-lg bg-red-600 hover:bg-red-700 text-white text-center">
+                    Сложно <span class="ml-2">+15 очков</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="block-background p-6 mb-8">
+            <div class="flex justify-center items-center mb-4">
+                <h2 class="text-xl font-semibold mr-4">Угадайте песню</h2>
+                <div class="flex items-center">
+                    <span id="timer" class="text-sm bg-gray-800 px-3 py-1 rounded">
+                        {{ duration }}с
+                    </span>
+                    <span class="ml-4 text-sm bg-purple-600 px-3 py-1 rounded">Очки: {{ current_user.score }}</span>
+                </div>
+            </div>
+
+            <div class="custom-player mx-auto w-64">
+                <audio id="audio-player" src="{{ track.preview_url }}" preload="auto"></audio>
+                <button id="play-btn" class="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <div id="equalizer" class="equalizer">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <form id="guess-form" method="POST">
+            <input type="hidden" name="track_id" value="{{ track.id }}">
+            <input type="hidden" name="track_title" value="{{ track.title }}">
+            <input type="hidden" name="track_artist" value="{{ track.artist }}">
+            <div class="block-background p-6 rounded-lg">
+                <div class="grid grid-cols-2 gap-4 max-w-lg mx-auto">
+                    {% for option in options %}
+                        <label class="option-card p-4 rounded-lg cursor-pointer">
+                            <input type="radio" name="guess" value="{{ option.id }}" class="hidden" required onchange="document.getElementById('guess-form').submit()">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-gray-700 rounded flex items-center justify-center mr-3">
+                                    <span class="font-bold">{{ loop.index | replace('1', 'A') | replace('2', 'B') | replace('3', 'C') | replace('4', 'D') }}</span>
+                                </div>
+                                <div>
+                                    <h3 class="font-medium">{{ option.title }}</h3>
+                                    <p class="text-sm text-gray-400">{{ option.artist }}</p>
+                                </div>
+                            </div>
+                        </label>
+                    {% endfor %}
+                </div>
+            </div>
+        </form>
+
+        <div id="timeout-modal" class="modal">
+            <div class="modal-content">
+                <h2>Время истекло!</h2>
+                <p>Правильный ответ: <strong>{{ track.title }} - {{ track.artist }}</strong></p>
+                <a href="{{ url_for('play', difficulty=difficulty, language=language, style=style) }}">Играть снова</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const audio = document.getElementById('audio-player');
+        const playBtn = document.getElementById('play-btn');
+        const equalizer = document.getElementById('equalizer');
+        const timerDisplay = document.getElementById('timer');
+        const timeoutModal = document.getElementById('timeout-modal');
+        let duration = {{ duration }};
+        let timeLeft = duration;
+
+        audio.play();
+        playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+        equalizer.classList.remove('paused');
+
+        playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                equalizer.classList.remove('paused');
+            } else {
+                audio.pause();
+                playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                equalizer.classList.add('paused');
+            }
+        });
+
+        audio.addEventListener('timeupdate', () => {
+            if (audio.currentTime > duration) {
+                audio.pause();
+                audio.currentTime = 0;
+                playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                equalizer.classList.add('paused');
+            }
+        });
+
+        audio.addEventListener('ended', () => {
+            playBtn.innerHTML = '<i class="fas fa-play"></i>';
+            equalizer.classList.add('paused');
+        });
+
+        const timer = setInterval(() => {
+            timeLeft--;
+            timerDisplay.textContent = `${timeLeft}с`;
+            if (timeLeft <= 0) {
+                clearInterval(timer);
+                audio.pause();
+                timeoutModal.style.display = 'flex';
+            }
+        }, 1000);
+    </script>
+{% endblock %}
