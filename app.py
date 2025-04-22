@@ -90,41 +90,42 @@ def detect_language_from_title(title, artist_name):
 
 
 def fetch_tracks(difficulty, language='any', style='any'):
-    genre_map = {
-        'easy': 'pop',
-        'medium': 'rock',
-        'hard': 'hip-hop'
-    }
-    genre = genre_map.get(difficulty, 'pop')
-    url = f"{DEEZER_API_URL}/search/track"
-    query = f'genre:"{genre}"'
-    params = {'q': query, 'limit': 50, 'order': 'RANKING'}
-    if style and style != 'any':
-        params['q'] = f'genre:"{style}"'
-    print(f"Deezer API query: {params['q']}, order: {params['order']}")
-    response = requests.get(url, params=params)
+    min_rank = {
+        'easy': 150000,
+        'medium': 100000,
+        'hard': 70000
+    }.get(difficulty, 100000)
+
+    # Используем глобальный чарт
+    url = f"{DEEZER_API_URL}/chart/0/tracks"
+    response = requests.get(url)
+
     if response.status_code != 200:
         print(f"Error fetching tracks: {response.status_code}")
         return []
-    data = response.json()
-    tracks = data.get('data', [])
-    print(f"Tracks fetched: {len(tracks)}")
-    tracks = [track for track in tracks if track.get('preview')]
-    print(f"Tracks with preview: {len(tracks)}")
+
+    tracks = response.json().get('data', [])
+
+    # Фильтрация
+    tracks = [
+        track for track in tracks
+        if track.get('preview') and
+           track.get('rank', 0) >= min_rank and
+           track.get('duration', 0) >= 30 and
+           not track.get('explicit_lyrics', True)
+    ]
+
+    # Языковая фильтрация
     filtered_tracks = []
     for track in tracks:
         title = track['title']
-        artist_name = track['artist']['name']
-        track_language = detect_language_from_title(title, artist_name)
-        language_match = True
-        if language and language != 'any':
-            language_match = track_language == language
-            print(
-                f"Track: {title}, Artist: {artist_name}, Detected language: {track_language}, Required language: {language}, Match: {language_match}")
-        if language_match:
+        artist = track['artist']['name']
+        track_language = detect_language_from_title(title, artist)
+        if language == 'any' or track_language == language:
             filtered_tracks.append(track)
-    print(f"Filtered tracks count: {len(filtered_tracks)}")
-    return filtered_tracks
+
+    random.shuffle(filtered_tracks)
+    return filtered_tracks[:20]
 
 
 def select_track_and_options(tracks):
