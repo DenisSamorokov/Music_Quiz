@@ -73,16 +73,11 @@
         <!-- Модальное окно для тайм-аута -->
         <div id="timeout-modal" class="modal" style="display: none;">
             <div class="modal-content block-background">
-                <h2 class="text-xl font-semibold mb-4 text-red-400">Время истекло!</h2>
-                <p class="mb-4">Правильный ответ: <strong>{{ track.title }} - {{ track.artist }}</strong></p>
-                <div class="space-x-4">
-                    <a href="{{ url_for('play', difficulty=difficulty, language=language, style=style) }}" class="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-center">
-                        Играть снова
-                    </a>
-                    <a href="{{ url_for('index') }}" class="px-6 py-3 rounded-lg bg-gray-600 hover:bg-gray-700 text-white text-center">
-                        Вернуться на главную
-                    </a>
-                </div>
+                <h2 class="text-xl font-semibold mb-4">Время истекло!</h2>
+                <p class="mb-4">Ответ: <strong>{{ track.title }}</strong> от {{ track.artist }}</p>
+                <a href="{{ url_for('play', difficulty=difficulty, language=language, style=style) }}" class="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-center">
+                    Дальше
+                </a>
             </div>
         </div>
 
@@ -92,8 +87,6 @@
             const equalizer = document.getElementById('equalizer');
             const timerDisplay = document.getElementById('timer');
             const timeoutModal = document.getElementById('timeout-modal');
-            const contentWrapper = document.querySelector('.content-wrapper');
-            const header = document.querySelector('.header');
             let duration = {{ duration }};
             let timeLeft = duration;
 
@@ -133,20 +126,10 @@
                 if (timeLeft <= 0) {
                     clearInterval(timer);
                     audio.pause();
-                    // Добавляем эффект размытия
-                    contentWrapper.style.filter = 'blur(5px)';
-                    header.style.filter = 'blur(5px)';
+                    // Показываем модальное окно
                     timeoutModal.style.display = 'flex';
                 }
             }, 1000);
-
-            // Убираем размытие при нажатии на "Играть снова" или "Вернуться на главную"
-            document.querySelectorAll('#timeout-modal a').forEach(link => {
-                link.addEventListener('click', () => {
-                    contentWrapper.style.filter = 'none';
-                    header.style.filter = 'none';
-                });
-            });
         </script>
         {% endif %}
     </div>
