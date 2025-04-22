@@ -65,9 +65,11 @@ def detect_language_from_title(title, artist_name):
     print(f"Detecting language for title: {title}, artist: {artist_name}")
     title = title.lower()
     artist_name = artist_name.lower()
+
     if re.search(r'[\u0400-\u04FF]', title) or re.search(r'[\u0400-\u04FF]', artist_name):
         print(f"Detected language: ru (Cyrillic characters)")
         return 'ru'
+
     if re.search(r'[\u00C0-\u00FF]', title) or re.search(r'[\u00C0-\u00FF]', artist_name):
         if re.search(r'[ñáéíóú]', title) or re.search(r'[ñáéíóú]', artist_name):
             print(f"Detected language: es (Spanish characters)")
@@ -78,6 +80,7 @@ def detect_language_from_title(title, artist_name):
         if re.search(r'[äöüß]', title) or re.search(r'[äöüß]', artist_name):
             print(f"Detected language: de (German characters)")
             return 'de'
+
     if re.search(r'^[\x00-\x7F]*$', title) and re.search(r'^[\x00-\x7F]*$', artist_name):
         print(f"Detected language: en (Basic Latin characters)")
         return 'en'
@@ -106,6 +109,8 @@ def fetch_tracks(difficulty, language='any', style='any'):
     data = response.json()
     tracks = data.get('data', [])
     print(f"Tracks fetched: {len(tracks)}")
+    tracks = [track for track in tracks if track.get('preview')]
+    print(f"Tracks with preview: {len(tracks)}")
     filtered_tracks = []
     for track in tracks:
         title = track['title']
@@ -155,15 +160,21 @@ def select_track_and_options(tracks):
     })
 
     random.shuffle(options)
-    return correct_track, options
 
+    formatted_correct_track = {
+        'id': correct_track['id'],
+        'title': correct_track['title'],
+        'artist': correct_artist,
+        'preview_url': correct_track['preview']
+    }
+
+    return formatted_correct_track, options
 
 @app.route('/')
 def index():
     leaders = User.query.order_by(User.score.desc()).limit(5).all()
     messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
     return render_template('index.html', leaders=leaders, messages=messages)
-
 
 @app.route('/play/<difficulty>', methods=['GET', 'POST'])
 @login_required
@@ -186,16 +197,12 @@ def play(difficulty):
             points = {'easy': 5, 'medium': 10, 'hard': 15}.get(difficulty, 5)
             current_user.score += points
             db.session.commit()
-        leaders = User.query.order_by(User.score.desc()).limit(5).all()
-        messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
         return render_template('result.html', correct=correct, track={'title': track_title, 'artist': track_artist},
-                               difficulty=difficulty, leaders=leaders, messages=messages)
+                               difficulty=difficulty, language=language, style=style)
     leaders = User.query.order_by(User.score.desc()).limit(5).all()
     messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
-    return render_template('play.html', track=options[0], options=options, difficulty=difficulty, duration=duration,
+    return render_template('play.html', track=track, options=options, difficulty=difficulty, duration=duration,
                            leaders=leaders, messages=messages, language=language, style=style)
-
-
 @app.route('/leaderboard')
 def leaderboard():
     leaders = User.query.order_by(User.score.desc()).limit(10).all()

@@ -19,6 +19,7 @@
             </div>
         </div>
 
+        {% if track and options %}
         <div class="block-background p-6 mb-8">
             <div class="flex justify-center items-center mb-4">
                 <h2 class="text-xl font-semibold mr-4">Угадайте песню</h2>
@@ -69,62 +70,84 @@
             </div>
         </form>
 
-        <div id="timeout-modal" class="modal">
-            <div class="modal-content">
-                <h2>Время истекло!</h2>
-                <p>Правильный ответ: <strong>{{ track.title }} - {{ track.artist }}</strong></p>
-                <a href="{{ url_for('play', difficulty=difficulty, language=language, style=style) }}">Играть снова</a>
+        <!-- Модальное окно для тайм-аута -->
+        <div id="timeout-modal" class="modal" style="display: none;">
+            <div class="modal-content block-background">
+                <h2 class="text-xl font-semibold mb-4 text-red-400">Время истекло!</h2>
+                <p class="mb-4">Правильный ответ: <strong>{{ track.title }} - {{ track.artist }}</strong></p>
+                <div class="space-x-4">
+                    <a href="{{ url_for('play', difficulty=difficulty, language=language, style=style) }}" class="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-center">
+                        Играть снова
+                    </a>
+                    <a href="{{ url_for('index') }}" class="px-6 py-3 rounded-lg bg-gray-600 hover:bg-gray-700 text-white text-center">
+                        Вернуться на главную
+                    </a>
+                </div>
             </div>
         </div>
+
+        <script>
+            const audio = document.getElementById('audio-player');
+            const playBtn = document.getElementById('play-btn');
+            const equalizer = document.getElementById('equalizer');
+            const timerDisplay = document.getElementById('timer');
+            const timeoutModal = document.getElementById('timeout-modal');
+            const contentWrapper = document.querySelector('.content-wrapper');
+            const header = document.querySelector('.header');
+            let duration = {{ duration }};
+            let timeLeft = duration;
+
+            audio.play();
+            playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+            equalizer.classList.remove('paused');
+
+            playBtn.addEventListener('click', () => {
+                if (audio.paused) {
+                    audio.play();
+                    playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                    equalizer.classList.remove('paused');
+                } else {
+                    audio.pause();
+                    playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                    equalizer.classList.add('paused');
+                }
+            });
+
+            audio.addEventListener('timeupdate', () => {
+                if (audio.currentTime > duration) {
+                    audio.pause();
+                    audio.currentTime = 0;
+                    playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                    equalizer.classList.add('paused');
+                }
+            });
+
+            audio.addEventListener('ended', () => {
+                playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                equalizer.classList.add('paused');
+            });
+
+            const timer = setInterval(() => {
+                timeLeft--;
+                timerDisplay.textContent = `${timeLeft}с`;
+                if (timeLeft <= 0) {
+                    clearInterval(timer);
+                    audio.pause();
+                    // Добавляем эффект размытия
+                    contentWrapper.style.filter = 'blur(5px)';
+                    header.style.filter = 'blur(5px)';
+                    timeoutModal.style.display = 'flex';
+                }
+            }, 1000);
+
+            // Убираем размытие при нажатии на "Играть снова" или "Вернуться на главную"
+            document.querySelectorAll('#timeout-modal a').forEach(link => {
+                link.addEventListener('click', () => {
+                    contentWrapper.style.filter = 'none';
+                    header.style.filter = 'none';
+                });
+            });
+        </script>
+        {% endif %}
     </div>
-
-    <script>
-        const audio = document.getElementById('audio-player');
-        const playBtn = document.getElementById('play-btn');
-        const equalizer = document.getElementById('equalizer');
-        const timerDisplay = document.getElementById('timer');
-        const timeoutModal = document.getElementById('timeout-modal');
-        let duration = {{ duration }};
-        let timeLeft = duration;
-
-        audio.play();
-        playBtn.innerHTML = '<i class="fas fa-pause"></i>';
-        equalizer.classList.remove('paused');
-
-        playBtn.addEventListener('click', () => {
-            if (audio.paused) {
-                audio.play();
-                playBtn.innerHTML = '<i class="fas fa-pause"></i>';
-                equalizer.classList.remove('paused');
-            } else {
-                audio.pause();
-                playBtn.innerHTML = '<i class="fas fa-play"></i>';
-                equalizer.classList.add('paused');
-            }
-        });
-
-        audio.addEventListener('timeupdate', () => {
-            if (audio.currentTime > duration) {
-                audio.pause();
-                audio.currentTime = 0;
-                playBtn.innerHTML = '<i class="fas fa-play"></i>';
-                equalizer.classList.add('paused');
-            }
-        });
-
-        audio.addEventListener('ended', () => {
-            playBtn.innerHTML = '<i class="fas fa-play"></i>';
-            equalizer.classList.add('paused');
-        });
-
-        const timer = setInterval(() => {
-            timeLeft--;
-            timerDisplay.textContent = `${timeLeft}с`;
-            if (timeLeft <= 0) {
-                clearInterval(timer);
-                audio.pause();
-                timeoutModal.style.display = 'flex';
-            }
-        }, 1000);
-    </script>
 {% endblock %}

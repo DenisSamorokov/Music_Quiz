@@ -3,18 +3,25 @@
 {% block title %}Результат{% endblock %}
 
 {% block content %}
-    <div class="text-center">
-        <div class="card p-4 mb-4">
-            <h2 class="h5 fw-semibold mb-3">
+    <div class="modal" style="display: flex;">
+        <div class="modal-content block-background">
+            <h2 class="text-xl font-semibold mb-4 {% if correct %}correct{% endif %}">
                 {% if correct %}
-                    <span class="text-success">Правильно!</span>
+                    Правильно!
                 {% else %}
-                    <span class="text-danger">Неправильно</span>
+                    Неправильно
                 {% endif %}
             </h2>
-            <p>Трек: {{ track.title }} - {{ track.artist }}</p>
-            <a href="{{ url_for('play', difficulty=difficulty) }}" class="btn btn-primary mt-3">Играть снова</a>
-            <a href="{{ url_for('index') }}" class="btn btn-secondary mt-3">Вернуться на главную</a>
+            <p class="mb-4">
+                Ответ: <strong>{{ track.title }}</strong> от {{ track.artist }}
+            </p>
+            <div class="space-x-4">
+                <a href="{{ url_for('play', difficulty=difficulty, language=language, style=style) }}" class="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-center">
+                    Дальше
+                </a>
+            </div>
         </div>
     </div>
+
+
 {% endblock %}
