@@ -23,6 +23,13 @@ db = SQLAlchemy(app)
 socketio = SocketIO(app)
 
 DEEZER_API_URL = "https://api.deezer.com"
+LANGUAGE_COUNTRY_MAP = {
+    'ru': 'ru',
+    'en': 'us',
+    'es': 'es',
+    'fr': 'fr',
+    'de': 'de'
+}
 
 
 class User(UserMixin, db.Model):
@@ -87,45 +94,35 @@ def detect_language_from_title(title, artist_name):
 
     print(f"Language defaulted to: en for title: {title}, artist: {artist_name}")
     return 'en'
-
-
 def fetch_tracks(difficulty, language='any', style='any'):
-    min_rank = {
-        'easy': 150000,
-        'medium': 100000,
-        'hard': 70000
-    }.get(difficulty, 100000)
+    country_code = LANGUAGE_COUNTRY_MAP.get(language, 'global')
+    url = f"{DEEZER_API_URL}/chart/{country_code}/tracks"
+    params = {'limit': 100}
 
-    # Используем глобальный чарт
-    url = f"{DEEZER_API_URL}/chart/0/tracks"
-    response = requests.get(url)
-
+    response = requests.get(url, params=params)
     if response.status_code != 200:
         print(f"Error fetching tracks: {response.status_code}")
         return []
 
-    tracks = response.json().get('data', [])
+    data = response.json()
+    tracks = data.get('data', [])
 
-    # Фильтрация
-    tracks = [
-        track for track in tracks
-        if track.get('preview') and
-           track.get('rank', 0) >= min_rank and
-           track.get('duration', 0) >= 30 and
-           not track.get('explicit_lyrics', True)
-    ]
+    # Фильтрация треков по сложности
+    if difficulty == 'easy':
+        tracks = tracks[:20]
+    elif difficulty == 'medium':
+        tracks = tracks[20:50]
+    else:  # hard
+        tracks = tracks[50:]
 
-    # Языковая фильтрация
-    filtered_tracks = []
-    for track in tracks:
-        title = track['title']
-        artist = track['artist']['name']
-        track_language = detect_language_from_title(title, artist)
-        if language == 'any' or track_language == language:
-            filtered_tracks.append(track)
+    # Дополнительная фильтрация по стилю, если необходимо
+    if style != 'any':
+        tracks = [track for track in tracks if style.lower() in track['genre_id']]
 
-    random.shuffle(filtered_tracks)
-    return filtered_tracks[:20]
+    # Перемешивание треков для разнообразия
+    random.shuffle(tracks)
+
+    return tracks
 
 
 def select_track_and_options(tracks):
