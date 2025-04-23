@@ -3,6 +3,15 @@ import time
 
 DEEZER_API_URL = "https://api.deezer.com"
 
+# Маппинг стран на countryId (на основе данных из обсуждений)
+COUNTRY_IDS = {
+    'france': 2,  # Франция
+    'italy': 3,  # Италия
+    'germany': 4,  # Германия
+    'spain': 5,  # Испания
+    'uk': 6,  # Великобритания
+}
+
 
 def get_genre_id(style):
     """Получение ID жанра по его названию."""
@@ -21,7 +30,7 @@ def get_genre_id(style):
 
 
 def fetch_tracks(difficulty, style='any', index=0, target_count=10):
-    """Получение треков, упорядоченных по популярности, с учётом сложности."""
+    """Получение треков через /search, упорядоченных по популярности, с учётом сложности."""
     collected_tracks = []
 
     # Используем /search для всех уровней
@@ -80,6 +89,57 @@ def fetch_tracks(difficulty, style='any', index=0, target_count=10):
         print(f"[{difficulty.upper()}] Ошибка Deezer: {e}")
 
     print(f"[{difficulty.upper()}] Итоговое количество треков: {len(collected_tracks)}")
+    return collected_tracks
+
+
+def fetch_tracks_by_country(difficulty, country, target_count=10):
+    if country.lower() not in COUNTRY_IDS:
+        print(f"[{difficulty.upper()}] Страна {country} не поддерживается")
+        return []
+
+    country_id = COUNTRY_IDS[country.lower()]
+    collected_tracks = []
+    url = f"{DEEZER_API_URL}/chart/{country_id}/tracks"
+    params = {
+        'limit': 50
+    }
+
+    try:
+        print(f"[{difficulty.upper()}] Deezer /chart/{country_id}/tracks")
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+
+        if response.status_code == 429:
+            print(f"[{difficulty.upper()}] Превышение лимита запросов к Deezer API, ожидание 5 секунд...")
+            time.sleep(5)
+            return fetch_tracks_by_country(difficulty, country, target_count)
+
+        data = response.json()
+        tracks = data.get('data', [])
+        print(f"[{difficulty.upper()}] Получено {len(tracks)} треков для страны {country}")
+
+        if not tracks:
+            print(f"[{difficulty.upper()}] Треки для страны {country} не найдены")
+            return collected_tracks
+
+        for track in tracks:
+            if len(collected_tracks) >= target_count:
+                break
+            if not track.get('preview'):
+                print(f"[{difficulty.upper()}] Трек {track.get('title', 'Unknown')} пропущен: нет preview")
+                continue
+            if track.get('duration', 0) < 30:
+                print(
+                    f"[{difficulty.upper()}] Трек {track.get('title', 'Unknown')} пропущен: длительность меньше 30 секунд")
+                continue
+            collected_tracks.append(track)
+            print(
+                f"[{difficulty.upper()}] Добавлен трек: {track.get('title')} - {track.get('artist', {}).get('name')} (rank: {track.get('rank', 0)})")
+
+    except requests.RequestException as e:
+        print(f"[{difficulty.upper()}] Ошибка Deezer: {e}")
+
+    print(f"[{difficulty.upper()}] Итоговое количество треков для страны {country}: {len(collected_tracks)}")
     return collected_tracks
 
 

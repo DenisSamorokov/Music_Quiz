@@ -1,20 +1,24 @@
 import random
 from flask import session
-from utils.deezer import fetch_tracks, fetch_option_tracks
+from utils.deezer import fetch_tracks, fetch_option_tracks, fetch_tracks_by_country
 
-def select_track_and_options(difficulty, style='any'):
+def select_track_and_options(difficulty, style='any', country=None):
     """Выбор трека и вариантов ответа."""
-    # Определяем диапазон index для правильного трека
-    index_ranges = {
-        'easy': (0, 50),  # Топ-50 треков из /search
-        'medium': (200, 300),  # 200–300 место из /search
-        'hard': (500, 600)  # 500–600 место из /search
-    }
-    index_start, index_end = index_ranges.get(difficulty, (500, 600))
-    index = random.randint(index_start, index_end)
-
-    # Получаем треки
-    tracks = fetch_tracks(difficulty, style=style, index=index, target_count=10)
+    # Если указана страна, используем /chart/{countryId}, иначе /search
+    if country:
+        # Получаем треки из чартов страны
+        tracks = fetch_tracks_by_country(difficulty, country, target_count=10)
+    else:
+        # Определяем диапазон index для правильного трека
+        index_ranges = {
+            'easy': (0, 50),
+            'medium': (200, 300),
+            'hard': (500, 600)
+        }
+        index_start, index_end = index_ranges.get(difficulty, (500, 600))
+        index = random.randint(index_start, index_end)
+        # Получаем треки через /search
+        tracks = fetch_tracks(difficulty, style=style, index=index, target_count=10)
 
     if len(tracks) < 4:
         print(f"[{difficulty.upper()}] Не удалось найти достаточно треков для выбора")
@@ -45,7 +49,7 @@ def select_track_and_options(difficulty, style='any'):
 
     # Сортируем доступные треки по rank и выбираем трек с максимальным rank
     available_tracks.sort(key=lambda x: x.get('rank', 0), reverse=True)
-    correct_track = available_tracks[0]  # Выбираем трек с самым большим rank
+    correct_track = available_tracks[0]
     correct_artist = correct_track['artist']['name']
     print(f"[{difficulty.upper()}] Выбран правильный трек: {correct_track['title']} - {correct_artist} (rank: {correct_track.get('rank', 0)})")
 
@@ -55,7 +59,7 @@ def select_track_and_options(difficulty, style='any'):
 
     # Определяем диапазон index для вариантов ответа
     option_index_ranges = {
-        'easy': (200, 300),  # Менее популярные, чем правильный трек
+        'easy': (200, 300),
         'medium': (500, 600),
         'hard': (800, 900)
     }
@@ -78,7 +82,7 @@ def select_track_and_options(difficulty, style='any'):
     # Формируем варианты ответа
     options = []
     selected_artists = {correct_artist}
-    allow_same_artist = False  # Флаг для разрешения совпадения исполнителей
+    allow_same_artist = False
 
     for track in option_tracks:
         artist = track['artist']['name']
@@ -93,11 +97,10 @@ def select_track_and_options(difficulty, style='any'):
             used_track_ids.add(track['id'])
             used_artists.add(artist)
 
-    # Если не удалось выбрать 3 варианта, разрешаем совпадение исполнителей
     if len(options) < 3:
         print(f"[{difficulty.upper()}] Не удалось выбрать 3 варианта ответа с разными исполнителями: {len(options)} вариантов, пробуем разрешить совпадение исполнителей")
         allow_same_artist = True
-        selected_artists = {correct_artist}  # Сбрасываем список выбранных исполнителей
+        selected_artists = {correct_artist}
         options = []
         for track in option_tracks:
             artist = track['artist']['name']
@@ -116,7 +119,6 @@ def select_track_and_options(difficulty, style='any'):
         print(f"[{difficulty.upper()}] Не удалось выбрать 3 варианта ответа даже с совпадением исполнителей: {len(options)} вариантов")
         return None, []
 
-    # Добавляем правильный ответ
     options.append({
         'id': correct_track['id'],
         'title': correct_track['title'],
@@ -126,7 +128,6 @@ def select_track_and_options(difficulty, style='any'):
 
     random.shuffle(options)
 
-    # Сохраняем обновлённую историю в сессии
     session['used_track_ids'] = list(used_track_ids)
     session['used_artists'] = list(used_artists)
 

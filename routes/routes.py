@@ -17,18 +17,17 @@ def init_routes(app: Flask, socketio=None):
     @login_required
     def play(difficulty):
         style = request.args.get('style', 'any')
+        country = request.args.get('country', None)
 
-        # Инициализация сессии
         if 'used_track_ids' not in session:
             session['used_track_ids'] = []
         if 'used_artists' not in session:
             session['used_artists'] = []
 
-        # Выбираем трек и варианты ответа
-        track, options = select_track_and_options(difficulty, style=style)
+        track, options = select_track_and_options(difficulty, style=style, country=country)
         if not track or len(options) < 4:
             print(f"[{difficulty.upper()}] Не удалось выбрать трек или варианты ответа")
-            flash("Не удалось найти достаточно треков. Попробуйте другой жанр или уровень сложности.", "error")
+            flash("Не удалось найти достаточно треков. Попробуйте другой жанр, страну или уровень сложности.", "error")
             return redirect(url_for('index'))
 
         duration = {'easy': 30, 'medium': 20, 'hard': 10}.get(difficulty, 30)
