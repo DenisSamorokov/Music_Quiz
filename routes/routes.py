@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, flash, session
+from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
 from flask_login import login_user, login_required, logout_user, current_user
 from flask_socketio import emit
 from models.models import User, Message, db
@@ -11,23 +11,25 @@ def init_routes(app: Flask, socketio=None):
     def index():
         leaders = User.query.order_by(User.score.desc()).limit(5).all()
         messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
-        return render_template('index.html', leaders=leaders, messages=messages)
+        genres = ["any", "Pop", "Rock", "Hip-Hop/Rap", "Electronic", "Jazz", "Classical"]
+        return render_template('index.html', leaders=leaders, messages=messages, genres=genres)
 
     @app.route('/play/<difficulty>', methods=['GET', 'POST'])
     @login_required
     def play(difficulty):
         style = request.args.get('style', 'any')
+        language = request.args.get('language', 'ru')
         country = request.args.get('country', None)
 
         if 'used_track_ids' not in session:
             session['used_track_ids'] = []
-        if 'used_artists' not in session:
-            session['used_artists'] = []
+        if 'used_artists' not in session or not isinstance(session['used_artists'], dict):
+            session['used_artists'] = {'easy': [], 'medium': [], 'hard': []}
 
         track, options = select_track_and_options(difficulty, style=style, country=country)
         if not track or len(options) < 4:
             print(f"[{difficulty.upper()}] Не удалось выбрать трек или варианты ответа")
-            flash("Не удалось найти достаточно треков. Попробуйте другой жанр, страну или уровень сложности.", "error")
+            flash("Не удалось найти достаточно треков. Попробуйте другой уровень сложности или жанр.", "error")
             return redirect(url_for('index'))
 
         duration = {'easy': 30, 'medium': 20, 'hard': 10}.get(difficulty, 30)
@@ -41,13 +43,41 @@ def init_routes(app: Flask, socketio=None):
                 points = {'easy': 5, 'medium': 10, 'hard': 15}.get(difficulty, 5)
                 current_user.score += points
                 db.session.commit()
-            return render_template('result.html', correct=correct, track={'title': track_title, 'artist': track_artist},
-                                   difficulty=difficulty, style=style)
+            return jsonify({
+                'correct': correct,
+                'track': {'title': track_title, 'artist': track_artist}
+            })
 
-        leaders = User.query.order_by(User.score.desc()).limit(5).all()
-        messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
-        return render_template('play.html', track=track, options=options, difficulty=difficulty, duration=duration,
-                               leaders=leaders, messages=messages, style=style)
+        track_for_template = {
+            'id': track['id'],
+            'title': track['title'],
+            'artist': track['artist']['name'],
+            'preview_url': track['preview']
+        }
+        options_for_template = [
+            {
+                'id': opt['id'],
+                'title': opt['title'],
+                'artist': opt['artist']['name'],
+                'preview_url': opt.get('preview', None)
+            }
+            for opt in options
+        ]
+
+        print(f"Preview URL для трека: {track_for_template['preview_url']}")
+
+        return render_template('play.html', track=track_for_template, options=options_for_template,
+                               difficulty=difficulty, duration=duration, style=style, language=language)
+
+    @app.route('/reset-session', methods=['POST'])
+    @login_required
+    def reset_session():
+        session.clear()
+        session['used_track_ids'] = []
+        session['used_artists'] = {'easy': [], 'medium': [], 'hard': []}
+        session['last_artist_index'] = {'easy': 0, 'medium': 0, 'hard': 0}
+        flash("История использованных треков сброшена.", "success")
+        return redirect(url_for('index'))
 
     @app.route('/leaderboard')
     def leaderboard():
@@ -72,10 +102,8 @@ def init_routes(app: Flask, socketio=None):
                 login_user(user)
                 return redirect(url_for('index'))
             else:
-                flash('Неверное имя пользователя или пароль', 'error')
-        leaders = User.query.order_by(User.score.desc()).limit(5).all()
-        messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
-        return render_template('login.html', leaders=leaders, messages=messages)
+                flash('Неверное имя пользователя или пароль.', 'error')
+        return render_template('login.html')
 
     @app.route('/register', methods=['GET', 'POST'])
     def register():
@@ -83,16 +111,14 @@ def init_routes(app: Flask, socketio=None):
             username = request.form.get('username')
             password = request.form.get('password')
             if User.query.filter_by(username=username).first():
-                flash('Имя пользователя уже занято', 'error')
+                flash('Имя пользователя уже занято.', 'error')
             else:
-                user = User(username=username, password=generate_password_hash(password), score=0)
+                user = User(username=username, password=generate_password_hash(password))
                 db.session.add(user)
                 db.session.commit()
-                login_user(user)
-                return redirect(url_for('index'))
-        leaders = User.query.order_by(User.score.desc()).limit(5).all()
-        messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
-        return render_template('register.html', leaders=leaders, messages=messages)
+                flash('Регистрация успешна! Войдите в систему.', 'success')
+                return redirect(url_for('login'))
+        return render_template('register.html')
 
     @app.route('/logout')
     @login_required
@@ -100,18 +126,27 @@ def init_routes(app: Flask, socketio=None):
         logout_user()
         return redirect(url_for('index'))
 
-    if socketio:
-        @socketio.on('message')
-        def handle_message(data):
-            message = Message(
-                username=current_user.username,
-                message=data['message'],
-                timestamp=datetime.utcnow()
-            )
-            db.session.add(message)
-            db.session.commit()
-            emit('message', {
+    @socketio.on('connect')
+    def handle_connect():
+        messages = Message.query.order_by(Message.timestamp.desc()).all()
+        for message in messages:
+            emit('chat_message', {
                 'username': message.username,
                 'message': message.message,
-                'timestamp': message.timestamp.isoformat()
-            }, broadcast=True)
+                'timestamp': message.timestamp.strftime('%Y-%m-%d %H:%M:%S')
+            })
+
+    @socketio.on('send_message')
+    def handle_message(data):
+        message = Message(
+            username=current_user.username,
+            message=data['message'],
+            timestamp=datetime.utcnow()
+        )
+        db.session.add(message)
+        db.session.commit()
+        emit('chat_message', {
+            'username': message.username,
+            'message': message.message,
+            'timestamp': message.timestamp.strftime('%Y-%m-%d %H:%M:%S')
+        }, broadcast=True)

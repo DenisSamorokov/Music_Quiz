@@ -1,0 +1,12002 @@
+[
+  {
+    "id": 246791,
+    "name": "Drake",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 384236,
+    "name": "Ed Sheeran",
+    "genre": "Все"
+  },
+  {
+    "id": 542,
+    "name": "David Guetta",
+    "genre": "Все"
+  },
+  {
+    "id": 13,
+    "name": "Eminem",
+    "genre": "Все"
+  },
+  {
+    "id": 892,
+    "name": "Coldplay",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 564,
+    "name": "Rihanna",
+    "genre": "Поп"
+  },
+  {
+    "id": 75798,
+    "name": "Adele",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7068771,
+    "name": "Marília Mendonça",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4050205,
+    "name": "The Weeknd",
+    "genre": "Все"
+  },
+  {
+    "id": 1562681,
+    "name": "Ariana Grande",
+    "genre": "Поп"
+  },
+  {
+    "id": 145,
+    "name": "Beyoncé",
+    "genre": "Unknown"
+  },
+  {
+    "id": 412,
+    "name": "Queen",
+    "genre": "Все"
+  },
+  {
+    "id": 12178,
+    "name": "Calvin Harris",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 259,
+    "name": "Michael Jackson",
+    "genre": "Поп"
+  },
+  {
+    "id": 719,
+    "name": "Bob Marley & The Wailers",
+    "genre": "Регги"
+  },
+  {
+    "id": 429675,
+    "name": "Bruno Mars",
+    "genre": "Поп"
+  },
+  {
+    "id": 12246,
+    "name": "Taylor Swift",
+    "genre": "Unknown"
+  },
+  {
+    "id": 92,
+    "name": "Linkin Park",
+    "genre": "Все"
+  },
+  {
+    "id": 160,
+    "name": "Shakira",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1188,
+    "name": "Maroon 5",
+    "genre": "Поп"
+  },
+  {
+    "id": 3881631,
+    "name": "Jorge & Mateus",
+    "genre": "Unknown"
+  },
+  {
+    "id": 288166,
+    "name": "Justin Bieber",
+    "genre": "Все"
+  },
+  {
+    "id": 4860761,
+    "name": "J Balvin",
+    "genre": "Латино"
+  },
+  {
+    "id": 4876653,
+    "name": "Henrique & Juliano",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 1191615,
+    "name": "Jul",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 415,
+    "name": "Nirvana",
+    "genre": "Рок"
+  },
+  {
+    "id": 115,
+    "name": "AC/DC",
+    "genre": "Рок"
+  },
+  {
+    "id": 144227,
+    "name": "Katy Perry",
+    "genre": "Unknown"
+  },
+  {
+    "id": 416239,
+    "name": "Imagine Dragons",
+    "genre": "Все"
+  },
+  {
+    "id": 102,
+    "name": "Chris Brown",
+    "genre": "R&B"
+  },
+  {
+    "id": 1541592,
+    "name": "Gusttavo Lima",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 9635624,
+    "name": "Billie Eilish",
+    "genre": "Все"
+  },
+  {
+    "id": 3469,
+    "name": "Sia",
+    "genre": "Поп"
+  },
+  {
+    "id": 8706544,
+    "name": "Dua Lipa",
+    "genre": "Все"
+  },
+  {
+    "id": 75491,
+    "name": "Lady Gaga",
+    "genre": "Поп"
+  },
+  {
+    "id": 663,
+    "name": "Guns N' Roses",
+    "genre": "Unknown"
+  },
+  {
+    "id": 293585,
+    "name": "Avicii",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 5542343,
+    "name": "Ninho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 119,
+    "name": "Metallica",
+    "genre": "Все"
+  },
+  {
+    "id": 1,
+    "name": "The Beatles",
+    "genre": "Рок"
+  },
+  {
+    "id": 3,
+    "name": "Snoop Dogg",
+    "genre": "Unknown"
+  },
+  {
+    "id": 282118,
+    "name": "Major Lazer",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 66,
+    "name": "50 Cent",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3968561,
+    "name": "Martin Garrix",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 182,
+    "name": "Red Hot Chili Peppers",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 4390053,
+    "name": "Anitta",
+    "genre": "R&B"
+  },
+  {
+    "id": 382937,
+    "name": "Nicki Minaj",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10583405,
+    "name": "Bad Bunny",
+    "genre": "Латино"
+  },
+  {
+    "id": 776,
+    "name": "Pitbull",
+    "genre": "Unknown"
+  },
+  {
+    "id": 17,
+    "name": "Usher",
+    "genre": "R&B"
+  },
+  {
+    "id": 12436,
+    "name": "Miley Cyrus",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3839,
+    "name": "Daddy Yankee",
+    "genre": "Латино"
+  },
+  {
+    "id": 163,
+    "name": "U2",
+    "genre": "Рок"
+  },
+  {
+    "id": 74804,
+    "name": "Wiz Khalifa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11,
+    "name": "The Rolling Stones",
+    "genre": "Рок"
+  },
+  {
+    "id": 5962948,
+    "name": "Shawn Mendes",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 1147,
+    "name": "Justin Timberlake",
+    "genre": "Unknown"
+  },
+  {
+    "id": 860,
+    "name": "Pink Floyd",
+    "genre": "Рок"
+  },
+  {
+    "id": 1007876,
+    "name": "One Direction",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 15691,
+    "name": "Nicky Jam",
+    "genre": "Unknown"
+  },
+  {
+    "id": 45,
+    "name": "Jennifer Lopez",
+    "genre": "Unknown"
+  },
+  {
+    "id": 311820,
+    "name": "Ellie Goulding",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5895828,
+    "name": "Zé Neto & Cristiano",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 1020109,
+    "name": "Black Eyed Peas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2792,
+    "name": "Enrique Iglesias",
+    "genre": "Латино"
+  },
+  {
+    "id": 390,
+    "name": "Booba",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4104927,
+    "name": "The Chainsmokers",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 525046,
+    "name": "Kendrick Lamar",
+    "genre": "Unknown"
+  },
+  {
+    "id": 74309,
+    "name": "Lil Wayne",
+    "genre": "Unknown"
+  },
+  {
+    "id": 482758,
+    "name": "DJ Snake",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 228,
+    "name": "Alicia Keys",
+    "genre": "R&B"
+  },
+  {
+    "id": 35,
+    "name": "Avril Lavigne",
+    "genre": "Unknown"
+  },
+  {
+    "id": 249599,
+    "name": "Jason Derulo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4429712,
+    "name": "GIMS",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 458,
+    "name": "System of a Down",
+    "genre": "Рок"
+  },
+  {
+    "id": 1097709,
+    "name": "Sam Smith",
+    "genre": "Unknown"
+  },
+  {
+    "id": 292185,
+    "name": "Selena Gomez",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1519461,
+    "name": "PNL",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1424821,
+    "name": "Lana Del Rey",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 848,
+    "name": "Led Zeppelin",
+    "genre": "Рок"
+  },
+  {
+    "id": 483,
+    "name": "Britney Spears",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1005,
+    "name": "Aerosmith",
+    "genre": "Unknown"
+  },
+  {
+    "id": 637,
+    "name": "Bon Jovi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 985109,
+    "name": "Jessie J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 52,
+    "name": "Green Day",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 27,
+    "name": "Daft Punk",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 1264078,
+    "name": "Luan Santana",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 705,
+    "name": "Muse",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 647650,
+    "name": "Twenty One Pilots",
+    "genre": "Все"
+  },
+  {
+    "id": 4611283,
+    "name": "Wesley Safadão",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1644275,
+    "name": "Thiaguinho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 38,
+    "name": "Akon",
+    "genre": "R&B"
+  },
+  {
+    "id": 290,
+    "name": "Madonna",
+    "genre": "Unknown"
+  },
+  {
+    "id": 64333,
+    "name": "Flo Rida",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1182,
+    "name": "Arctic Monkeys",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 4937383,
+    "name": "Ozuna",
+    "genre": "Латино"
+  },
+  {
+    "id": 9197980,
+    "name": "Damso",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9822974,
+    "name": "XXXTentacion",
+    "genre": "Unknown"
+  },
+  {
+    "id": 927,
+    "name": "Oasis",
+    "genre": "Unknown"
+  },
+  {
+    "id": 69925,
+    "name": "P!nk",
+    "genre": "Поп"
+  },
+  {
+    "id": 6511779,
+    "name": "Maiara & Maraisa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1429841,
+    "name": "Alok",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 566,
+    "name": "Foo Fighters",
+    "genre": "Unknown"
+  },
+  {
+    "id": 230,
+    "name": "Kanye West",
+    "genre": "Все"
+  },
+  {
+    "id": 3120261,
+    "name": "Matheus & Kauan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 763,
+    "name": "Dr. Dre",
+    "genre": "Unknown"
+  },
+  {
+    "id": 167225,
+    "name": "LMFAO",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5288900,
+    "name": "Niska",
+    "genre": "Unknown"
+  },
+  {
+    "id": 74398,
+    "name": "OneRepublic",
+    "genre": "Поп"
+  },
+  {
+    "id": 1000956,
+    "name": "Clean Bandit",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 280627,
+    "name": "Kesha",
+    "genre": "Unknown"
+  },
+  {
+    "id": 61474832,
+    "name": "Os Barões Da Pisadinha",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 7543848,
+    "name": "Post Malone",
+    "genre": "Unknown"
+  },
+  {
+    "id": 434,
+    "name": "Tiësto",
+    "genre": "Все"
+  },
+  {
+    "id": 4999707,
+    "name": "Alan Walker",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 725,
+    "name": "Don Omar",
+    "genre": "Латино"
+  },
+  {
+    "id": 117,
+    "name": "Slipknot",
+    "genre": "Металл"
+  },
+  {
+    "id": 5417614,
+    "name": "Dilsinho",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 167095,
+    "name": "2Pac",
+    "genre": "Unknown"
+  },
+  {
+    "id": 165930,
+    "name": "Future",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1272674,
+    "name": "Romeo Santos",
+    "genre": "Латино"
+  },
+  {
+    "id": 525643,
+    "name": "Skrillex",
+    "genre": "Unknown"
+  },
+  {
+    "id": 116,
+    "name": "Christina Aguilera",
+    "genre": "Unknown"
+  },
+  {
+    "id": 104,
+    "name": "Ne-Yo",
+    "genre": "R&B"
+  },
+  {
+    "id": 5237400,
+    "name": "Mc Kevinho",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 9236850,
+    "name": "Camila Cabello",
+    "genre": "Unknown"
+  },
+  {
+    "id": 399,
+    "name": "Radiohead",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 174,
+    "name": "Whitney Houston",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9052,
+    "name": "Amy Winehouse",
+    "genre": "R&B"
+  },
+  {
+    "id": 8691,
+    "name": "Charlie Brown Jr.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 88,
+    "name": "Sean Paul",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 362764,
+    "name": "Sorriso Maroto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 847,
+    "name": "The Doors",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6982223,
+    "name": "BTS",
+    "genre": "Все"
+  },
+  {
+    "id": 98,
+    "name": "Evanescence",
+    "genre": "Unknown"
+  },
+  {
+    "id": 931,
+    "name": "Iron Maiden",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14000,
+    "name": "Aline Barros",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4087782,
+    "name": "Lacrim",
+    "genre": "Unknown"
+  },
+  {
+    "id": 313,
+    "name": "John Legend",
+    "genre": "R&B"
+  },
+  {
+    "id": 1309,
+    "name": "JAY Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 863,
+    "name": "Scorpions",
+    "genre": "Рок"
+  },
+  {
+    "id": 1319,
+    "name": "Pearl Jam",
+    "genre": "Unknown"
+  },
+  {
+    "id": 65,
+    "name": "Mariah Carey",
+    "genre": "Unknown"
+  },
+  {
+    "id": 310260,
+    "name": "Stromae",
+    "genre": "Unknown"
+  },
+  {
+    "id": 263731,
+    "name": "Marcos & Belutti",
+    "genre": "Unknown"
+  },
+  {
+    "id": 614223,
+    "name": "Farruko",
+    "genre": "Unknown"
+  },
+  {
+    "id": 198,
+    "name": "Céline Dion",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4397349,
+    "name": "Ferrugem",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5297021,
+    "name": "KAROL G",
+    "genre": "Латино"
+  },
+  {
+    "id": 15055,
+    "name": "Bruno & Marrone",
+    "genre": "Unknown"
+  },
+  {
+    "id": 103,
+    "name": "Pharrell Williams",
+    "genre": "Unknown"
+  },
+  {
+    "id": 73396,
+    "name": "LUDMILLA",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 6707,
+    "name": "Luis Fonsi",
+    "genre": "Латино"
+  },
+  {
+    "id": 1981,
+    "name": "The Police",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1125,
+    "name": "Elvis Presley",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1352049,
+    "name": "Fernandinho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 68,
+    "name": "Kelly Clarkson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 338,
+    "name": "Nickelback",
+    "genre": "Рок"
+  },
+  {
+    "id": 16124,
+    "name": "Natiruts",
+    "genre": "Unknown"
+  },
+  {
+    "id": 545,
+    "name": "Depeche Mode",
+    "genre": "Рок"
+  },
+  {
+    "id": 13011,
+    "name": "Soprano",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 180,
+    "name": "ABBA",
+    "genre": "R&B"
+  },
+  {
+    "id": 4803754,
+    "name": "Dadju",
+    "genre": "R&B"
+  },
+  {
+    "id": 1342,
+    "name": "Ray Charles",
+    "genre": "R&B"
+  },
+  {
+    "id": 4495513,
+    "name": "Travis Scott",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 9930130,
+    "name": "Djadja & Dinaz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 373974,
+    "name": "Turma do Pagode",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 67,
+    "name": "KISS",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1412564,
+    "name": "Nekfeu",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15810,
+    "name": "Legião Urbana",
+    "genre": "Unknown"
+  },
+  {
+    "id": 413,
+    "name": "Elton John",
+    "genre": "Поп"
+  },
+  {
+    "id": 135512622,
+    "name": "João Gomes",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 14,
+    "name": "Gorillaz",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 192,
+    "name": "Eric Clapton",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4974921,
+    "name": "Fifth Harmony",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9761322,
+    "name": "ZAYN",
+    "genre": "Unknown"
+  },
+  {
+    "id": 339209,
+    "name": "J. Cole",
+    "genre": "Unknown"
+  },
+  {
+    "id": 162665,
+    "name": "SCH",
+    "genre": "Unknown"
+  },
+  {
+    "id": 186,
+    "name": "Phil Collins",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4842061,
+    "name": "Naps",
+    "genre": "Unknown"
+  },
+  {
+    "id": 380955,
+    "name": "Prince Royce",
+    "genre": "Латино"
+  },
+  {
+    "id": 4023522,
+    "name": "Gabriela Rocha",
+    "genre": "Unknown"
+  },
+  {
+    "id": 112,
+    "name": "Marc Anthony",
+    "genre": "Латино"
+  },
+  {
+    "id": 5576810,
+    "name": "Zé Felipe",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 129,
+    "name": "R.E.M.",
+    "genre": "Рок"
+  },
+  {
+    "id": 464,
+    "name": "Rammstein",
+    "genre": "Все"
+  },
+  {
+    "id": 226,
+    "name": "John Lennon",
+    "genre": "Unknown"
+  },
+  {
+    "id": 75001,
+    "name": "Sexion d'Assaut",
+    "genre": "Unknown"
+  },
+  {
+    "id": 423066,
+    "name": "Péricles",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4494623,
+    "name": "Black M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 404,
+    "name": "Fall Out Boy",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 1002521,
+    "name": "Carly Rae Jepsen",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1327,
+    "name": "KoЯn",
+    "genre": "Unknown"
+  },
+  {
+    "id": 68221232,
+    "name": "Zé Vaqueiro",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9064930,
+    "name": "Cardi B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14621667,
+    "name": "Koba LaD",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1450,
+    "name": "Bee Gees",
+    "genre": "Unknown"
+  },
+  {
+    "id": 823,
+    "name": "Ozzy Osbourne",
+    "genre": "Unknown"
+  },
+  {
+    "id": 744,
+    "name": "Nina Simone",
+    "genre": "Джаз"
+  },
+  {
+    "id": 254,
+    "name": "Damian Marley",
+    "genre": "Регги"
+  },
+  {
+    "id": 259467,
+    "name": "Orelsan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11329214,
+    "name": "Matuê",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4011,
+    "name": "Jason Mraz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10803980,
+    "name": "BLACKPINK",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 5454687,
+    "name": "Hungria",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10226,
+    "name": "will.i.am",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7961888,
+    "name": "Anuel AA",
+    "genre": "Латино"
+  },
+  {
+    "id": 617,
+    "name": "Frank Sinatra",
+    "genre": "Джаз"
+  },
+  {
+    "id": 14456487,
+    "name": "Juice Wrld",
+    "genre": "Unknown"
+  },
+  {
+    "id": 385,
+    "name": "Kings of Leon",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5266156,
+    "name": "Sebastian Yatra",
+    "genre": "Латино"
+  },
+  {
+    "id": 4768753,
+    "name": "Kygo",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 810,
+    "name": "Norah Jones",
+    "genre": "Unknown"
+  },
+  {
+    "id": 381,
+    "name": "The Cure",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 10286020,
+    "name": "Luísa Sonza",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5578942,
+    "name": "Doja Cat",
+    "genre": "Поп"
+  },
+  {
+    "id": 7674918,
+    "name": "Gustavo Mioto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5832280,
+    "name": "Xand Avião",
+    "genre": "Unknown"
+  },
+  {
+    "id": 166,
+    "name": "Stevie Wonder",
+    "genre": "R&B"
+  },
+  {
+    "id": 65838,
+    "name": "Plan B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1352097,
+    "name": "Bastille",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8909272,
+    "name": "Aya Nakamura",
+    "genre": "R&B"
+  },
+  {
+    "id": 409,
+    "name": "blink-182",
+    "genre": "Unknown"
+  },
+  {
+    "id": 997,
+    "name": "David Bowie",
+    "genre": "Unknown"
+  },
+  {
+    "id": 262271,
+    "name": "Dimitri Vegas & Like Mike",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 12807,
+    "name": "O Rappa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 897,
+    "name": "The Killers",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 232,
+    "name": "Caetano Veloso",
+    "genre": "Unknown"
+  },
+  {
+    "id": 817,
+    "name": "The Who",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15898,
+    "name": "Wisin",
+    "genre": "Латино"
+  },
+  {
+    "id": 106,
+    "name": "Keane",
+    "genre": "Unknown"
+  },
+  {
+    "id": 310557,
+    "name": "Steve Aoki",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 4244787,
+    "name": "Lucas Lucco",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 700,
+    "name": "Aventura",
+    "genre": "Латино"
+  },
+  {
+    "id": 4488457,
+    "name": "Racionais MC's",
+    "genre": "Unknown"
+  },
+  {
+    "id": 176,
+    "name": "Dire Straits",
+    "genre": "Рок"
+  },
+  {
+    "id": 5313805,
+    "name": "Harry Styles",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11289472,
+    "name": "Rauw Alejandro",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1935,
+    "name": "Hans Zimmer",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 315082,
+    "name": "Raça Negra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5292512,
+    "name": "Halsey",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 2337,
+    "name": "Louis Armstrong",
+    "genre": "Джаз"
+  },
+  {
+    "id": 808,
+    "name": "Bob Dylan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12778,
+    "name": "La Fouine",
+    "genre": "Unknown"
+  },
+  {
+    "id": 388973,
+    "name": "Kaaris",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1198612,
+    "name": "ZEDD",
+    "genre": "Unknown"
+  },
+  {
+    "id": 93,
+    "name": "Limp Bizkit",
+    "genre": "Рок"
+  },
+  {
+    "id": 1264687,
+    "name": "Fernando & Sorocaba",
+    "genre": "Unknown"
+  },
+  {
+    "id": 116431,
+    "name": "Eduardo Costa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16275,
+    "name": "Capital Inicial",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4448485,
+    "name": "Lorde",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 1518490,
+    "name": "A$AP Rocky",
+    "genre": "Unknown"
+  },
+  {
+    "id": 89657,
+    "name": "Sofiane",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5049074,
+    "name": "Filipe Ret",
+    "genre": "Unknown"
+  },
+  {
+    "id": 881751,
+    "name": "MHD",
+    "genre": "Unknown"
+  },
+  {
+    "id": 864,
+    "name": "Deep Purple",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1479842,
+    "name": "PLK",
+    "genre": "Unknown"
+  },
+  {
+    "id": 288252,
+    "name": "INNA",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 5947658,
+    "name": "Kendji Girac",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10620,
+    "name": "Armin van Buuren",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 882,
+    "name": "The Offspring",
+    "genre": "Рок"
+  },
+  {
+    "id": 212,
+    "name": "Robbie Williams",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2519,
+    "name": "The Notorious B.I.G.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4698748,
+    "name": "Becky G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 113,
+    "name": "Rage Against the Machine",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5518450,
+    "name": "Melanie Martinez",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 4448630,
+    "name": "Maes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5835993,
+    "name": "Vianney",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1154,
+    "name": "Marvin Gaye",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 189,
+    "name": "Lenny Kravitz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1353625,
+    "name": "R3HAB",
+    "genre": "Unknown"
+  },
+  {
+    "id": 196,
+    "name": "The Cranberries",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4453455,
+    "name": "Louane",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4492087,
+    "name": "Bebe Rexha",
+    "genre": "Unknown"
+  },
+  {
+    "id": 517429,
+    "name": "Yandel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8873540,
+    "name": "Gazo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 259729,
+    "name": "Alonzo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2059,
+    "name": "Aretha Franklin",
+    "genre": "R&B"
+  },
+  {
+    "id": 363128,
+    "name": "Julion Alvarez Y Su Norteño Banda",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1462230,
+    "name": "Charli xcx",
+    "genre": "Unknown"
+  },
+  {
+    "id": 144446,
+    "name": "M. Pokora",
+    "genre": "Unknown"
+  },
+  {
+    "id": 405,
+    "name": "Johnny Cash",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1217914,
+    "name": "Zion & Lennox",
+    "genre": "Латино"
+  },
+  {
+    "id": 269973,
+    "name": "Zezé Di Camargo & Luciano",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 1168,
+    "name": "Van Halen",
+    "genre": "Unknown"
+  },
+  {
+    "id": 84292982,
+    "name": "Tarcísio do Acordeon",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 362326,
+    "name": "Khalid",
+    "genre": "R&B"
+  },
+  {
+    "id": 256681,
+    "name": "Mister you",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14687,
+    "name": "Djavan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5200697,
+    "name": "Israel & Rodolffo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11971,
+    "name": "Vitaa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2005781,
+    "name": "Robin Schulz",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 262833,
+    "name": "IZA",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 379486,
+    "name": "Michel Teló",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 11242224,
+    "name": "Lauana Prado",
+    "genre": "Unknown"
+  },
+  {
+    "id": 368,
+    "name": "Sting",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10189104,
+    "name": "Soolking",
+    "genre": "Unknown"
+  },
+  {
+    "id": 85,
+    "name": "The Prodigy",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 3487,
+    "name": "Megadeth",
+    "genre": "Металл"
+  },
+  {
+    "id": 595,
+    "name": "Destiny's Child",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15166511,
+    "name": "Lil Nas X",
+    "genre": "Все"
+  },
+  {
+    "id": 869,
+    "name": "The Verve",
+    "genre": "Unknown"
+  },
+  {
+    "id": 54330242,
+    "name": "Grupo Menos É Mais",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4762,
+    "name": "Bruce Springsteen",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3614,
+    "name": "B.B. King",
+    "genre": "Блюз"
+  },
+  {
+    "id": 15888,
+    "name": "Jonas Brothers",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 13962203,
+    "name": "Zola",
+    "genre": "Unknown"
+  },
+  {
+    "id": 170,
+    "name": "Bryan Adams",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4103977,
+    "name": "Tove Lo",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 402,
+    "name": "Panic! At the Disco",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 12029862,
+    "name": "Myke Towers",
+    "genre": "Латино"
+  },
+  {
+    "id": 569,
+    "name": "The Strokes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 70,
+    "name": "Juanes",
+    "genre": "Латино"
+  },
+  {
+    "id": 183716,
+    "name": "Florence + The Machine",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 50633822,
+    "name": "PEDRO SAMPAIO",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1120,
+    "name": "Jean-Jacques Goldman",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11301722,
+    "name": "Pabllo Vittar",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1670355,
+    "name": "Lartiste",
+    "genre": "Unknown"
+  },
+  {
+    "id": 58624,
+    "name": "Niro",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1107447,
+    "name": "Orochi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2,
+    "name": "The Clash",
+    "genre": "Unknown"
+  },
+  {
+    "id": 215594,
+    "name": "Zé Ramalho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1478,
+    "name": "Michael Bublé",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5695,
+    "name": "Wolfgang Amadeus Mozart",
+    "genre": "Классика"
+  },
+  {
+    "id": 5412407,
+    "name": "Sech",
+    "genre": "Латино"
+  },
+  {
+    "id": 4437965,
+    "name": "Indila",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 11152580,
+    "name": "Olivia Rodrigo",
+    "genre": "Поп"
+  },
+  {
+    "id": 4331004,
+    "name": "Zara Larsson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1042268,
+    "name": "Angèle",
+    "genre": "Unknown"
+  },
+  {
+    "id": 577666,
+    "name": "Childish Gambino",
+    "genre": "R&B"
+  },
+  {
+    "id": 11559031,
+    "name": "Manuel Turizo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16230,
+    "name": "Os Paralamas do Sucesso",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13534745,
+    "name": "Raí Saia Rodada",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4448284,
+    "name": "DENNIS",
+    "genre": "Unknown"
+  },
+  {
+    "id": 169,
+    "name": "Fleetwood Mac",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2468,
+    "name": "Creedence Clearwater Revival",
+    "genre": "Unknown"
+  },
+  {
+    "id": 152,
+    "name": "Mary J. Blige",
+    "genre": "R&B"
+  },
+  {
+    "id": 296861,
+    "name": "The Neighbourhood",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 5414,
+    "name": "Muddy Waters",
+    "genre": "Блюз"
+  },
+  {
+    "id": 873890,
+    "name": "James Arthur",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16476,
+    "name": "Roupa Nova",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1590752,
+    "name": "Young Thug",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8798,
+    "name": "Vicente Fernández",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6705395,
+    "name": "Mc Hariel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6,
+    "name": "Manu Chao",
+    "genre": "Unknown"
+  },
+  {
+    "id": 81,
+    "name": "The Chemical Brothers",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 58447102,
+    "name": "Pop Smoke",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8794,
+    "name": "Alejandro Fernández",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2127,
+    "name": "Disturbed",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2703,
+    "name": "ZZ Top",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8125513,
+    "name": "Mc Kevin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1622,
+    "name": "James Brown",
+    "genre": "R&B"
+  },
+  {
+    "id": 133,
+    "name": "Nelly Furtado",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14691,
+    "name": "Engenheiros do Hawaii",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4331,
+    "name": "Ludovico Einaudi",
+    "genre": "Классика"
+  },
+  {
+    "id": 188053,
+    "name": "Zeca Pagodinho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1440,
+    "name": "Rod Stewart",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1159,
+    "name": "John Lee Hooker",
+    "genre": "Блюз"
+  },
+  {
+    "id": 1725,
+    "name": "Ramones",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1297,
+    "name": "The Smiths",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 3098,
+    "name": "George Michael",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9848068,
+    "name": "Gloria Groove",
+    "genre": "Unknown"
+  },
+  {
+    "id": 479,
+    "name": "Kylie Minogue",
+    "genre": "Unknown"
+  },
+  {
+    "id": 109903,
+    "name": "Leonardo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5876247,
+    "name": "Gradur",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1176900,
+    "name": "Sabrina Carpenter",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 16398,
+    "name": "Passenger",
+    "genre": "Unknown"
+  },
+  {
+    "id": 158706,
+    "name": "Kid Cudi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 107666,
+    "name": "Birdy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8403120,
+    "name": "Mc Don Juan",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 13521,
+    "name": "Jota Quest",
+    "genre": "Unknown"
+  },
+  {
+    "id": 843,
+    "name": "Audioslave",
+    "genre": "Unknown"
+  },
+  {
+    "id": 320206,
+    "name": "Victor & Leo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 202,
+    "name": "Sade",
+    "genre": "R&B"
+  },
+  {
+    "id": 10633657,
+    "name": "Hugo & Guilherme",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15887,
+    "name": "Julien Doré",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3029951,
+    "name": "Henrique & Diego",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1177,
+    "name": "Queens of the Stone Age",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5062414,
+    "name": "Hozier",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 1846,
+    "name": "Diplo",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 2829671,
+    "name": "NATTI NATASHA   ",
+    "genre": "Латино"
+  },
+  {
+    "id": 5175734,
+    "name": "Vald",
+    "genre": "Unknown"
+  },
+  {
+    "id": 131216322,
+    "name": "Mari Fernandez",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5241932,
+    "name": "George Ezra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10416884,
+    "name": "Isadora Pompeo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3445,
+    "name": "Lionel Richie",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1642,
+    "name": "Snow Patrol",
+    "genre": "Unknown"
+  },
+  {
+    "id": 636,
+    "name": "The White Stripes",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 1865,
+    "name": "Soundgarden",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5497121,
+    "name": "Bigflo & Oli",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13515845,
+    "name": "Yasmin Santos",
+    "genre": "Unknown"
+  },
+  {
+    "id": 262,
+    "name": "Janet Jackson",
+    "genre": "R&B"
+  },
+  {
+    "id": 210,
+    "name": "Eagles",
+    "genre": "Unknown"
+  },
+  {
+    "id": 70476,
+    "name": "Herbert von Karajan",
+    "genre": "Классика"
+  },
+  {
+    "id": 161553,
+    "name": "TWICE",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 12526056,
+    "name": "Tayc",
+    "genre": "Unknown"
+  },
+  {
+    "id": 21,
+    "name": "Renaud",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1646315,
+    "name": "Mumuzinho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 152369,
+    "name": "Keen' V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1878,
+    "name": "Prince",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13576,
+    "name": "Cássia Eller",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4545763,
+    "name": "Xamã",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13918545,
+    "name": "Tiakola",
+    "genre": "Unknown"
+  },
+  {
+    "id": 296520,
+    "name": "Slimane",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1060,
+    "name": "Johnny Hallyday",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3201,
+    "name": "Andrea Bocelli",
+    "genre": "Unknown"
+  },
+  {
+    "id": 691,
+    "name": "Alice in Chains",
+    "genre": "Unknown"
+  },
+  {
+    "id": 273,
+    "name": "Wu-Tang Clan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 604107,
+    "name": "SDM",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12874,
+    "name": "Bring Me the Horizon",
+    "genre": "Рок"
+  },
+  {
+    "id": 16,
+    "name": "Gwen Stefani",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6545727,
+    "name": "Hornet La Frappe",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16893,
+    "name": "Grupo Revelação",
+    "genre": "Unknown"
+  },
+  {
+    "id": 378751,
+    "name": "Claudio Capéo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3280,
+    "name": "Ella Fitzgerald",
+    "genre": "Джаз"
+  },
+  {
+    "id": 1765,
+    "name": "Amel Bent",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4607,
+    "name": "Lily Allen",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7810466,
+    "name": "Murilo Huff",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6121,
+    "name": "Alexandre Pires",
+    "genre": "Unknown"
+  },
+  {
+    "id": 632926,
+    "name": "MAC MILLER",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8,
+    "name": "Placebo",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 4101559,
+    "name": "Rag'n'Bone Man",
+    "genre": "Unknown"
+  },
+  {
+    "id": 121672292,
+    "name": "Werenoi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 123053672,
+    "name": "Ana Castela",
+    "genre": "Unknown"
+  },
+  {
+    "id": 69627,
+    "name": "MGMT",
+    "genre": "Unknown"
+  },
+  {
+    "id": 165,
+    "name": "UB40",
+    "genre": "Регги"
+  },
+  {
+    "id": 5111084,
+    "name": "Lomepal",
+    "genre": "Unknown"
+  },
+  {
+    "id": 670,
+    "name": "Francis Cabrel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 248,
+    "name": "Earth, Wind & Fire",
+    "genre": "R&B"
+  },
+  {
+    "id": 896,
+    "name": "Jack Johnson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 620,
+    "name": "Etta James",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 3128,
+    "name": "Supertramp",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12948083,
+    "name": "Ava Max",
+    "genre": "Поп"
+  },
+  {
+    "id": 73,
+    "name": "Nas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 379495,
+    "name": "César Menotti & Fabiano",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1684527,
+    "name": "Kontra K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 612,
+    "name": "Massive Attack",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 13501,
+    "name": "L'Algérino",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5531258,
+    "name": "SZA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7068753,
+    "name": "Diego & Victor Hugo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 417037,
+    "name": "Foster the People",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 58585,
+    "name": "Zoé",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49259572,
+    "name": "MC Ryan SP",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15304117,
+    "name": "Natanael Cano",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12088868,
+    "name": "Lewis Capaldi",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 1702209,
+    "name": "Humberto & Ronaldo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2707,
+    "name": "Simon & Garfunkel",
+    "genre": "Фолк"
+  },
+  {
+    "id": 26,
+    "name": "Daniel Balavoine",
+    "genre": "Unknown"
+  },
+  {
+    "id": 330,
+    "name": "Backstreet Boys",
+    "genre": "Unknown"
+  },
+  {
+    "id": 261212,
+    "name": "The xx",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 12487862,
+    "name": "Bizarrap",
+    "genre": "Латино"
+  },
+  {
+    "id": 3037,
+    "name": "Genesis",
+    "genre": "Unknown"
+  },
+  {
+    "id": 29,
+    "name": "Calogero",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3106,
+    "name": "a-ha",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7459268,
+    "name": "KeBlack",
+    "genre": "Unknown"
+  },
+  {
+    "id": 919,
+    "name": "Franz Ferdinand",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13923487,
+    "name": "Stray Kids",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 1192,
+    "name": "Tears for Fears",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1350335,
+    "name": "Frank Ocean",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1910,
+    "name": "Miles Davis",
+    "genre": "Джаз"
+  },
+  {
+    "id": 323311,
+    "name": "RK",
+    "genre": "Unknown"
+  },
+  {
+    "id": 158710,
+    "name": "Five Finger Death Punch",
+    "genre": "Рок"
+  },
+  {
+    "id": 693,
+    "name": "Incubus",
+    "genre": "Unknown"
+  },
+  {
+    "id": 455796,
+    "name": "Leto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1194083,
+    "name": "Tyler, The Creator",
+    "genre": "Unknown"
+  },
+  {
+    "id": 810507,
+    "name": "G-Eazy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 34,
+    "name": "Barry White",
+    "genre": "R&B"
+  },
+  {
+    "id": 47,
+    "name": "Indochine",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2483,
+    "name": "The Black Keys",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 1059594,
+    "name": "Andrés Cepeda",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6603,
+    "name": "MIKA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 100675,
+    "name": "Vybz Kartel",
+    "genre": "Регги"
+  },
+  {
+    "id": 12294,
+    "name": "Juicy J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16993,
+    "name": "Vanessa da Mata",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 7208392,
+    "name": "Lenny Tavarez",
+    "genre": "Латино"
+  },
+  {
+    "id": 652,
+    "name": "Pixies",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 685,
+    "name": "Train",
+    "genre": "Unknown"
+  },
+  {
+    "id": 215668,
+    "name": "Helene Fischer",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2541,
+    "name": "Xzibit",
+    "genre": "Unknown"
+  },
+  {
+    "id": 17283,
+    "name": "Kid Abelha",
+    "genre": "Unknown"
+  },
+  {
+    "id": 656,
+    "name": "Noir Désir",
+    "genre": "Unknown"
+  },
+  {
+    "id": 161909,
+    "name": "Zaho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 493,
+    "name": "Moby",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 4338602,
+    "name": "Burna Boy",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 409796,
+    "name": "Disclosure",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 816,
+    "name": "Lynyrd Skynyrd",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1900,
+    "name": "Johann Sebastian Bach",
+    "genre": "Классика"
+  },
+  {
+    "id": 221,
+    "name": "Nat King Cole",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2025,
+    "name": "Cyndi Lauper",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11907,
+    "name": "Christophe Maé",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8114447,
+    "name": "H.E.R.",
+    "genre": "R&B"
+  },
+  {
+    "id": 750,
+    "name": "Rohff",
+    "genre": "Unknown"
+  },
+  {
+    "id": 242817,
+    "name": "Bunbury",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8473,
+    "name": "Frédéric Chopin",
+    "genre": "Классика"
+  },
+  {
+    "id": 4023815,
+    "name": "Olly Alexander (Years & Years)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5114288,
+    "name": "Maneva",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3933641,
+    "name": "Wizkid",
+    "genre": "R&B"
+  },
+  {
+    "id": 13020,
+    "name": "Youssoupha",
+    "genre": "Unknown"
+  },
+  {
+    "id": 457,
+    "name": "Tryo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 65303292,
+    "name": "Gambi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5849210,
+    "name": "Justin Quiles",
+    "genre": "Латино"
+  },
+  {
+    "id": 678,
+    "name": "M83",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1651095,
+    "name": "RIDSA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8548,
+    "name": "Hombres G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 134790,
+    "name": "Tame Impala",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 8629022,
+    "name": "Djonga",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10580067,
+    "name": "Rels B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7459270,
+    "name": "Naza",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2691,
+    "name": "Grand Corps Malade",
+    "genre": "Unknown"
+  },
+  {
+    "id": 171998,
+    "name": "Hamza",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13442,
+    "name": "Sean Kingston",
+    "genre": "Unknown"
+  },
+  {
+    "id": 83325,
+    "name": "Shaka Ponk",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3970231,
+    "name": "Gzuz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 174351,
+    "name": "Coeur De Pirate",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7010,
+    "name": "The Wailers",
+    "genre": "Регги"
+  },
+  {
+    "id": 5866223,
+    "name": "Lost Frequencies",
+    "genre": "Unknown"
+  },
+  {
+    "id": 110746,
+    "name": "Alceu Valença",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7365500,
+    "name": "Josman",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13097199,
+    "name": "NATTAN",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2016,
+    "name": "New Order",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2137231,
+    "name": "Mr. Probz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 215,
+    "name": "Toto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2252591,
+    "name": "TINI",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 535,
+    "name": "Deftones",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1001,
+    "name": "Charles Aznavour",
+    "genre": "Unknown"
+  },
+  {
+    "id": 308,
+    "name": "Boney M.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4889156,
+    "name": "Clara Luciani",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15827,
+    "name": "Elis Regina",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 793825,
+    "name": "The Lumineers",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2077,
+    "name": "Gilberto Gil",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 554792,
+    "name": "ROSALÍA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6815,
+    "name": "Florent Pagny",
+    "genre": "Unknown"
+  },
+  {
+    "id": 938,
+    "name": "Eros Ramazzotti",
+    "genre": "Unknown"
+  },
+  {
+    "id": 61145262,
+    "name": "Guilherme & Benuto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13645509,
+    "name": "Heuss L'enfoiré",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8125553,
+    "name": "Mc Davi",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 3048,
+    "name": "Slayer",
+    "genre": "Металл"
+  },
+  {
+    "id": 74463,
+    "name": "Timal",
+    "genre": "Unknown"
+  },
+  {
+    "id": 633,
+    "name": "Louise Attaque",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8933254,
+    "name": "Márcia Fellipe",
+    "genre": "Unknown"
+  },
+  {
+    "id": 60552072,
+    "name": "TOMORROW X TOGETHER",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 125372,
+    "name": "DaVido",
+    "genre": "Unknown"
+  },
+  {
+    "id": 404049,
+    "name": "W&W",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9134960,
+    "name": "Marwa Loud",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13612387,
+    "name": "Måneskin",
+    "genre": "Все"
+  },
+  {
+    "id": 805,
+    "name": "John Williams",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 73171372,
+    "name": "Simone Mendes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1782,
+    "name": "Patrick Bruel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10452069,
+    "name": "Kalash Criminel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1516,
+    "name": "Simply Red",
+    "genre": "Unknown"
+  },
+  {
+    "id": 358,
+    "name": "Mylène Farmer",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9151,
+    "name": "Fatal Bazooka",
+    "genre": "Unknown"
+  },
+  {
+    "id": 305,
+    "name": "Kool & The Gang",
+    "genre": "R&B"
+  },
+  {
+    "id": 3649631,
+    "name": "ITZY",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 9,
+    "name": "Outkast",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1646314,
+    "name": "Xande De Pilares",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7548856,
+    "name": "Mc IG",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1903,
+    "name": "Europe",
+    "genre": "Unknown"
+  },
+  {
+    "id": 79,
+    "name": "No Doubt",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1295112,
+    "name": "Padre Fábio de Melo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10695573,
+    "name": "Franglish",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49569672,
+    "name": "Imen Es",
+    "genre": "R&B"
+  },
+  {
+    "id": 152366,
+    "name": "Lang Lang",
+    "genre": "Классика"
+  },
+  {
+    "id": 256080,
+    "name": "Rim'K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1166311,
+    "name": "Feid",
+    "genre": "Латино"
+  },
+  {
+    "id": 13816509,
+    "name": "Moha La Squale",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3281,
+    "name": "Diana Krall",
+    "genre": "Джаз"
+  },
+  {
+    "id": 9315,
+    "name": "Skillet",
+    "genre": "Рок"
+  },
+  {
+    "id": 9134324,
+    "name": "Vegedream",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9945222,
+    "name": "Jorja Smith",
+    "genre": "R&B"
+  },
+  {
+    "id": 1231,
+    "name": "INXS",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4081,
+    "name": "Antonio Vivaldi",
+    "genre": "Классика"
+  },
+  {
+    "id": 7065,
+    "name": "Gregory Isaacs",
+    "genre": "Регги"
+  },
+  {
+    "id": 423,
+    "name": "Billy Joel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 71069,
+    "name": "ZAZ",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1209354,
+    "name": "NX Zero",
+    "genre": "Unknown"
+  },
+  {
+    "id": 734,
+    "name": "Magic System",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 4925172,
+    "name": "PARTYNEXTDOOR",
+    "genre": "Unknown"
+  },
+  {
+    "id": 259131,
+    "name": "Paloma Faith",
+    "genre": "Unknown"
+  },
+  {
+    "id": 175,
+    "name": "Eurythmics",
+    "genre": "Unknown"
+  },
+  {
+    "id": 318108,
+    "name": "Danna Paola",
+    "genre": "Латино"
+  },
+  {
+    "id": 13594287,
+    "name": "Roddy Ricch",
+    "genre": "Unknown"
+  },
+  {
+    "id": 50633812,
+    "name": "Conan Gray",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11884111,
+    "name": "DA Uzi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5196,
+    "name": "Les Enfoirés",
+    "genre": "Unknown"
+  },
+  {
+    "id": 183201,
+    "name": "Owl City",
+    "genre": "Unknown"
+  },
+  {
+    "id": 338654,
+    "name": "Red Velvet",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 1379,
+    "name": "Neil Young",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6404,
+    "name": "Justice",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 4771546,
+    "name": "London Grammar",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 5068032,
+    "name": "Felix Jaehn",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 1018,
+    "name": "Zazie",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4907510,
+    "name": "Jok'air",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13896,
+    "name": "Luciano Pavarotti",
+    "genre": "Классика"
+  },
+  {
+    "id": 7511588,
+    "name": "Brytiago",
+    "genre": "Латино"
+  },
+  {
+    "id": 14226477,
+    "name": "girl in red",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 4509,
+    "name": "Michel Sardou",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12490752,
+    "name": "YL",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5992092,
+    "name": "Kungs",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 12614,
+    "name": "Zeca Baleiro",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5059044,
+    "name": "Quavo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7746050,
+    "name": "Vitor Kley",
+    "genre": "Unknown"
+  },
+  {
+    "id": 378294,
+    "name": "Mike Posner",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7317188,
+    "name": "Vitor Fernandes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14262,
+    "name": "Kenza Farah",
+    "genre": "Unknown"
+  },
+  {
+    "id": 752,
+    "name": "Suprême NTM",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49818632,
+    "name": "POLO G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4044787,
+    "name": "Tom Odell",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4675,
+    "name": "France Gall",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6209854,
+    "name": "GOT7",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 714,
+    "name": "Alpha Blondy",
+    "genre": "Регги"
+  },
+  {
+    "id": 70942,
+    "name": "Willow",
+    "genre": "Unknown"
+  },
+  {
+    "id": 75354,
+    "name": "Khaled",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9568982,
+    "name": "Cigarettes After Sex",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2454,
+    "name": "Simple Minds",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2326,
+    "name": "Peter Tosh",
+    "genre": "Регги"
+  },
+  {
+    "id": 54047652,
+    "name": "Junior H",
+    "genre": "Unknown"
+  },
+  {
+    "id": 73018,
+    "name": "Kalash",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12422192,
+    "name": "Hatik",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1036,
+    "name": "Billie Holiday",
+    "genre": "Джаз"
+  },
+  {
+    "id": 794548,
+    "name": "Labrinth",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 867,
+    "name": "-M-",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10002824,
+    "name": "Playboi Carti",
+    "genre": "Unknown"
+  },
+  {
+    "id": 48,
+    "name": "IAM",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1560,
+    "name": "Jacques Brel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1201,
+    "name": "Arcade Fire",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1563439,
+    "name": "Zendaya",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6377,
+    "name": "Paul Kalkbrenner",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15355,
+    "name": "Chitãozinho & Xororó",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7890062,
+    "name": "Alessia Cara",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4539853,
+    "name": "Fréro Delavega",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13098657,
+    "name": "Jhay Cortez",
+    "genre": "Латино"
+  },
+  {
+    "id": 1029,
+    "name": "Téléphone",
+    "genre": "Unknown"
+  },
+  {
+    "id": 53345732,
+    "name": "Eva",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1004,
+    "name": "N.W.A",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4029,
+    "name": "George Benson",
+    "genre": "Джаз"
+  },
+  {
+    "id": 114472782,
+    "name": "Teto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 794505,
+    "name": "Calcinha Preta",
+    "genre": "Unknown"
+  },
+  {
+    "id": 72503,
+    "name": "Lykke Li",
+    "genre": "Unknown"
+  },
+  {
+    "id": 320253,
+    "name": "TAL",
+    "genre": "Unknown"
+  },
+  {
+    "id": 164704,
+    "name": "Amir",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14728175,
+    "name": "Agust D",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 418,
+    "name": "Weezer",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7161880,
+    "name": "MAMAMOO",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 378392,
+    "name": "Colonel Reyel",
+    "genre": "Регги"
+  },
+  {
+    "id": 2513,
+    "name": "Mobb Deep",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1536,
+    "name": "Ennio Morricone",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 4344192,
+    "name": "Gunna",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1679838,
+    "name": "Hoshi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4968870,
+    "name": "Metro Boomin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14492701,
+    "name": "Lil Tecca",
+    "genre": "Unknown"
+  },
+  {
+    "id": 868,
+    "name": "Iggy Pop",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4459894,
+    "name": "Dove Cameron",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 971,
+    "name": "Tracy Chapman",
+    "genre": "Фолк"
+  },
+  {
+    "id": 10159994,
+    "name": "$uicideboy$",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 1129,
+    "name": "George Harrison",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9884966,
+    "name": "DTF",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13916083,
+    "name": "Fuerza Regida",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14482665,
+    "name": "Summer Walker",
+    "genre": "R&B"
+  },
+  {
+    "id": 168632,
+    "name": "Berliner Philharmoniker",
+    "genre": "Классика"
+  },
+  {
+    "id": 279489,
+    "name": "Gente De Zona",
+    "genre": "Латино"
+  },
+  {
+    "id": 1352692,
+    "name": "Joe Jonas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9276756,
+    "name": "Ministério Zoe",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3381,
+    "name": "Journey",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14240131,
+    "name": "Zkr",
+    "genre": "Unknown"
+  },
+  {
+    "id": 97638282,
+    "name": "Lady A",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9596260,
+    "name": "DJ Guuga",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 13063581,
+    "name": "Isaías Saad",
+    "genre": "Unknown"
+  },
+  {
+    "id": 288567,
+    "name": "Asking Alexandria",
+    "genre": "Металл"
+  },
+  {
+    "id": 4527,
+    "name": "The Fray",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1037707,
+    "name": "NF",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14447309,
+    "name": "Landy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2799,
+    "name": "Buena Vista Social Club",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15065941,
+    "name": "(G)I-DLE",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 13953,
+    "name": "Volbeat",
+    "genre": "Металл"
+  },
+  {
+    "id": 74289,
+    "name": "Melody Gardot",
+    "genre": "Джаз"
+  },
+  {
+    "id": 15,
+    "name": "Phoenix",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5931809,
+    "name": "Vitinho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12268072,
+    "name": "Cazzu",
+    "genre": "Unknown"
+  },
+  {
+    "id": 240582,
+    "name": "SEVENTEEN",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 495889,
+    "name": "Renascer Praise",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2730,
+    "name": "The Temptations",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 9053,
+    "name": "Whitesnake",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49280302,
+    "name": "ATEEZ",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 2908,
+    "name": "Édith Piaf",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4986771,
+    "name": "OBOY",
+    "genre": "Unknown"
+  },
+  {
+    "id": 388,
+    "name": "Diam's",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8613614,
+    "name": "Eladio Carrion",
+    "genre": "Unknown"
+  },
+  {
+    "id": 308253,
+    "name": "Dub Inc",
+    "genre": "Регги"
+  },
+  {
+    "id": 183,
+    "name": "TLC",
+    "genre": "Unknown"
+  },
+  {
+    "id": 274393,
+    "name": "Yuridia",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5859499,
+    "name": "Pablo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2636,
+    "name": "Joe Dassin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1606315,
+    "name": "alt-J",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 2449,
+    "name": "John Coltrane",
+    "genre": "Джаз"
+  },
+  {
+    "id": 762,
+    "name": "Yann Tiersen",
+    "genre": "Классика"
+  },
+  {
+    "id": 828,
+    "name": "Dream Theater",
+    "genre": "Металл"
+  },
+  {
+    "id": 3779331,
+    "name": "Lindsey Stirling",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3249881,
+    "name": "Everglow",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 856,
+    "name": "Rob Zombie",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5184,
+    "name": "Max Romeo",
+    "genre": "Регги"
+  },
+  {
+    "id": 580,
+    "name": "Aphex Twin",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 2111,
+    "name": "Billy Idol",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13327309,
+    "name": "YNW Melly",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1563138,
+    "name": "Lukas Graham",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4781,
+    "name": "Joe Bonamassa",
+    "genre": "Блюз"
+  },
+  {
+    "id": 1495,
+    "name": "Pascal Obispo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1204125,
+    "name": "Boulevard des Airs",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2134241,
+    "name": "MORADA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5594859,
+    "name": "Soso Maness",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6722,
+    "name": "Natalia Lafourcade",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8506054,
+    "name": "Ghost",
+    "genre": "Металл"
+  },
+  {
+    "id": 5501870,
+    "name": "Monsta X",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 12096038,
+    "name": "Central Cee",
+    "genre": "Unknown"
+  },
+  {
+    "id": 292949,
+    "name": "Dinos",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1581786,
+    "name": "Of Monsters And Men",
+    "genre": "Unknown"
+  },
+  {
+    "id": 67835,
+    "name": "Ramin Djawadi",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 59070642,
+    "name": "Tones and I",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 3156,
+    "name": "Cher",
+    "genre": "Unknown"
+  },
+  {
+    "id": 250495,
+    "name": "UZI",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7668530,
+    "name": "Ziak",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1057597,
+    "name": "Schoolboy Q",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2975,
+    "name": "Mano Negra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1069,
+    "name": "Portishead",
+    "genre": "Unknown"
+  },
+  {
+    "id": 61302392,
+    "name": "Casa Worship",
+    "genre": "Unknown"
+  },
+  {
+    "id": 144342,
+    "name": "Grupo Fundo De Quintal",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13025,
+    "name": "Stephen Marley",
+    "genre": "Регги"
+  },
+  {
+    "id": 315735,
+    "name": "Rionegro & Solimões",
+    "genre": "Unknown"
+  },
+  {
+    "id": 754,
+    "name": "Garou",
+    "genre": "Unknown"
+  },
+  {
+    "id": 401577,
+    "name": "Ben Howard",
+    "genre": "Фолк"
+  },
+  {
+    "id": 4720,
+    "name": "Milton Nascimento",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 7912872,
+    "name": "Petit Biscuit",
+    "genre": "Unknown"
+  },
+  {
+    "id": 78668,
+    "name": "Bon Iver",
+    "genre": "Unknown"
+  },
+  {
+    "id": 464912,
+    "name": "Oficina G3",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5078097,
+    "name": "Joji",
+    "genre": "R&B"
+  },
+  {
+    "id": 4510044,
+    "name": "Laylow",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5566782,
+    "name": "Matheus Fernandes",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 9687690,
+    "name": "Nej",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9596208,
+    "name": "MC Bruninho",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 661247,
+    "name": "Timmy Trumpet",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 5617685,
+    "name": "Luidji",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4782876,
+    "name": "Vintage Culture",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8750,
+    "name": "Julio Iglesias",
+    "genre": "Латино"
+  },
+  {
+    "id": 755,
+    "name": "Patrick Fiori",
+    "genre": "Unknown"
+  },
+  {
+    "id": 563882,
+    "name": "Emeli Sandé",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1384,
+    "name": "Mark Knopfler",
+    "genre": "Unknown"
+  },
+  {
+    "id": 74478,
+    "name": "Belo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 463,
+    "name": "Saez",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5853,
+    "name": "Chet Baker",
+    "genre": "Джаз"
+  },
+  {
+    "id": 15507,
+    "name": "Jay Sean",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 4768525,
+    "name": "Vance Joy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 119719522,
+    "name": "Marcynho Sensação",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 5259966,
+    "name": "Rema",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1117,
+    "name": "Ms. Lauryn Hill",
+    "genre": "Unknown"
+  },
+  {
+    "id": 407,
+    "name": "Nine Inch Nails",
+    "genre": "Unknown"
+  },
+  {
+    "id": 52463032,
+    "name": "ElGrandeToto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4512147,
+    "name": "Milky Chance",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1062,
+    "name": "Dalida",
+    "genre": "Unknown"
+  },
+  {
+    "id": 80681022,
+    "name": "Wejdene",
+    "genre": "Unknown"
+  },
+  {
+    "id": 184,
+    "name": "James Horner",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 2236,
+    "name": "Jean-Louis Aubert",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5176,
+    "name": "Claude Debussy",
+    "genre": "Классика"
+  },
+  {
+    "id": 13330,
+    "name": "Lynda",
+    "genre": "R&B"
+  },
+  {
+    "id": 8609358,
+    "name": "Oruam",
+    "genre": "Unknown"
+  },
+  {
+    "id": 912,
+    "name": "Apocalyptica",
+    "genre": "Металл"
+  },
+  {
+    "id": 10989694,
+    "name": "Diego & Arnaldo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 50306442,
+    "name": "NCT 127",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 58707,
+    "name": "Danakil",
+    "genre": "Регги"
+  },
+  {
+    "id": 8680,
+    "name": "Buddy Guy",
+    "genre": "Блюз"
+  },
+  {
+    "id": 7688746,
+    "name": "Alvaro Soler",
+    "genre": "Латино"
+  },
+  {
+    "id": 318673,
+    "name": "Joyce Jonathan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1611773,
+    "name": "El Alfa",
+    "genre": "Латино"
+  },
+  {
+    "id": 1009,
+    "name": "Lou Reed",
+    "genre": "Unknown"
+  },
+  {
+    "id": 689,
+    "name": "TOOL",
+    "genre": "Металл"
+  },
+  {
+    "id": 8945638,
+    "name": "Nio Garcia",
+    "genre": "Латино"
+  },
+  {
+    "id": 13570,
+    "name": "Metronomy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1228100,
+    "name": "JENNIE",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 426684,
+    "name": "Ummet Ozcan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4917,
+    "name": "Jorge Ben Jor",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 13755123,
+    "name": "Freeze Corleone",
+    "genre": "Unknown"
+  },
+  {
+    "id": 460,
+    "name": "Sniper",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7699874,
+    "name": "AURORA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5871,
+    "name": "Toots & The Maytals",
+    "genre": "Регги"
+  },
+  {
+    "id": 1377613,
+    "name": "SHINee",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 1343,
+    "name": "Epica",
+    "genre": "Unknown"
+  },
+  {
+    "id": 75781,
+    "name": "Vampire Weekend",
+    "genre": "Unknown"
+  },
+  {
+    "id": 493435,
+    "name": "Die Antwoord",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 145068682,
+    "name": "LISA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9851798,
+    "name": "Trois Cafés Gourmands",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5611,
+    "name": "Willie Colón",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13358,
+    "name": "Kavinsky",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 5868765,
+    "name": "Chase Atlantic",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5114,
+    "name": "David Gilmour",
+    "genre": "Unknown"
+  },
+  {
+    "id": 58960,
+    "name": "Yo-Yo Ma",
+    "genre": "Классика"
+  },
+  {
+    "id": 10611,
+    "name": "Keith Jarrett",
+    "genre": "Джаз"
+  },
+  {
+    "id": 3803881,
+    "name": "Kodaline",
+    "genre": "Unknown"
+  },
+  {
+    "id": 445137,
+    "name": "Glee Cast",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 1619572,
+    "name": "Mac Demarco",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11583679,
+    "name": "Unha Pintada",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4594,
+    "name": "Michel Berger",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6032634,
+    "name": "Ofenbach",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 275373,
+    "name": "Alborosie",
+    "genre": "Регги"
+  },
+  {
+    "id": 707,
+    "name": "Stereophonics",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2993,
+    "name": "Gojira",
+    "genre": "Металл"
+  },
+  {
+    "id": 68382,
+    "name": "London Symphony Orchestra",
+    "genre": "Классика"
+  },
+  {
+    "id": 379167,
+    "name": "Lucenzo",
+    "genre": "Латино"
+  },
+  {
+    "id": 52528582,
+    "name": "Veigh",
+    "genre": "Unknown"
+  },
+  {
+    "id": 17030,
+    "name": "Eddie Vedder",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9776678,
+    "name": "Lil Yachty",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5200025,
+    "name": "Lizzo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 68194,
+    "name": "Pesado",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5276754,
+    "name": "Tom Walker",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6690,
+    "name": "Max Richter",
+    "genre": "Классика"
+  },
+  {
+    "id": 65791,
+    "name": "The Goo Goo Dolls",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13817211,
+    "name": "Tate McRae",
+    "genre": "Unknown"
+  },
+  {
+    "id": 207,
+    "name": "Electric Light Orchestra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 487,
+    "name": "Enya",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1702205,
+    "name": "Israel Novaes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7200950,
+    "name": "Fetty Wap",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8425170,
+    "name": "Sofia Carson",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 44,
+    "name": "Kyo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4428187,
+    "name": "Alpha Wann",
+    "genre": "Unknown"
+  },
+  {
+    "id": 126335112,
+    "name": "Rosé",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 170482,
+    "name": "Angus & Julia Stone",
+    "genre": "Unknown"
+  },
+  {
+    "id": 148129,
+    "name": "Kids United",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 11573699,
+    "name": "Clairo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1118,
+    "name": "Bill Withers",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1074021,
+    "name": "Jay Wheeler",
+    "genre": "Латино"
+  },
+  {
+    "id": 121584,
+    "name": "Bosh",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8741,
+    "name": "Dolly Parton",
+    "genre": "Unknown"
+  },
+  {
+    "id": 122123672,
+    "name": "Luan Pereira",
+    "genre": "Unknown"
+  },
+  {
+    "id": 445,
+    "name": "Tenacious D",
+    "genre": "Unknown"
+  },
+  {
+    "id": 66206512,
+    "name": "Nadson O Ferinha",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2369,
+    "name": "Al Green",
+    "genre": "R&B"
+  },
+  {
+    "id": 113915572,
+    "name": "ENHYPEN",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 238486,
+    "name": "Suel",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 604395,
+    "name": "Sasso",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5951582,
+    "name": "Jain",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5000,
+    "name": "Seeed",
+    "genre": "Регги"
+  },
+  {
+    "id": 6043160,
+    "name": "Kali Uchis",
+    "genre": "Латино"
+  },
+  {
+    "id": 9030084,
+    "name": "Eddy de Pretto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13631667,
+    "name": "Don Toliver",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49197782,
+    "name": "Guaynaa",
+    "genre": "Латино"
+  },
+  {
+    "id": 1406,
+    "name": "Herbie Hancock",
+    "genre": "Джаз"
+  },
+  {
+    "id": 51204222,
+    "name": "The Kid Laroi",
+    "genre": "Поп"
+  },
+  {
+    "id": 185473,
+    "name": "Empire of the Sun",
+    "genre": "Unknown"
+  },
+  {
+    "id": 128,
+    "name": "Sarah Connor",
+    "genre": "Unknown"
+  },
+  {
+    "id": 80365122,
+    "name": "Peso Pluma",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6699381,
+    "name": "Jack Ü",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1035779,
+    "name": "Gregory Porter",
+    "genre": "Джаз"
+  },
+  {
+    "id": 629,
+    "name": "Fugees",
+    "genre": "R&B"
+  },
+  {
+    "id": 4856048,
+    "name": "S-Crew",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4088,
+    "name": "Tony Bennett",
+    "genre": "Джаз"
+  },
+  {
+    "id": 181,
+    "name": "Talking Heads",
+    "genre": "Unknown"
+  },
+  {
+    "id": 59620692,
+    "name": "Kaza",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11999322,
+    "name": "NCT DREAM",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 5462679,
+    "name": "Jax Jones",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 523,
+    "name": "Kenny G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10375188,
+    "name": "6lack",
+    "genre": "R&B"
+  },
+  {
+    "id": 3452,
+    "name": "Parov Stelar",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 9222,
+    "name": "Crystal Castles",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 2056,
+    "name": "Erykah Badu",
+    "genre": "R&B"
+  },
+  {
+    "id": 9281246,
+    "name": "Joé Dwèt Filé",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 4694728,
+    "name": "Yemi Alade",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 6005,
+    "name": "James Newton Howard",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 556,
+    "name": "Howard Shore",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 7637436,
+    "name": "Elams",
+    "genre": "Unknown"
+  },
+  {
+    "id": 72038,
+    "name": "Kool Savas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11666599,
+    "name": "MC Marks",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 439,
+    "name": "Laurent Voulzy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 468920,
+    "name": "IMANY",
+    "genre": "Unknown"
+  },
+  {
+    "id": 67853702,
+    "name": "WIU",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3198,
+    "name": "Eddy Mitchell",
+    "genre": "Unknown"
+  },
+  {
+    "id": 805948,
+    "name": "Raye",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1392,
+    "name": "Arch Enemy",
+    "genre": "Металл"
+  },
+  {
+    "id": 771,
+    "name": "Cascada",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1559,
+    "name": "The Velvet Underground",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1127,
+    "name": "Vanessa Paradis",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8898108,
+    "name": "DNCE",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5382747,
+    "name": "Pomme",
+    "genre": "Unknown"
+  },
+  {
+    "id": 966,
+    "name": "Orchestral Manoeuvres in the Dark",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6630050,
+    "name": "Mitski",
+    "genre": "Unknown"
+  },
+  {
+    "id": 73205432,
+    "name": "Moha K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3559721,
+    "name": "Klangkarussell",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1197801,
+    "name": "Woodkid",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1971601,
+    "name": "Gambino",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12133088,
+    "name": "YUNGBLUD",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12022,
+    "name": "Sabaton",
+    "genre": "Рок"
+  },
+  {
+    "id": 785,
+    "name": "Spice Girls",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6243,
+    "name": "The Pointer Sisters",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2577241,
+    "name": "Naâman",
+    "genre": "Регги"
+  },
+  {
+    "id": 7402526,
+    "name": "League of Legends",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 1211085,
+    "name": "Still Fresh",
+    "genre": "Unknown"
+  },
+  {
+    "id": 281,
+    "name": "Pendulum",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 6401240,
+    "name": "Dean Lewis",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5593078,
+    "name": "Kofs",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10806366,
+    "name": "Therapie TAXI",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1236161,
+    "name": "Umm Kulthum",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5848618,
+    "name": "Juliette Armanet",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4633500,
+    "name": "BK'",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1245,
+    "name": "Trivium",
+    "genre": "Металл"
+  },
+  {
+    "id": 1385,
+    "name": "Kansas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14343187,
+    "name": "Maria Becerra",
+    "genre": "Латино"
+  },
+  {
+    "id": 14044,
+    "name": "BB Brunes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3878,
+    "name": "M.I.A.",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 168275777,
+    "name": "Favé",
+    "genre": "Unknown"
+  },
+  {
+    "id": 306,
+    "name": "Claude François",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8486,
+    "name": "Men at Work",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5565220,
+    "name": "KSHMR",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 6120,
+    "name": "Daughtry",
+    "genre": "Unknown"
+  },
+  {
+    "id": 998013,
+    "name": "Alexandra Stan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16407,
+    "name": "iKON",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 113547672,
+    "name": "aespa",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 1141019,
+    "name": "John Newman",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1668,
+    "name": "Soft Cell",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2108,
+    "name": "Bonobo",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 11026886,
+    "name": "Guy2Bezbar",
+    "genre": "Unknown"
+  },
+  {
+    "id": 282417,
+    "name": "Yusuf / Cat Stevens",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2947,
+    "name": "Willie Nelson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1702210,
+    "name": "Gabriel Gava",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6065,
+    "name": "Amon Amarth",
+    "genre": "Металл"
+  },
+  {
+    "id": 480,
+    "name": "Röyksopp",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 5837720,
+    "name": "Jérémy Frerot",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14718361,
+    "name": "Benab",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11028668,
+    "name": "MiyaGi & Эндшпиль",
+    "genre": "Все"
+  },
+  {
+    "id": 109455142,
+    "name": "13 Organisé",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1020444,
+    "name": "SUPER JUNIOR",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 7079289,
+    "name": "DJ Ivis",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 4237492,
+    "name": "Король и Шут",
+    "genre": "Все"
+  },
+  {
+    "id": 964,
+    "name": "Yeah Yeah Yeahs",
+    "genre": "Unknown"
+  },
+  {
+    "id": 168047437,
+    "name": "Jimin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15190997,
+    "name": "Fireboy Dml",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 406623,
+    "name": "Ibrahim Maalouf",
+    "genre": "Джаз"
+  },
+  {
+    "id": 6874,
+    "name": "Grégory Lemarchal",
+    "genre": "Unknown"
+  },
+  {
+    "id": 57504,
+    "name": "Duke Ellington",
+    "genre": "Джаз"
+  },
+  {
+    "id": 216,
+    "name": "Wham!",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2124,
+    "name": "Killswitch Engage",
+    "genre": "Металл"
+  },
+  {
+    "id": 2322,
+    "name": "Groundation",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4170146,
+    "name": "Баста",
+    "genre": "Все"
+  },
+  {
+    "id": 3325,
+    "name": "Stacey Kent",
+    "genre": "Джаз"
+  },
+  {
+    "id": 67062,
+    "name": "Ultraje A Rigor",
+    "genre": "Unknown"
+  },
+  {
+    "id": 308440,
+    "name": "Népal",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3458,
+    "name": "Stan Getz",
+    "genre": "Джаз"
+  },
+  {
+    "id": 1049,
+    "name": "Kate Bush",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2323,
+    "name": "Gentleman",
+    "genre": "Регги"
+  },
+  {
+    "id": 377827,
+    "name": "Popcaan",
+    "genre": "Регги"
+  },
+  {
+    "id": 9219,
+    "name": "Disney",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4086,
+    "name": "Cesária Evora",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 9093938,
+    "name": "Jack Harlow",
+    "genre": "Поп"
+  },
+  {
+    "id": 2104,
+    "name": "Les Rita Mitsouko",
+    "genre": "Unknown"
+  },
+  {
+    "id": 112259,
+    "name": "LP",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16590,
+    "name": "Banda Calypso",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 7735426,
+    "name": "Bradley Cooper",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 1302,
+    "name": "Sonic Youth",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1407280,
+    "name": "G-DRAGON",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8904144,
+    "name": "SUNMI",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 3638541,
+    "name": "Mister V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 240948,
+    "name": "Reginaldo Rossi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6263,
+    "name": "Véronique Sanson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5344,
+    "name": "Inner Circle",
+    "genre": "Регги"
+  },
+  {
+    "id": 1377312,
+    "name": "Biga*Ranx",
+    "genre": "Регги"
+  },
+  {
+    "id": 5550166,
+    "name": "Zezo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 298705,
+    "name": "Wiener Philharmoniker",
+    "genre": "Классика"
+  },
+  {
+    "id": 147,
+    "name": "ATB",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 5168,
+    "name": "João Gilberto",
+    "genre": "Джаз"
+  },
+  {
+    "id": 525307,
+    "name": "Walk The Moon",
+    "genre": "Unknown"
+  },
+  {
+    "id": 162070292,
+    "name": "Kerchak",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2047,
+    "name": "Jean-Michel Jarre",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 2999,
+    "name": "Cannibal Corpse",
+    "genre": "Металл"
+  },
+  {
+    "id": 1310497,
+    "name": "Girls' Generation",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 7983,
+    "name": "Oxmo Puccino",
+    "genre": "Unknown"
+  },
+  {
+    "id": 369,
+    "name": "Air",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 56094992,
+    "name": "Omah lay",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4549214,
+    "name": "X Ambassadors",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1200692,
+    "name": "Willy William",
+    "genre": "Латино"
+  },
+  {
+    "id": 5014953,
+    "name": "Макс Корж",
+    "genre": "Все"
+  },
+  {
+    "id": 4505880,
+    "name": "Кино",
+    "genre": "Все"
+  },
+  {
+    "id": 712,
+    "name": "Warren G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13790723,
+    "name": "L2B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8719870,
+    "name": "L.E.J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 110,
+    "name": "Craig David",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14984,
+    "name": "Al Jarreau",
+    "genre": "Джаз"
+  },
+  {
+    "id": 11665341,
+    "name": "Jala Brat",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10725097,
+    "name": "Yanns",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7988496,
+    "name": "TAEMIN",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 10698,
+    "name": "The Upsetters",
+    "genre": "Регги"
+  },
+  {
+    "id": 146543992,
+    "name": "Benson Boone",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12250622,
+    "name": "Zivert",
+    "genre": "Все"
+  },
+  {
+    "id": 65070,
+    "name": "Mig",
+    "genre": "Unknown"
+  },
+  {
+    "id": 281509,
+    "name": "Gaëtan Roussel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12615805,
+    "name": "HammAli & Navai",
+    "genre": "Все"
+  },
+  {
+    "id": 2039,
+    "name": "Joan Jett and the Blackhearts",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5811815,
+    "name": "Pierre Garnier",
+    "genre": "Unknown"
+  },
+  {
+    "id": 52937632,
+    "name": "Niaks",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2810121,
+    "name": "IU",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 3905,
+    "name": "Beirut",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2489131,
+    "name": "Glass Animals",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14544241,
+    "name": "Julia Vitória",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5061199,
+    "name": "MC GW",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7541,
+    "name": "Redman",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2711,
+    "name": "Yes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 129085752,
+    "name": "US Agroboy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 162540,
+    "name": "Ben Mazué",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1862,
+    "name": "A Tribe Called Quest",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1683410,
+    "name": "TV Girl",
+    "genre": "Unknown"
+  },
+  {
+    "id": 210977,
+    "name": "Gesaffelstein",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 48995601,
+    "name": "GIVĒON",
+    "genre": "R&B"
+  },
+  {
+    "id": 1371731,
+    "name": "Pusha T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 398298,
+    "name": "Agnes Obel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11972,
+    "name": "Christophe Willem",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2791,
+    "name": "Klaus Badelt",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 536,
+    "name": "Machine Head",
+    "genre": "Металл"
+  },
+  {
+    "id": 54838802,
+    "name": "Ícaro e Gilmar",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8314106,
+    "name": "Mc GP",
+    "genre": "Unknown"
+  },
+  {
+    "id": 259767,
+    "name": "Caravan Palace",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 2580,
+    "name": "Alphaville",
+    "genre": "Unknown"
+  },
+  {
+    "id": 74831,
+    "name": "Grégoire",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8658,
+    "name": "London Philharmonic Orchestra",
+    "genre": "Классика"
+  },
+  {
+    "id": 14468689,
+    "name": "Morgenshtern",
+    "genre": "Все"
+  },
+  {
+    "id": 5603958,
+    "name": "Скриптонит",
+    "genre": "Все"
+  },
+  {
+    "id": 317422,
+    "name": "Ben L'oncle Soul",
+    "genre": "Unknown"
+  },
+  {
+    "id": 140,
+    "name": "Gigi D'Agostino",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2320,
+    "name": "Israel Vibration",
+    "genre": "Регги"
+  },
+  {
+    "id": 1396006,
+    "name": "OMI",
+    "genre": "Unknown"
+  },
+  {
+    "id": 529,
+    "name": "Raphaël",
+    "genre": "Unknown"
+  },
+  {
+    "id": 53325902,
+    "name": "Luv Resval",
+    "genre": "Unknown"
+  },
+  {
+    "id": 807493,
+    "name": "Grimes",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 64874492,
+    "name": "Gracie Abrams",
+    "genre": "Unknown"
+  },
+  {
+    "id": 134200,
+    "name": "V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 664,
+    "name": "Jeff Buckley",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1968,
+    "name": "Vinicius de Moraes",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 10502405,
+    "name": "Zeeba",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3702,
+    "name": "The Alan Parsons Project",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1403694,
+    "name": "Meduza",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 2060,
+    "name": "Bill Evans",
+    "genre": "Джаз"
+  },
+  {
+    "id": 12125606,
+    "name": "4Keus Gang",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4546074,
+    "name": "Би-2",
+    "genre": "Все"
+  },
+  {
+    "id": 1138351,
+    "name": "KALEO",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 64927672,
+    "name": "Teddy Swims",
+    "genre": "Unknown"
+  },
+  {
+    "id": 88835182,
+    "name": "DG e Batidão Stronda",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15030,
+    "name": "Amy Macdonald",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13878655,
+    "name": "24kgoldn",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 114802912,
+    "name": "Kamisa 10",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4315121,
+    "name": "Artik & Asti",
+    "genre": "Все"
+  },
+  {
+    "id": 351586,
+    "name": "Zhu",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15014373,
+    "name": "Chung Ha",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 491128,
+    "name": "Rasta",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4192,
+    "name": "Albert King",
+    "genre": "Блюз"
+  },
+  {
+    "id": 8981214,
+    "name": "Julliany Souza",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1803,
+    "name": "Michel Polnareff",
+    "genre": "Unknown"
+  },
+  {
+    "id": 291076,
+    "name": "Oxxxymiron",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 2814,
+    "name": "Opeth",
+    "genre": "Unknown"
+  },
+  {
+    "id": 178008437,
+    "name": "NewJeans",
+    "genre": "Unknown"
+  },
+  {
+    "id": 133863,
+    "name": "Boris Brejcha",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 39,
+    "name": "Survivor",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 10183,
+    "name": "Aloe Blacc",
+    "genre": "Unknown"
+  },
+  {
+    "id": 184573357,
+    "name": "La Mano 1.9",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3251,
+    "name": "Étienne Daho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5685,
+    "name": "Zebda",
+    "genre": "Unknown"
+  },
+  {
+    "id": 60864502,
+    "name": "ASHE 22",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1654,
+    "name": "Jamie Cullum",
+    "genre": "Джаз"
+  },
+  {
+    "id": 1024,
+    "name": "Superbus",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1956,
+    "name": "Infected Mushroom",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 264058,
+    "name": "Ximena Sarinana",
+    "genre": "Unknown"
+  },
+  {
+    "id": 587,
+    "name": "Scooter",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 163325847,
+    "name": "SANTA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 723,
+    "name": "Gipsy Kings",
+    "genre": "Unknown"
+  },
+  {
+    "id": 75055,
+    "name": "Beach House",
+    "genre": "Unknown"
+  },
+  {
+    "id": 616943,
+    "name": "Russ",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7201102,
+    "name": "Grupo Frontera",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5847730,
+    "name": "Marina Kaye",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2699221,
+    "name": "Becky Hill",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 109312472,
+    "name": "Beendo Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 494518,
+    "name": "Falamansa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 52823842,
+    "name": "K/DA",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 6705223,
+    "name": "Quevedo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6309,
+    "name": "Michel Delpech",
+    "genre": "Unknown"
+  },
+  {
+    "id": 131886,
+    "name": "Motionless In White",
+    "genre": "Металл"
+  },
+  {
+    "id": 12358,
+    "name": "Pat Metheny",
+    "genre": "Джаз"
+  },
+  {
+    "id": 9031142,
+    "name": "j-hope",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4542822,
+    "name": "Hugo TSR",
+    "genre": "Unknown"
+  },
+  {
+    "id": 995510,
+    "name": "La Femme",
+    "genre": "Unknown"
+  },
+  {
+    "id": 17165,
+    "name": "Moriarty",
+    "genre": "Фолк"
+  },
+  {
+    "id": 5532315,
+    "name": "Егор Крид",
+    "genre": "Все"
+  },
+  {
+    "id": 436163,
+    "name": "Jungle",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 80624,
+    "name": "Toquinho",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 4637777,
+    "name": "Mc Daniel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9069680,
+    "name": "DAY6 ",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 172071177,
+    "name": "Felipe e Rodrigo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14779157,
+    "name": "Kizz Daniel",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 7846452,
+    "name": "Brulux",
+    "genre": "Unknown"
+  },
+  {
+    "id": 71676102,
+    "name": "Miyagi",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 324002,
+    "name": "Iyaz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 84324,
+    "name": "Koffi Olomidé",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 260321,
+    "name": "PZK",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7537,
+    "name": "Pierre Bachelet",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2245,
+    "name": "Thomas Newman",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 2310,
+    "name": "Foreigner",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7815200,
+    "name": "Sub Urban",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2710,
+    "name": "Madeleine Peyroux",
+    "genre": "Джаз"
+  },
+  {
+    "id": 4950687,
+    "name": "Two Feet",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 2518,
+    "name": "Fonky Family",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8352118,
+    "name": "Kekra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10448666,
+    "name": "Dardan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16554,
+    "name": "Ceca",
+    "genre": "Фолк"
+  },
+  {
+    "id": 428405,
+    "name": "Powerwolf",
+    "genre": "Металл"
+  },
+  {
+    "id": 6207,
+    "name": "Midnight Oil",
+    "genre": "Unknown"
+  },
+  {
+    "id": 17026,
+    "name": "Cocoon",
+    "genre": "Unknown"
+  },
+  {
+    "id": 64998,
+    "name": "Daniel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 903536,
+    "name": "CKay",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 504381,
+    "name": "JEON SOMI",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 152317532,
+    "name": "Fred & Fabrício",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6474027,
+    "name": "Anderson .Paak",
+    "genre": "R&B"
+  },
+  {
+    "id": 112645512,
+    "name": "Zaho de Sagazan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 809,
+    "name": "Compay Segundo",
+    "genre": "Латино"
+  },
+  {
+    "id": 2167,
+    "name": "Frank Zappa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 337973,
+    "name": "Bouss",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7448696,
+    "name": "Jah Khalib",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 6542,
+    "name": "Steel Pulse",
+    "genre": "Регги"
+  },
+  {
+    "id": 94226,
+    "name": "Royal Philharmonic Orchestra",
+    "genre": "Классика"
+  },
+  {
+    "id": 3295,
+    "name": "Deluxe",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15219,
+    "name": "DREAMCATCHER",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 92883,
+    "name": "Nero",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 4726,
+    "name": "Philip Glass",
+    "genre": "Классика"
+  },
+  {
+    "id": 14015,
+    "name": "Renan Luce",
+    "genre": "Unknown"
+  },
+  {
+    "id": 539,
+    "name": "The Mamas & The Papas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 745,
+    "name": "Will Smith",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1388943,
+    "name": "Dino Merlin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 106632,
+    "name": "Blessd",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4106348,
+    "name": "Bakermat",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10774,
+    "name": "AaRON",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6160,
+    "name": "Rick Astley",
+    "genre": "Unknown"
+  },
+  {
+    "id": 69171,
+    "name": "The Ting Tings",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14652473,
+    "name": "Yaro",
+    "genre": "Unknown"
+  },
+  {
+    "id": 197711,
+    "name": "Izia",
+    "genre": "Unknown"
+  },
+  {
+    "id": 193878,
+    "name": "Yodelice",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2219,
+    "name": "Lacuna Coil",
+    "genre": "Металл"
+  },
+  {
+    "id": 7188840,
+    "name": "Morgan Wallen",
+    "genre": "Unknown"
+  },
+  {
+    "id": 108493,
+    "name": "Halestorm",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12271282,
+    "name": "Zbig",
+    "genre": "Unknown"
+  },
+  {
+    "id": 66314222,
+    "name": "Mc Tuto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6714,
+    "name": "Alizée",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3757,
+    "name": "Lee \"Scratch\" Perry",
+    "genre": "Регги"
+  },
+  {
+    "id": 203,
+    "name": "Youssou N'Dour",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10184856,
+    "name": "Rauf & Faik",
+    "genre": "Поп"
+  },
+  {
+    "id": 2607221,
+    "name": "Gaël Faye",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1234785,
+    "name": "2CELLOS",
+    "genre": "Классика"
+  },
+  {
+    "id": 5078,
+    "name": "Capleton",
+    "genre": "Регги"
+  },
+  {
+    "id": 5355950,
+    "name": "Vini Vici",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2639,
+    "name": "Vangelis",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1165265,
+    "name": "JESSI",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 11498422,
+    "name": "Kevi Jonny",
+    "genre": "Unknown"
+  },
+  {
+    "id": 54856202,
+    "name": "Diddi Trix",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12218918,
+    "name": "Ya Levis",
+    "genre": "Unknown"
+  },
+  {
+    "id": 459578,
+    "name": "Michael Kiwanuka",
+    "genre": "Unknown"
+  },
+  {
+    "id": 397415,
+    "name": "Ленинград",
+    "genre": "Все"
+  },
+  {
+    "id": 123033132,
+    "name": "Gambino La MG",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3922661,
+    "name": "Mora",
+    "genre": "Латино"
+  },
+  {
+    "id": 5569223,
+    "name": "JONY",
+    "genre": "Все"
+  },
+  {
+    "id": 5910045,
+    "name": "Clayton & Romário",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1389973,
+    "name": "HyunA",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 30,
+    "name": "Eric Prydz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4080,
+    "name": "Dave Brubeck",
+    "genre": "Джаз"
+  },
+  {
+    "id": 625,
+    "name": "Natalie Imbruglia",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15362,
+    "name": "Collie Buddz",
+    "genre": "Регги"
+  },
+  {
+    "id": 17224,
+    "name": "Thomas Dutronc",
+    "genre": "Unknown"
+  },
+  {
+    "id": 161696942,
+    "name": "Iguinho e Lulinha",
+    "genre": "Unknown"
+  },
+  {
+    "id": 78598292,
+    "name": "LOONA",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 8791550,
+    "name": "Adekunle Gold",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 37,
+    "name": "t.A.T.u.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 309998,
+    "name": "Pyotr Ilyich Tchaikovsky",
+    "genre": "Классика"
+  },
+  {
+    "id": 6464,
+    "name": "John Denver",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9549148,
+    "name": "Peggy Gou",
+    "genre": "Unknown"
+  },
+  {
+    "id": 454,
+    "name": "The Calling",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12873,
+    "name": "Emmanuel Moire",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1627,
+    "name": "Christophe",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13416889,
+    "name": "Vulgo FK",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6253,
+    "name": "Eluveitie",
+    "genre": "Unknown"
+  },
+  {
+    "id": 65574,
+    "name": "Steve Lacy",
+    "genre": "R&B"
+  },
+  {
+    "id": 6254,
+    "name": "Death",
+    "genre": "Металл"
+  },
+  {
+    "id": 4394822,
+    "name": "Сплин",
+    "genre": "Все"
+  },
+  {
+    "id": 5509507,
+    "name": "Patoranking",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 6550,
+    "name": "Gabry Ponte",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 102204242,
+    "name": "La Fève",
+    "genre": "Unknown"
+  },
+  {
+    "id": 159126,
+    "name": "Architects",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9976422,
+    "name": "Rsko",
+    "genre": "Unknown"
+  },
+  {
+    "id": 994019,
+    "name": "Toygar Işıklı",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 172,
+    "name": "The Human League",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2851,
+    "name": "Zucchero",
+    "genre": "Unknown"
+  },
+  {
+    "id": 50147302,
+    "name": "Тима Белорусских",
+    "genre": "Поп"
+  },
+  {
+    "id": 1805,
+    "name": "Hooverphonic",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4409884,
+    "name": "Jazzy Bazz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5883018,
+    "name": "Yseult",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11032458,
+    "name": "Dj Leska",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6916,
+    "name": "Yaniss Odua",
+    "genre": "Unknown"
+  },
+  {
+    "id": 77655,
+    "name": "Claudio Abbado",
+    "genre": "Классика"
+  },
+  {
+    "id": 110616822,
+    "name": "Ayra Starr",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16052,
+    "name": "Beth Hart",
+    "genre": "Блюз"
+  },
+  {
+    "id": 7631240,
+    "name": "Loïc Nottet",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9151334,
+    "name": "Liniker",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10807780,
+    "name": "DYSTINCT",
+    "genre": "Unknown"
+  },
+  {
+    "id": 271715,
+    "name": "Timati",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 15772,
+    "name": "Bronski Beat",
+    "genre": "Unknown"
+  },
+  {
+    "id": 57256202,
+    "name": "Miyagi & Andy Panda",
+    "genre": "Все"
+  },
+  {
+    "id": 98985,
+    "name": "Yiruma",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4512791,
+    "name": "Мот",
+    "genre": "Все"
+  },
+  {
+    "id": 1557,
+    "name": "Aldebert",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 4052518,
+    "name": "CHVRCHES",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 4327376,
+    "name": "Sidiki Diabaté",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 17143,
+    "name": "Sheryfa Luna",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5259968,
+    "name": "Diamond Platnumz",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 147136312,
+    "name": "Mentissa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5335252,
+    "name": "Sofiane Pamart",
+    "genre": "Классика"
+  },
+  {
+    "id": 93155232,
+    "name": "Josas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 815,
+    "name": "Axelle Red",
+    "genre": "Unknown"
+  },
+  {
+    "id": 277491,
+    "name": "Ólafur Arnalds",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 13623,
+    "name": "In This Moment",
+    "genre": "Металл"
+  },
+  {
+    "id": 13639985,
+    "name": "Yeat",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4913467,
+    "name": "Земфира",
+    "genre": "Все"
+  },
+  {
+    "id": 144020622,
+    "name": "H.LA DROGUE",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13314683,
+    "name": "Bon Entendeur",
+    "genre": "Unknown"
+  },
+  {
+    "id": 101176,
+    "name": "Edson Gomes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5400149,
+    "name": "Polo & Pan",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 3759,
+    "name": "Gossip",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1801,
+    "name": "Yannick Noah",
+    "genre": "Unknown"
+  },
+  {
+    "id": 120313,
+    "name": "Simi",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 8713,
+    "name": "Gilbert Montagné",
+    "genre": "Unknown"
+  },
+  {
+    "id": 443,
+    "name": "Les Ogres de Barback",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2957,
+    "name": "Zed",
+    "genre": "Unknown"
+  },
+  {
+    "id": 819827,
+    "name": "Loboda",
+    "genre": "Все"
+  },
+  {
+    "id": 807296,
+    "name": "Amaranthe",
+    "genre": "Металл"
+  },
+  {
+    "id": 11967397,
+    "name": "NILETTO",
+    "genre": "Все"
+  },
+  {
+    "id": 296604,
+    "name": "Mumiy Troll",
+    "genre": "Все"
+  },
+  {
+    "id": 58962,
+    "name": "Glenn Gould",
+    "genre": "Классика"
+  },
+  {
+    "id": 15050015,
+    "name": "Klem Schen",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7576432,
+    "name": "Montell Fish",
+    "genre": "Unknown"
+  },
+  {
+    "id": 133271,
+    "name": "Seasick Steve",
+    "genre": "Блюз"
+  },
+  {
+    "id": 9123,
+    "name": "Oscar Peterson",
+    "genre": "Джаз"
+  },
+  {
+    "id": 1205443,
+    "name": "Hugh Laurie",
+    "genre": "Блюз"
+  },
+  {
+    "id": 51276942,
+    "name": "Videoclub",
+    "genre": "Unknown"
+  },
+  {
+    "id": 71513,
+    "name": "Die drei ???",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5523632,
+    "name": "Feder",
+    "genre": "Unknown"
+  },
+  {
+    "id": 516265,
+    "name": "Marina Sena",
+    "genre": "Unknown"
+  },
+  {
+    "id": 50030162,
+    "name": "Kenia Os",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12033224,
+    "name": "Dermot Kennedy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15337813,
+    "name": "Green Montana",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14635923,
+    "name": "Draganov",
+    "genre": "Unknown"
+  },
+  {
+    "id": 61271262,
+    "name": "YUZMV",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4422353,
+    "name": "Anais Delva",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 474,
+    "name": "Ace of Base",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1054,
+    "name": "Lisa Ekdahl",
+    "genre": "Джаз"
+  },
+  {
+    "id": 1562638,
+    "name": "Chronixx",
+    "genre": "Регги"
+  },
+  {
+    "id": 5665812,
+    "name": "Naira Marley",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 1267252,
+    "name": "Ashe",
+    "genre": "Unknown"
+  },
+  {
+    "id": 68069,
+    "name": "Mstislav Rostropovich",
+    "genre": "Классика"
+  },
+  {
+    "id": 2542,
+    "name": "House of Pain",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5732,
+    "name": "Quiet Riot",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1489,
+    "name": "Natasha Bedingfield",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10155292,
+    "name": "Клава Кока",
+    "genre": "Все"
+  },
+  {
+    "id": 7968842,
+    "name": "Элджей",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 1994,
+    "name": "King Crimson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 385029,
+    "name": "Felguk",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 5653273,
+    "name": "Sound Of Legend",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7569500,
+    "name": "Ashh",
+    "genre": "Unknown"
+  },
+  {
+    "id": 694,
+    "name": "Status Quo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1564,
+    "name": "Kim Wilde",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4616610,
+    "name": "Klingande",
+    "genre": "Unknown"
+  },
+  {
+    "id": 80527,
+    "name": "Admiral T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10427228,
+    "name": "Mayorkun",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 13421075,
+    "name": "MC L da Vinte",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 4622,
+    "name": "Paul Young",
+    "genre": "Unknown"
+  },
+  {
+    "id": 185131,
+    "name": "Toofan",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 1176860,
+    "name": "Topic",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 28,
+    "name": "Crazy Frog",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 14718485,
+    "name": "Lele Pons",
+    "genre": "Латино"
+  },
+  {
+    "id": 5417036,
+    "name": "Charlotte Cardin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3016,
+    "name": "W.A.S.P.",
+    "genre": "Металл"
+  },
+  {
+    "id": 1533050,
+    "name": "Emma Louise",
+    "genre": "Unknown"
+  },
+  {
+    "id": 81031672,
+    "name": "THEODORT",
+    "genre": "Unknown"
+  },
+  {
+    "id": 220540115,
+    "name": "Jungeli",
+    "genre": "Unknown"
+  },
+  {
+    "id": 114,
+    "name": "Era",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12564360,
+    "name": "Lou",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 1293,
+    "name": "Astrud Gilberto",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 4452092,
+    "name": "KAYTRANADA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1658572,
+    "name": "Purple Disco Machine",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 91717162,
+    "name": "Natanzinho Lima",
+    "genre": "Unknown"
+  },
+  {
+    "id": 959,
+    "name": "Plain White T's",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1199771,
+    "name": "Loreen",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5226457,
+    "name": "Nikolija",
+    "genre": "Unknown"
+  },
+  {
+    "id": 114834992,
+    "name": "KAI",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2512,
+    "name": "Ol' Dirty Bastard",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2816,
+    "name": "Lisa Gerrard",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 14563,
+    "name": "Ultra Vomit",
+    "genre": "Unknown"
+  },
+  {
+    "id": 57996412,
+    "name": "Ramil'",
+    "genre": "Все"
+  },
+  {
+    "id": 895570,
+    "name": "Logobi GT",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5967050,
+    "name": "Sam Feldt",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 193587,
+    "name": "CL",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 3705,
+    "name": "Marcus Miller",
+    "genre": "Джаз"
+  },
+  {
+    "id": 243505001,
+    "name": "VEN1",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9477752,
+    "name": "Ovy On The Drums",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4179069,
+    "name": "Наутилус Помпилиус",
+    "genre": "Рок"
+  },
+  {
+    "id": 281496,
+    "name": "Philippe Katerine",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12945219,
+    "name": "Chappell Roan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 70217372,
+    "name": "Zoe Wees",
+    "genre": "Unknown"
+  },
+  {
+    "id": 227,
+    "name": "Ben E. King",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4365815,
+    "name": "ISS",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7061,
+    "name": "Anthony B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 563816,
+    "name": "Arcane",
+    "genre": "Unknown"
+  },
+  {
+    "id": 646,
+    "name": "Camille",
+    "genre": "Unknown"
+  },
+  {
+    "id": 148130,
+    "name": "Noize MC",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 10385666,
+    "name": "SAINt JHN",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 6802,
+    "name": "Julie Zenatti",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10388560,
+    "name": "Juhn",
+    "genre": "Латино"
+  },
+  {
+    "id": 485737,
+    "name": "CoCo Jones",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3467,
+    "name": "Gnarls Barkley",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5100975,
+    "name": "Jaymes Young",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9620934,
+    "name": "Barbara Pravi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4237484,
+    "name": "Руки Вверх",
+    "genre": "Все"
+  },
+  {
+    "id": 8697922,
+    "name": "Ruth B.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 354661,
+    "name": "Worakls",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 12215016,
+    "name": "Frei Gilson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11446160,
+    "name": "LiSA",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 181878,
+    "name": "Portugal. The Man",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 13833249,
+    "name": "Henry Freitas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9019,
+    "name": "Ivy Queen",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1089,
+    "name": "Village People",
+    "genre": "Unknown"
+  },
+  {
+    "id": 399680,
+    "name": "Xtreme",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1593210,
+    "name": "5 a Seco",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 93674,
+    "name": "HAIM",
+    "genre": "Unknown"
+  },
+  {
+    "id": 138015062,
+    "name": "John Amplificado",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 98775702,
+    "name": "Carbonne",
+    "genre": "Unknown"
+  },
+  {
+    "id": 61579132,
+    "name": "Moji x Sboy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2974,
+    "name": "Sinéad O'Connor",
+    "genre": "Unknown"
+  },
+  {
+    "id": 302,
+    "name": "Elvis Crespo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3972541,
+    "name": "Two Steps from Hell",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 1509,
+    "name": "Gustavo Santaolalla",
+    "genre": "Unknown"
+  },
+  {
+    "id": 974,
+    "name": "Doc Gynéco",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6751,
+    "name": "Imagination",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 827326,
+    "name": "A2H",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7128,
+    "name": "Johannes Brahms",
+    "genre": "Классика"
+  },
+  {
+    "id": 17032,
+    "name": "Yael Naim",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4237485,
+    "name": "Ария",
+    "genre": "Все"
+  },
+  {
+    "id": 668,
+    "name": "Eels",
+    "genre": "Unknown"
+  },
+  {
+    "id": 73441,
+    "name": "Fanny J",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 122602052,
+    "name": "PinkPantheress",
+    "genre": "Unknown"
+  },
+  {
+    "id": 100314362,
+    "name": "Mariah Angeliq",
+    "genre": "Латино"
+  },
+  {
+    "id": 990,
+    "name": "Mike Oldfield",
+    "genre": "Unknown"
+  },
+  {
+    "id": 324006,
+    "name": "Yves V",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 11819131,
+    "name": "Noah Kahan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8687202,
+    "name": "Kizaru",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 12142,
+    "name": "Antonio Orozco",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7307,
+    "name": "Star Academy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 597,
+    "name": "Jet",
+    "genre": "Unknown"
+  },
+  {
+    "id": 91212482,
+    "name": "Nuit Incolore",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3083691,
+    "name": "Sektor Gaza",
+    "genre": "Рок"
+  },
+  {
+    "id": 4487263,
+    "name": "ДДТ",
+    "genre": "Рок"
+  },
+  {
+    "id": 2090121,
+    "name": "Suzane",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5810420,
+    "name": "Мари Краймбрери",
+    "genre": "Поп"
+  },
+  {
+    "id": 36,
+    "name": "Aqua",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5252888,
+    "name": "Гуф",
+    "genre": "Все"
+  },
+  {
+    "id": 153152092,
+    "name": "Xavi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4443465,
+    "name": "David Kushner",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4664,
+    "name": "Patricia Kaas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2211,
+    "name": "Nena",
+    "genre": "Unknown"
+  },
+  {
+    "id": 363229,
+    "name": "Houari",
+    "genre": "Unknown"
+  },
+  {
+    "id": 864761,
+    "name": "Ляпис Трубецкой",
+    "genre": "Рок"
+  },
+  {
+    "id": 153702,
+    "name": "Alexandre Tharaud",
+    "genre": "Классика"
+  },
+  {
+    "id": 1501,
+    "name": "Arthur H",
+    "genre": "Unknown"
+  },
+  {
+    "id": 71286292,
+    "name": "Grelo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3649,
+    "name": "Nèg' Marrons",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13152245,
+    "name": "Zamdane",
+    "genre": "Unknown"
+  },
+  {
+    "id": 51802942,
+    "name": "GAYAZOV$ BROTHER$",
+    "genre": "Все"
+  },
+  {
+    "id": 4369388,
+    "name": "Григорий Лепс",
+    "genre": "Поп"
+  },
+  {
+    "id": 6739,
+    "name": "Stephan Eicher",
+    "genre": "Unknown"
+  },
+  {
+    "id": 229,
+    "name": "Sly & The Family Stone",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 247319,
+    "name": "Ycare",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1040,
+    "name": "Chris Isaak",
+    "genre": "Unknown"
+  },
+  {
+    "id": 66582,
+    "name": "Joe Hisaishi",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 477,
+    "name": "Hole",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1074,
+    "name": "Pink Martini",
+    "genre": "Unknown"
+  },
+  {
+    "id": 819,
+    "name": "John Mayall & The Bluesbreakers",
+    "genre": "Блюз"
+  },
+  {
+    "id": 9709594,
+    "name": "JKSN",
+    "genre": "Unknown"
+  },
+  {
+    "id": 139171932,
+    "name": "Young Miko",
+    "genre": "Unknown"
+  },
+  {
+    "id": 153913832,
+    "name": "d4vd",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14966,
+    "name": "Агата Кристи",
+    "genre": "Рок"
+  },
+  {
+    "id": 263307171,
+    "name": "KLM",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4983,
+    "name": "Roch Voisine",
+    "genre": "Unknown"
+  },
+  {
+    "id": 324922,
+    "name": "Grandson",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 9700940,
+    "name": "Bad Omens",
+    "genre": "Металл"
+  },
+  {
+    "id": 4795158,
+    "name": "Heitor Costa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3855,
+    "name": "Kenny Loggins",
+    "genre": "Unknown"
+  },
+  {
+    "id": 244386532,
+    "name": "BABYMONSTER",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13887,
+    "name": "Patrick Watson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 297983,
+    "name": "Xuxa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9262400,
+    "name": "Jessie Reyez",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7548984,
+    "name": "Oxlade",
+    "genre": "Unknown"
+  },
+  {
+    "id": 90896,
+    "name": "Scred Connexion",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3240,
+    "name": "Sixpence None the Richer",
+    "genre": "Unknown"
+  },
+  {
+    "id": 208,
+    "name": "Roberta Flack",
+    "genre": "Unknown"
+  },
+  {
+    "id": 419254,
+    "name": "Kina",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1399,
+    "name": "Salif Keita",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6016,
+    "name": "Queensrÿche",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1220981,
+    "name": "Tyla",
+    "genre": "Unknown"
+  },
+  {
+    "id": 69959,
+    "name": "Keb' Mo'",
+    "genre": "Блюз"
+  },
+  {
+    "id": 8058039,
+    "name": "Joel Corry",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 514127,
+    "name": "Original Koffee",
+    "genre": "Регги"
+  },
+  {
+    "id": 1365309,
+    "name": "MAX BARSKIH",
+    "genre": "Поп"
+  },
+  {
+    "id": 6455,
+    "name": "Noisia",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 3561,
+    "name": "Dark Tranquillity",
+    "genre": "Металл"
+  },
+  {
+    "id": 108153772,
+    "name": "YOASOBI",
+    "genre": "Unknown"
+  },
+  {
+    "id": 64579,
+    "name": "Bibi Blocksberg",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 4913080,
+    "name": "Hippie Sabotage",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14587923,
+    "name": "Yorssy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 67149402,
+    "name": "Pierre de Maere",
+    "genre": "Unknown"
+  },
+  {
+    "id": 390174,
+    "name": "Fatoumata Diawara",
+    "genre": "Unknown"
+  },
+  {
+    "id": 171883,
+    "name": "NTO",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 51495052,
+    "name": "Emkal",
+    "genre": "Unknown"
+  },
+  {
+    "id": 205310057,
+    "name": "So La Zone",
+    "genre": "Unknown"
+  },
+  {
+    "id": 471208,
+    "name": "Dimitri Vegas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 54656752,
+    "name": "Slava Marlow",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 887565,
+    "name": "Lord Huron",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6611456,
+    "name": "Los Legendarios",
+    "genre": "Латино"
+  },
+  {
+    "id": 107030802,
+    "name": "Yamê",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1189947,
+    "name": "Karen Souza",
+    "genre": "Джаз"
+  },
+  {
+    "id": 124,
+    "name": "Haddaway",
+    "genre": "Unknown"
+  },
+  {
+    "id": 258938052,
+    "name": "Helena",
+    "genre": "Unknown"
+  },
+  {
+    "id": 81094772,
+    "name": "ZOKUSH",
+    "genre": "Unknown"
+  },
+  {
+    "id": 961,
+    "name": "Sophie Ellis-Bextor",
+    "genre": "Unknown"
+  },
+  {
+    "id": 216346095,
+    "name": "Tito Double P",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7118687,
+    "name": "ПОРНОФИЛЬМЫ",
+    "genre": "Все"
+  },
+  {
+    "id": 13014,
+    "name": "Amine",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1255448,
+    "name": "Don Miguelo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7306,
+    "name": "Count Basie",
+    "genre": "Джаз"
+  },
+  {
+    "id": 1376678,
+    "name": "Zoufris Maracas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7010729,
+    "name": "L'Entourloop",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49259582,
+    "name": "DJ Oreia",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14277911,
+    "name": "Black Pumas",
+    "genre": "R&B"
+  },
+  {
+    "id": 115814,
+    "name": "Eric Bibb",
+    "genre": "Блюз"
+  },
+  {
+    "id": 51968652,
+    "name": "Genezio",
+    "genre": "Unknown"
+  },
+  {
+    "id": 65517932,
+    "name": "Face",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 1793,
+    "name": "Popa Chubby",
+    "genre": "Блюз"
+  },
+  {
+    "id": 8098,
+    "name": "Quantic",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8778868,
+    "name": "GONE.Fludd",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 808980,
+    "name": "Jamie xx",
+    "genre": "Unknown"
+  },
+  {
+    "id": 66465,
+    "name": "Otis Rush",
+    "genre": "Блюз"
+  },
+  {
+    "id": 8185084,
+    "name": "Regard",
+    "genre": "Рок"
+  },
+  {
+    "id": 13688,
+    "name": "Emílio Santiago",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 84312522,
+    "name": "Khali",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5330639,
+    "name": "Каспийский груз",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 284,
+    "name": "KT Tunstall",
+    "genre": "Unknown"
+  },
+  {
+    "id": 332318,
+    "name": "Nils Frahm",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5650964,
+    "name": "Zak Abel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 140425022,
+    "name": "Isabel LaRosa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4509095,
+    "name": "Dabro",
+    "genre": "Поп"
+  },
+  {
+    "id": 9491,
+    "name": "Umberto Tozzi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 132448,
+    "name": "Wolfine",
+    "genre": "Латино"
+  },
+  {
+    "id": 93298862,
+    "name": "Joseph Kamel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10216612,
+    "name": "Pharaoh",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 194146027,
+    "name": "Nono La Grinta",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1311,
+    "name": "Dominique A",
+    "genre": "Unknown"
+  },
+  {
+    "id": 271949,
+    "name": "Otis Taylor",
+    "genre": "Блюз"
+  },
+  {
+    "id": 2544561,
+    "name": "Jinjer",
+    "genre": "Металл"
+  },
+  {
+    "id": 211392,
+    "name": "Laura Marling",
+    "genre": "Фолк"
+  },
+  {
+    "id": 7042,
+    "name": "Henri Dès",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 118823002,
+    "name": "Dance Fruits Music",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 159051,
+    "name": "Mozart Opera Rock",
+    "genre": "Unknown"
+  },
+  {
+    "id": 281500,
+    "name": "Mademoiselle K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1308,
+    "name": "Jeanne Cherhal",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5570880,
+    "name": "Falz",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 7743,
+    "name": "The Outfield",
+    "genre": "Unknown"
+  },
+  {
+    "id": 252768072,
+    "name": "Saïf",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11440,
+    "name": "Sylvie Vartan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1015532,
+    "name": "Edita",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1707851,
+    "name": "Washington Brasileiro",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4238002,
+    "name": "Audiomachine",
+    "genre": "Классика"
+  },
+  {
+    "id": 5281457,
+    "name": "Hungria",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7799524,
+    "name": "Scott Bradlee's Postmodern Jukebox",
+    "genre": "Джаз"
+  },
+  {
+    "id": 13327441,
+    "name": "MC Gury",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 10468691,
+    "name": "Toby Fox",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 7420680,
+    "name": "Leon Bridges",
+    "genre": "R&B"
+  },
+  {
+    "id": 2221,
+    "name": "Manau",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8673550,
+    "name": "Vacra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9755580,
+    "name": "SYML",
+    "genre": "Unknown"
+  },
+  {
+    "id": 76053262,
+    "name": "Fred again..",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 52281412,
+    "name": "Nina Chuba",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12115760,
+    "name": "Alex G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 765,
+    "name": "Vengaboys",
+    "genre": "Unknown"
+  },
+  {
+    "id": 71855892,
+    "name": "Zach Bryan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 56202,
+    "name": "Alela Diane",
+    "genre": "Фолк"
+  },
+  {
+    "id": 4626477,
+    "name": "Bekar",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1820,
+    "name": "Images",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4942575,
+    "name": "Markul",
+    "genre": "Все"
+  },
+  {
+    "id": 204461457,
+    "name": "Merveille",
+    "genre": "Unknown"
+  },
+  {
+    "id": 262408191,
+    "name": "Léo Foguete",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8156852,
+    "name": "Bad Wolves",
+    "genre": "Металл"
+  },
+  {
+    "id": 180474,
+    "name": "Christopher Martin",
+    "genre": "Регги"
+  },
+  {
+    "id": 59,
+    "name": "Eiffel 65",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4487262,
+    "name": "Звери",
+    "genre": "Рок"
+  },
+  {
+    "id": 2089,
+    "name": "Yngwie Malmsteen",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14756433,
+    "name": "¥$",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3330,
+    "name": "Carole King",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13121157,
+    "name": "Raphaela Santos",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4937924,
+    "name": "Нервы",
+    "genre": "Рок"
+  },
+  {
+    "id": 10816,
+    "name": "Kim Carnes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3194,
+    "name": "Hugues Aufray",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8003,
+    "name": "K'naan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13658563,
+    "name": "Masked Wolf",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 1354,
+    "name": "Imogen Heap",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7217724,
+    "name": "Krisy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4123,
+    "name": "Grover Washington, Jr.",
+    "genre": "Джаз"
+  },
+  {
+    "id": 3196,
+    "name": "Irene Cara",
+    "genre": "Unknown"
+  },
+  {
+    "id": 101282642,
+    "name": "Óscar Maydon",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5328540,
+    "name": "Khruangbin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 121146382,
+    "name": "Ado",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 72272502,
+    "name": "Lvbel C5",
+    "genre": "Unknown"
+  },
+  {
+    "id": 65637,
+    "name": "John Eliot Gardiner",
+    "genre": "Классика"
+  },
+  {
+    "id": 2568121,
+    "name": "Ken Carson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12005,
+    "name": "Walter Trout",
+    "genre": "Блюз"
+  },
+  {
+    "id": 534771,
+    "name": "Vize",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 52900692,
+    "name": "алёна швец.",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 1194,
+    "name": "Crowded House",
+    "genre": "Unknown"
+  },
+  {
+    "id": 808834,
+    "name": "Дима Билан",
+    "genre": "Поп"
+  },
+  {
+    "id": 174061317,
+    "name": "XG",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14175163,
+    "name": "Fontaines D.C.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1046,
+    "name": "Eva Cassidy",
+    "genre": "Фолк"
+  },
+  {
+    "id": 3022,
+    "name": "Insomnium",
+    "genre": "Металл"
+  },
+  {
+    "id": 66220192,
+    "name": "ATL",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 392698,
+    "name": "Young the Giant",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49557342,
+    "name": "YG Pablo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8309,
+    "name": "Jane Monheit",
+    "genre": "Джаз"
+  },
+  {
+    "id": 63703472,
+    "name": "Lossa2Squa",
+    "genre": "Unknown"
+  },
+  {
+    "id": 90516,
+    "name": "Klaas",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 114366,
+    "name": "Avatar",
+    "genre": "Металл"
+  },
+  {
+    "id": 4329396,
+    "name": "Пикник",
+    "genre": "Рок"
+  },
+  {
+    "id": 757,
+    "name": "Clint Mansell",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 5109534,
+    "name": "Shatta Wale",
+    "genre": "Регги"
+  },
+  {
+    "id": 55379392,
+    "name": "10AGE",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 179187387,
+    "name": "La Hasba22",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2853441,
+    "name": "Alex Hepburn",
+    "genre": "Unknown"
+  },
+  {
+    "id": 51965252,
+    "name": "Doechii",
+    "genre": "Unknown"
+  },
+  {
+    "id": 155887202,
+    "name": "Milo j",
+    "genre": "Unknown"
+  },
+  {
+    "id": 51720482,
+    "name": "Odetari",
+    "genre": "Unknown"
+  },
+  {
+    "id": 152964,
+    "name": "Toumani Diabaté",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 14801651,
+    "name": "The Limba",
+    "genre": "Все"
+  },
+  {
+    "id": 7804272,
+    "name": "40000 Gang",
+    "genre": "Unknown"
+  },
+  {
+    "id": 48443532,
+    "name": "HOUDI",
+    "genre": "Unknown"
+  },
+  {
+    "id": 447,
+    "name": "Nino Ferrer",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2588,
+    "name": "Dusty Springfield",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1821,
+    "name": "Gold",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6756253,
+    "name": "Bob Zoom",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1469025,
+    "name": "St Germain",
+    "genre": "Unknown"
+  },
+  {
+    "id": 169850,
+    "name": "ItaloBrothers",
+    "genre": "Unknown"
+  },
+  {
+    "id": 52876842,
+    "name": "The HU",
+    "genre": "Металл"
+  },
+  {
+    "id": 1236609,
+    "name": "ISHA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12379646,
+    "name": "Djay W",
+    "genre": "Unknown"
+  },
+  {
+    "id": 62916082,
+    "name": "Drops INA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1493569,
+    "name": "F(x)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8989,
+    "name": "Big Mama Thornton",
+    "genre": "Блюз"
+  },
+  {
+    "id": 554672,
+    "name": "Vacations",
+    "genre": "Unknown"
+  },
+  {
+    "id": 64578,
+    "name": "Bibi und Tina",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 402712,
+    "name": "Kyla La Grange",
+    "genre": "Фолк"
+  },
+  {
+    "id": 893,
+    "name": "Partenaire Particulier",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5355382,
+    "name": "Trinix",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2422,
+    "name": "Yazoo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5699072,
+    "name": "The Dead South",
+    "genre": "Фолк"
+  },
+  {
+    "id": 8448,
+    "name": "Xavier Rudd",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6412878,
+    "name": "Didi B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5266166,
+    "name": "Noizy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8853864,
+    "name": "Banners",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11025166,
+    "name": "Sleep Token",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2693,
+    "name": "The Skatalites",
+    "genre": "Регги"
+  },
+  {
+    "id": 6165150,
+    "name": "Zgroop",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4023674,
+    "name": "Ночные Снайперы",
+    "genre": "Рок"
+  },
+  {
+    "id": 10919522,
+    "name": "Beach Bunny",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8387,
+    "name": "Peter Bjorn and John",
+    "genre": "Unknown"
+  },
+  {
+    "id": 211087,
+    "name": "RADWIMPS",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 1163,
+    "name": "2 Unlimited",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12919403,
+    "name": "Pinkfong",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1387,
+    "name": "Nouvelle Vague",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 399203,
+    "name": "The Amity Affliction",
+    "genre": "Металл"
+  },
+  {
+    "id": 67431122,
+    "name": "Cris Mj",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10918,
+    "name": "Смысловые галлюцинации",
+    "genre": "Рок"
+  },
+  {
+    "id": 2903,
+    "name": "Toto Cutugno",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7141,
+    "name": "CeCe Winans",
+    "genre": "Unknown"
+  },
+  {
+    "id": 65218602,
+    "name": "Zinoleesky",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 77313112,
+    "name": "Starmania",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1193,
+    "name": "Eagle-Eye Cherry",
+    "genre": "Unknown"
+  },
+  {
+    "id": 390124,
+    "name": "Ice Nine Kills",
+    "genre": "Металл"
+  },
+  {
+    "id": 12096672,
+    "name": "Sam Fender",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4993003,
+    "name": "RY X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 904651,
+    "name": "Tom Rosenthal",
+    "genre": "Фолк"
+  },
+  {
+    "id": 1545788,
+    "name": "Lin-Manuel Miranda",
+    "genre": "Unknown"
+  },
+  {
+    "id": 110550,
+    "name": "Rolf Zuckowski",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 76118,
+    "name": "Gavin Greenaway",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 380285,
+    "name": "Vinnie Paz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2763,
+    "name": "Femi Kuti",
+    "genre": "Unknown"
+  },
+  {
+    "id": 558274,
+    "name": "René La Taupe",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1382,
+    "name": "Suzanne Vega",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7604062,
+    "name": "Vendredi sur Mer",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4203,
+    "name": "Tri Yann",
+    "genre": "Unknown"
+  },
+  {
+    "id": 74408,
+    "name": "Robert Cray",
+    "genre": "Блюз"
+  },
+  {
+    "id": 373844,
+    "name": "TKKG",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8720732,
+    "name": "Macan",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 9666514,
+    "name": "Filatov & Karas",
+    "genre": "Все"
+  },
+  {
+    "id": 8011234,
+    "name": "Slaughter to Prevail",
+    "genre": "Металл"
+  },
+  {
+    "id": 117914082,
+    "name": "AMK",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10915610,
+    "name": "Chord Overstreet",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7371096,
+    "name": "Afro B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 67506,
+    "name": "Daniel Hope",
+    "genre": "Классика"
+  },
+  {
+    "id": 8623006,
+    "name": "Aimer",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 51991422,
+    "name": "Mortelle Adèle",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2720,
+    "name": "Funkadelic",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 4618,
+    "name": "Pep's",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1426,
+    "name": "Bonga",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 1819,
+    "name": "Les Innocents",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4718868,
+    "name": "C418",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 5135,
+    "name": "Ahmad Jamal",
+    "genre": "Джаз"
+  },
+  {
+    "id": 17033,
+    "name": "Robben Ford",
+    "genre": "Блюз"
+  },
+  {
+    "id": 14805647,
+    "name": "Rvfv",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1317980,
+    "name": "Sha Sha",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 15792,
+    "name": "Nicholas Hooper",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 12160546,
+    "name": "DJ KEROZEN",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 390473,
+    "name": "Bury Tomorrow",
+    "genre": "Металл"
+  },
+  {
+    "id": 4286880,
+    "name": "25/17",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 10753698,
+    "name": "Chike",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 73101792,
+    "name": "Imanbek",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 252685,
+    "name": "Clinton Fearon",
+    "genre": "Регги"
+  },
+  {
+    "id": 4593,
+    "name": "Desireless",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 7841120,
+    "name": "Astrid S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5097674,
+    "name": "Yung Lean",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13613,
+    "name": "Radical Face",
+    "genre": "Фолк"
+  },
+  {
+    "id": 186477787,
+    "name": "Seven Starr",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9710684,
+    "name": "GOODBOYS",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 48947801,
+    "name": "Tokischa",
+    "genre": "Латино"
+  },
+  {
+    "id": 1596266,
+    "name": "The Strumbellas",
+    "genre": "Unknown"
+  },
+  {
+    "id": 165461207,
+    "name": "Jeck",
+    "genre": "Unknown"
+  },
+  {
+    "id": 52433712,
+    "name": "MohBad",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 13921,
+    "name": "Richard Bona",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 12607183,
+    "name": "The Marías",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15029771,
+    "name": "Lous and The Yakuza",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4329395,
+    "name": "Алиса",
+    "genre": "Рок"
+  },
+  {
+    "id": 5609,
+    "name": "Francky Vincent",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4651129,
+    "name": "Curtis Harding",
+    "genre": "R&B"
+  },
+  {
+    "id": 4329392,
+    "name": "Машина Времени",
+    "genre": "Рок"
+  },
+  {
+    "id": 5217,
+    "name": "Malia",
+    "genre": "Джаз"
+  },
+  {
+    "id": 54176,
+    "name": "Quarteto Em Cy",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 1544711,
+    "name": "Apashe",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 5035,
+    "name": "Patrick Sebastien",
+    "genre": "Unknown"
+  },
+  {
+    "id": 393920,
+    "name": "Stick Figure",
+    "genre": "Регги"
+  },
+  {
+    "id": 482260,
+    "name": "Lorna Shore",
+    "genre": "Металл"
+  },
+  {
+    "id": 61696,
+    "name": "Leadbelly",
+    "genre": "Блюз"
+  },
+  {
+    "id": 6047276,
+    "name": "Die drei !!!",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 5917217,
+    "name": "Were Vana",
+    "genre": "Регги"
+  },
+  {
+    "id": 4964540,
+    "name": "Anacondaz",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 5820594,
+    "name": "The Чиж & Co",
+    "genre": "Рок"
+  },
+  {
+    "id": 50462772,
+    "name": "SODA LUV",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 2428,
+    "name": "Celldweller",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 128764,
+    "name": "Lumen",
+    "genre": "Рок"
+  },
+  {
+    "id": 15037981,
+    "name": "OG Buda",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 4394819,
+    "name": "Каста",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 82264,
+    "name": "Riton",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 88895962,
+    "name": "winnterzuko",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1635715,
+    "name": "Badbadnotgood",
+    "genre": "Джаз"
+  },
+  {
+    "id": 1199471,
+    "name": "Lorne Balfe",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 582038,
+    "name": "Mr.Kitty",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 75802,
+    "name": "Johann Johannsson",
+    "genre": "Классика"
+  },
+  {
+    "id": 1449654,
+    "name": "Timaya",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 786,
+    "name": "Eric Serra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 256207,
+    "name": "Los Dareyes De La Sierra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4179076,
+    "name": "Чайф",
+    "genre": "Рок"
+  },
+  {
+    "id": 13286961,
+    "name": "Arlo Parks",
+    "genre": "R&B"
+  },
+  {
+    "id": 7432,
+    "name": "Lee Ritenour",
+    "genre": "Джаз"
+  },
+  {
+    "id": 4421772,
+    "name": "Peruzzi",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 5449683,
+    "name": "Peyton Parrish",
+    "genre": "Фолк"
+  },
+  {
+    "id": 169350,
+    "name": "Piers Faccini",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3659,
+    "name": "I Muvrini",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4052492,
+    "name": "GoGo Penguin",
+    "genre": "Джаз"
+  },
+  {
+    "id": 3717,
+    "name": "Blank & Jones",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 12336168,
+    "name": "RIOPY",
+    "genre": "Классика"
+  },
+  {
+    "id": 1576343,
+    "name": "Die Drei ??? Kids",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 8810764,
+    "name": "Skillibeng",
+    "genre": "Регги"
+  },
+  {
+    "id": 8323782,
+    "name": "Westside Gunn",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1315147,
+    "name": "Hiroyuki Sawano",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 522946,
+    "name": "Fit For A King",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6488,
+    "name": "PAIN",
+    "genre": "Металл"
+  },
+  {
+    "id": 68625462,
+    "name": "November Ultra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 500887,
+    "name": "Tchoupi",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 7009,
+    "name": "Caliban",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4615551,
+    "name": "Кукрыниксы",
+    "genre": "Рок"
+  },
+  {
+    "id": 288299,
+    "name": "Pop Evil",
+    "genre": "Металл"
+  },
+  {
+    "id": 55679,
+    "name": "Ben Webster",
+    "genre": "Джаз"
+  },
+  {
+    "id": 6563333,
+    "name": "Jacob Collier",
+    "genre": "Фолк"
+  },
+  {
+    "id": 8514,
+    "name": "Miriam Makeba",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 10845318,
+    "name": "La F",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12040680,
+    "name": "MARUV",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 1243003,
+    "name": "Charlotte Dipanda",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 57812002,
+    "name": "дора",
+    "genre": "Рок"
+  },
+  {
+    "id": 73437,
+    "name": "Bo Burnham",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 4025973,
+    "name": "Mik L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 182449,
+    "name": "William Fitzsimmons",
+    "genre": "Фолк"
+  },
+  {
+    "id": 67211132,
+    "name": "BEN plg",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5254467,
+    "name": "Elderbrook",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 14405803,
+    "name": "WarEnd",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10962664,
+    "name": "Gamadinho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8105,
+    "name": "Ledisi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 281508,
+    "name": "Tom Frager",
+    "genre": "Регги"
+  },
+  {
+    "id": 12778971,
+    "name": "Sheff G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6109722,
+    "name": "KiDi",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 2856081,
+    "name": "Djodje",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 215306925,
+    "name": "Imed zee",
+    "genre": "Unknown"
+  },
+  {
+    "id": 155494,
+    "name": "Trevor Morris",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 10724,
+    "name": "Lucky Peterson",
+    "genre": "Блюз"
+  },
+  {
+    "id": 8757666,
+    "name": "Youssef Swatt's",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1092125,
+    "name": "The Paper Kites",
+    "genre": "Фолк"
+  },
+  {
+    "id": 7716640,
+    "name": "The Warning",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5960768,
+    "name": "Ikimonogakari",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 73182072,
+    "name": "Yago Oproprio",
+    "genre": "Unknown"
+  },
+  {
+    "id": 132179322,
+    "name": "Jolagreen23",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7211132,
+    "name": "Fabregas le Métis Noir",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 5531672,
+    "name": "Infinit'",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15730,
+    "name": "Diablo Swing Orchestra",
+    "genre": "Металл"
+  },
+  {
+    "id": 212949977,
+    "name": "Neton Vega",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8182062,
+    "name": "Wage War",
+    "genre": "Металл"
+  },
+  {
+    "id": 4378,
+    "name": "The Raveonettes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13985783,
+    "name": "Хабиб",
+    "genre": "Поп"
+  },
+  {
+    "id": 3987671,
+    "name": "Dom La Nena",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 3523,
+    "name": "Yuri Buenaventura",
+    "genre": "Unknown"
+  },
+  {
+    "id": 776635,
+    "name": "Soom T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 57908972,
+    "name": "A7S",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 660739,
+    "name": "Bachar Mar-Khalifé",
+    "genre": "Unknown"
+  },
+  {
+    "id": 63630312,
+    "name": "Xcho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9266850,
+    "name": "Lola Young",
+    "genre": "Unknown"
+  },
+  {
+    "id": 398727,
+    "name": "Gregory Alan Isakov",
+    "genre": "Фолк"
+  },
+  {
+    "id": 62749942,
+    "name": "Clara Ysé",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14097523,
+    "name": "Платина",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 6066854,
+    "name": "Gaz Mawete",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 65871,
+    "name": "Metalocalypse: Dethklok",
+    "genre": "Металл"
+  },
+  {
+    "id": 4055228,
+    "name": "Valerie June",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4179081,
+    "name": "Аквариум",
+    "genre": "Рок"
+  },
+  {
+    "id": 70306612,
+    "name": "CIX",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 13382351,
+    "name": "ssshhhiiittt!",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 8774338,
+    "name": "Blaqbonez",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 5797990,
+    "name": "MAN WITH A MISSION",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 64754892,
+    "name": "La Chine",
+    "genre": "Unknown"
+  },
+  {
+    "id": 210923,
+    "name": "The Inspector Cluzo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 142015162,
+    "name": "Rosa Linn",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1090404,
+    "name": "Amalee",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 526,
+    "name": "Fourplay",
+    "genre": "Джаз"
+  },
+  {
+    "id": 4500171,
+    "name": "Kat Dahlia",
+    "genre": "R&B"
+  },
+  {
+    "id": 149720332,
+    "name": "Íñigo Quintero",
+    "genre": "Unknown"
+  },
+  {
+    "id": 95873492,
+    "name": "Dei V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 50619722,
+    "name": "Nemzzz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 316920,
+    "name": "Fünf Freunde",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 217772485,
+    "name": "Rey Vaqueiro",
+    "genre": "Unknown"
+  },
+  {
+    "id": 280718911,
+    "name": "Lenie",
+    "genre": "Unknown"
+  },
+  {
+    "id": 54061032,
+    "name": "Dr. Yaro",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11096966,
+    "name": "Pyrokinesis",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 153996392,
+    "name": "Jazeek",
+    "genre": "Unknown"
+  },
+  {
+    "id": 127314642,
+    "name": "DJ Kawest",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1944341,
+    "name": "Mayot",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 309541,
+    "name": "Lord Of The Lost",
+    "genre": "Металл"
+  },
+  {
+    "id": 2246,
+    "name": "Vanessa-Mae",
+    "genre": "Классика"
+  },
+  {
+    "id": 1401,
+    "name": "Anouar Brahem",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5863,
+    "name": "Bear McCreary",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 4331375,
+    "name": "Blaiz Fayah",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9985838,
+    "name": "LANDMVRKS",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14339111,
+    "name": "UPPERROOM",
+    "genre": "Unknown"
+  },
+  {
+    "id": 54948972,
+    "name": "NЮ",
+    "genre": "Поп"
+  },
+  {
+    "id": 429403,
+    "name": "The Underachievers",
+    "genre": "Unknown"
+  },
+  {
+    "id": 77487692,
+    "name": "REN",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4275,
+    "name": "Jay-Jay Johanson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 343829,
+    "name": "Marie-Flore",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6705363,
+    "name": "Novo Tempo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8960026,
+    "name": "Hensy",
+    "genre": "Поп"
+  },
+  {
+    "id": 467549,
+    "name": "Perfume Genius",
+    "genre": "Unknown"
+  },
+  {
+    "id": 132091652,
+    "name": "Klessinha",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1539961,
+    "name": "Trent Reznor and Atticus Ross",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 7047655,
+    "name": "La Superstar Des Comptines Rondes Et Berceuses",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 9973848,
+    "name": "TK from Ling tosite sigure",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 135273,
+    "name": "Hugh Coltman",
+    "genre": "Блюз"
+  },
+  {
+    "id": 2795241,
+    "name": "Cory Henry",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 5098098,
+    "name": "Adrian von Ziegler",
+    "genre": "Фолк"
+  },
+  {
+    "id": 4553724,
+    "name": "Ludwig Goransson",
+    "genre": "Unknown"
+  },
+  {
+    "id": 64571,
+    "name": "Benjamin Blümchen",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 16779,
+    "name": "Кровосток",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 2653,
+    "name": "De-Phazz",
+    "genre": "Джаз"
+  },
+  {
+    "id": 7135,
+    "name": "Jean-Pierre Mader",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2152,
+    "name": "Junkie XL",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4834218,
+    "name": "Busiswa",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 9986,
+    "name": "Delegation",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 15123855,
+    "name": "Olakira",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 13381609,
+    "name": "Yann Muller",
+    "genre": "Unknown"
+  },
+  {
+    "id": 66261042,
+    "name": "INSTASAMKA",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 7431198,
+    "name": "Joep Beving",
+    "genre": "Классика"
+  },
+  {
+    "id": 11711835,
+    "name": "Jazz Instrumental Relax Center",
+    "genre": "Блюз"
+  },
+  {
+    "id": 8205210,
+    "name": "James Hype",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1072674,
+    "name": "Turnstile",
+    "genre": "Металл"
+  },
+  {
+    "id": 1278345,
+    "name": "Adrianne Lenker",
+    "genre": "Unknown"
+  },
+  {
+    "id": 205254,
+    "name": "Biba",
+    "genre": "Unknown"
+  },
+  {
+    "id": 75255,
+    "name": "Conni",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 1195,
+    "name": "Jeremy Soule",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 95074402,
+    "name": "Addison Rae",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1861771,
+    "name": "Simone Sommerland",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 139289332,
+    "name": "Lauren Spencer Smith",
+    "genre": "Unknown"
+  },
+  {
+    "id": 95858302,
+    "name": "Gigi Perez",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10719,
+    "name": "Fat Larry's Band",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 4414862,
+    "name": "Valery Gergiev",
+    "genre": "Классика"
+  },
+  {
+    "id": 9652812,
+    "name": "Viagra Boys",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15967,
+    "name": "Lokua Kanza",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 4504600,
+    "name": "СЛОТ",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 541784,
+    "name": "Alex Warren",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8599360,
+    "name": "Roy Woods",
+    "genre": "Unknown"
+  },
+  {
+    "id": 171475897,
+    "name": "Ramos.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 67571922,
+    "name": "Jean-Baptiste Guegan",
+    "genre": "Unknown"
+  },
+  {
+    "id": 409258,
+    "name": "Renaud Capuçon",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10673381,
+    "name": "twocolors",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 5940092,
+    "name": "Ilkay Sencan",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 13709023,
+    "name": "Rayane & Rafaela",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4315474,
+    "name": "Браво",
+    "genre": "Рок"
+  },
+  {
+    "id": 11736133,
+    "name": "Himra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 70157462,
+    "name": "KANGDANIEL",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 11001466,
+    "name": "Dino Fonseca",
+    "genre": "Unknown"
+  },
+  {
+    "id": 90227912,
+    "name": "J. Rey Soul",
+    "genre": "Латино"
+  },
+  {
+    "id": 3855071,
+    "name": "Mick Gordon",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 11138514,
+    "name": "The Hatters",
+    "genre": "Фолк"
+  },
+  {
+    "id": 174274607,
+    "name": "ZOMBIES – Cast",
+    "genre": "Unknown"
+  },
+  {
+    "id": 195536367,
+    "name": "Yeri Mua",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5109,
+    "name": "Wim Mertens",
+    "genre": "Классика"
+  },
+  {
+    "id": 8741264,
+    "name": "Julien Baker",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3237161,
+    "name": "Roseaux",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 10918548,
+    "name": "Yussef Dayes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4105090,
+    "name": "Tinlicker",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 340216,
+    "name": "Malted Milk",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 252873,
+    "name": "Kiasmos",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3571,
+    "name": "F.F.F.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4394827,
+    "name": "Animal ДжаZ",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 119226,
+    "name": "LSP",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 121468022,
+    "name": "Millésime K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5036430,
+    "name": "Loqiemean",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 90662,
+    "name": "Léman",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5767206,
+    "name": "Shouse",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 50970682,
+    "name": "RADIO TAPOK",
+    "genre": "Металл"
+  },
+  {
+    "id": 1438450,
+    "name": "Judson Mancebo",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 15277,
+    "name": "Fats Waller",
+    "genre": "Джаз"
+  },
+  {
+    "id": 13101799,
+    "name": "FEVER 333",
+    "genre": "Металл"
+  },
+  {
+    "id": 408670,
+    "name": "Samantha Fish",
+    "genre": "Блюз"
+  },
+  {
+    "id": 250556342,
+    "name": "Orrage",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5533223,
+    "name": "Cjota",
+    "genre": "Unknown"
+  },
+  {
+    "id": 179904,
+    "name": "Orden Ogan",
+    "genre": "Металл"
+  },
+  {
+    "id": 11809227,
+    "name": "Zeg P",
+    "genre": "Unknown"
+  },
+  {
+    "id": 17316,
+    "name": "Дельфин",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 185690457,
+    "name": "Molière l'opéra urbain",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3975191,
+    "name": "Alexis Ffrench",
+    "genre": "Классика"
+  },
+  {
+    "id": 865012,
+    "name": "Trevor Pinnock",
+    "genre": "Классика"
+  },
+  {
+    "id": 8461,
+    "name": "Wire",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11498862,
+    "name": "Go_A",
+    "genre": "Фолк"
+  },
+  {
+    "id": 93906,
+    "name": "Aynsley Lister",
+    "genre": "Блюз"
+  },
+  {
+    "id": 12832,
+    "name": "Wednesday 13",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16403,
+    "name": "Robin Trower",
+    "genre": "Блюз"
+  },
+  {
+    "id": 81290,
+    "name": "Anoraak",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7579730,
+    "name": "OFFICIAL HIGE DANDISM",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 1003612,
+    "name": "I Virtuosi Italiani",
+    "genre": "Классика"
+  },
+  {
+    "id": 10577543,
+    "name": "USKY",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5636479,
+    "name": "Jewel Usain",
+    "genre": "Unknown"
+  },
+  {
+    "id": 392900,
+    "name": "Jason Isbell",
+    "genre": "Фолк"
+  },
+  {
+    "id": 71879,
+    "name": "Spiritualized",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5438687,
+    "name": "Sault",
+    "genre": "Unknown"
+  },
+  {
+    "id": 97502,
+    "name": "Kheops",
+    "genre": "Unknown"
+  },
+  {
+    "id": 70590892,
+    "name": "Ethel Cain",
+    "genre": "Unknown"
+  },
+  {
+    "id": 440,
+    "name": "Kaoma",
+    "genre": "Латино"
+  },
+  {
+    "id": 1387549,
+    "name": "Jesse Royal",
+    "genre": "Регги"
+  },
+  {
+    "id": 7367144,
+    "name": "Нейромонах Феофан",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 8119595,
+    "name": "Zerb",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4703541,
+    "name": "Сергей Шнуров",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 78334792,
+    "name": "Rachel Reis",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4634422,
+    "name": "Minelli",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 279683201,
+    "name": "Pineapple Stormtv",
+    "genre": "Unknown"
+  },
+  {
+    "id": 76258852,
+    "name": "ДЕТИ RAVE",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 875078,
+    "name": "Was ist Was",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 15324873,
+    "name": "Os Cantores da Noite",
+    "genre": "Unknown"
+  },
+  {
+    "id": 274665,
+    "name": "H.E.A.T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 80268952,
+    "name": "Le Crime",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1944941,
+    "name": "Justin Wellington",
+    "genre": "Регги"
+  },
+  {
+    "id": 91132672,
+    "name": "ILIONA",
+    "genre": "Unknown"
+  },
+  {
+    "id": 874704,
+    "name": "The Kiboomers",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 4315467,
+    "name": "Ногу Свело!",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 363035,
+    "name": "Teufelskicker",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 1684522,
+    "name": "Thibault Cauvin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 259602,
+    "name": "Rémi Guichard",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 1732181,
+    "name": "Lars Danielsson",
+    "genre": "Джаз"
+  },
+  {
+    "id": 1648806,
+    "name": "Yasuharu Takanashi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1817441,
+    "name": "Inhaler",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10272338,
+    "name": "Delgres",
+    "genre": "Блюз"
+  },
+  {
+    "id": 67373102,
+    "name": "Euphonik",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10929,
+    "name": "Barbara Carlotti",
+    "genre": "Unknown"
+  },
+  {
+    "id": 51382132,
+    "name": "Jungle Jack",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11705,
+    "name": "Tunng",
+    "genre": "Фолк"
+  },
+  {
+    "id": 12365392,
+    "name": "GSPD",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 7836264,
+    "name": "Foushee",
+    "genre": "R&B"
+  },
+  {
+    "id": 891594,
+    "name": "L'orchestra Cinematique",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14316825,
+    "name": "Kawai Sprite",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 9194062,
+    "name": "Durand Jones & The Indications",
+    "genre": "R&B"
+  },
+  {
+    "id": 80943782,
+    "name": "YAKARY",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7743172,
+    "name": "Besomorph",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 12213962,
+    "name": "Isi Glück",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5642,
+    "name": "John Martyn",
+    "genre": "Фолк"
+  },
+  {
+    "id": 1239199,
+    "name": "Roga Roga",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 14639591,
+    "name": "Perceval",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6067214,
+    "name": "Paga",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9541274,
+    "name": "Japanese Breakfast",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12721175,
+    "name": "Panda",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9121,
+    "name": "Robin S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 64464452,
+    "name": "Alexander Eder",
+    "genre": "Unknown"
+  },
+  {
+    "id": 57777292,
+    "name": "Black Country, New Road",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1088859,
+    "name": "Jayel",
+    "genre": "Unknown"
+  },
+  {
+    "id": 447298,
+    "name": "Hanni Und Nanni",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 94007,
+    "name": "Betty Davis",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 308463,
+    "name": "S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 320129,
+    "name": "Victor Garcia",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1209605,
+    "name": "Mujuice",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 197655,
+    "name": "John Sinclair",
+    "genre": "Unknown"
+  },
+  {
+    "id": 808347,
+    "name": "Smooth Jazz",
+    "genre": "Блюз"
+  },
+  {
+    "id": 478067,
+    "name": "F",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13507,
+    "name": "Tyler Bates",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 11097328,
+    "name": "Zequin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 114554532,
+    "name": "Galibri & Mavik",
+    "genre": "Поп"
+  },
+  {
+    "id": 5435777,
+    "name": "Zélie",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14097521,
+    "name": "blago white",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 11060562,
+    "name": "Oklou",
+    "genre": "Unknown"
+  },
+  {
+    "id": 98550832,
+    "name": "LACAZETTE",
+    "genre": "Unknown"
+  },
+  {
+    "id": 390396,
+    "name": "Sarah Jaffe",
+    "genre": "Фолк"
+  },
+  {
+    "id": 5333041,
+    "name": "Ichiko Aoba",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8793928,
+    "name": "Gabi Hartmann",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9140762,
+    "name": "DMNDS",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 66423722,
+    "name": "Dzharakhov",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 14826381,
+    "name": "Pen of Chaos Et Le Naheulband",
+    "genre": "Фолк"
+  },
+  {
+    "id": 58445642,
+    "name": "Kaelzinho Ferraz",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6051,
+    "name": "Deerhoof",
+    "genre": "Unknown"
+  },
+  {
+    "id": 182573,
+    "name": "Sarah Menescal",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 4661935,
+    "name": "Эпидемия",
+    "genre": "Металл"
+  },
+  {
+    "id": 87813262,
+    "name": "Tuerie",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1038163,
+    "name": "Matthew and the Atlas",
+    "genre": "Фолк"
+  },
+  {
+    "id": 441866,
+    "name": "English Baroque Soloists",
+    "genre": "Классика"
+  },
+  {
+    "id": 6757525,
+    "name": "DEAD BLONDE",
+    "genre": "Поп"
+  },
+  {
+    "id": 5618,
+    "name": "Africando",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 106412472,
+    "name": "Mr GISCARD",
+    "genre": "Unknown"
+  },
+  {
+    "id": 182439,
+    "name": "DIE PLAYMOS",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 336484,
+    "name": "The Bamboos",
+    "genre": "R&B"
+  },
+  {
+    "id": 120338632,
+    "name": "BGYO",
+    "genre": "Unknown"
+  },
+  {
+    "id": 359434,
+    "name": "Marcela Mangabeira",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 1211687,
+    "name": "L (Raphaële Lannadère)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 96293252,
+    "name": "Alina Gingertail",
+    "genre": "Фолк"
+  },
+  {
+    "id": 13994507,
+    "name": "Die Schule der magischen Tiere",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 15915,
+    "name": "Ours",
+    "genre": "Unknown"
+  },
+  {
+    "id": 64147172,
+    "name": "Jazz Lounge Playlist",
+    "genre": "Джаз"
+  },
+  {
+    "id": 13527457,
+    "name": "Dlala Thukzin",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4956203,
+    "name": "Marcin Przybyłowicz",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 101071242,
+    "name": "ooes",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 11566,
+    "name": "Paul Carrack",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 453060,
+    "name": "Kaleida",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 17281,
+    "name": "El Michels Affair",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 98041,
+    "name": "I",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1457758,
+    "name": "Romain Ughetto",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8975392,
+    "name": "Sarah McCoy",
+    "genre": "Блюз"
+  },
+  {
+    "id": 15274787,
+    "name": "TKKG Junior",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 7367412,
+    "name": "Luca Stricagnoli",
+    "genre": "Фолк"
+  },
+  {
+    "id": 507886,
+    "name": "Colt",
+    "genre": "Unknown"
+  },
+  {
+    "id": 88793,
+    "name": "G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12682,
+    "name": "Grace Decca",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 153104,
+    "name": "Falguni Pathak",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 8185380,
+    "name": "Aastha Gill",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 72499202,
+    "name": "Flëur",
+    "genre": "Фолк"
+  },
+  {
+    "id": 1227055,
+    "name": "Ben Decca",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 9401,
+    "name": "Lake of Tears",
+    "genre": "Металл"
+  },
+  {
+    "id": 4625888,
+    "name": "Rhiannon Giddens",
+    "genre": "Фолк"
+  },
+  {
+    "id": 297218781,
+    "name": "DVM",
+    "genre": "Unknown"
+  },
+  {
+    "id": 71216992,
+    "name": "plenka",
+    "genre": "Электронная музыка"
+  },
+  {
+    "id": 449167,
+    "name": "Daniel Pemberton",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 4601564,
+    "name": "Le A",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3412,
+    "name": "A",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16716,
+    "name": "Magic Slim",
+    "genre": "Блюз"
+  },
+  {
+    "id": 73246362,
+    "name": "Flawed Mangoes",
+    "genre": "Unknown"
+  },
+  {
+    "id": 144228682,
+    "name": "Keeqaid",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14521,
+    "name": "Jack Black",
+    "genre": "Unknown"
+  },
+  {
+    "id": 85976,
+    "name": "Cutee B.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4613664,
+    "name": "Бьянка",
+    "genre": "R&B"
+  },
+  {
+    "id": 633118,
+    "name": "The English Concert",
+    "genre": "Классика"
+  },
+  {
+    "id": 1625548,
+    "name": "Suzi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 48668441,
+    "name": "Joyce Alane",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10481163,
+    "name": "Gonzalo Genek",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12869,
+    "name": "Le Roi Soleil",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9421116,
+    "name": "Sternenschweif",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 80398732,
+    "name": "KATI K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1606292,
+    "name": "Todiefor",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 14023835,
+    "name": "OoThenTiK Zeus",
+    "genre": "Unknown"
+  },
+  {
+    "id": 131904482,
+    "name": "Shallipopi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1533,
+    "name": "Fluke",
+    "genre": "Блюз"
+  },
+  {
+    "id": 1370672,
+    "name": "Jeff Goldblum & the Mildred Snitzer Orchestra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9238010,
+    "name": "Blood Incantation",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16643,
+    "name": "K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5317330,
+    "name": "Nicholas Britell",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 13260801,
+    "name": "Tribal Kush",
+    "genre": "Регги"
+  },
+  {
+    "id": 5934,
+    "name": "Acoustic Alchemy",
+    "genre": "Джаз"
+  },
+  {
+    "id": 58155932,
+    "name": "Theuzinho",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5533863,
+    "name": "L.A.X",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 342865,
+    "name": "Generation Mix",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1118381,
+    "name": "Elita",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9208946,
+    "name": "Blanco White",
+    "genre": "Фолк"
+  },
+  {
+    "id": 10153532,
+    "name": "Mimie",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 371286,
+    "name": "Sisi K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 127257,
+    "name": "Tennis",
+    "genre": "Unknown"
+  },
+  {
+    "id": 219251975,
+    "name": "TH",
+    "genre": "Unknown"
+  },
+  {
+    "id": 62765612,
+    "name": "Quiet Friction",
+    "genre": "Unknown"
+  },
+  {
+    "id": 883071,
+    "name": "GeeGun",
+    "genre": "Rap/Hip Hop"
+  },
+  {
+    "id": 13143363,
+    "name": "Andrea Vanzo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6090420,
+    "name": "FDVM",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3671,
+    "name": "Jon Brion",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3400,
+    "name": "X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 201698757,
+    "name": "Anatole Latuile",
+    "genre": "Unknown"
+  },
+  {
+    "id": 121281,
+    "name": "Chris Jones",
+    "genre": "Блюз"
+  },
+  {
+    "id": 64189602,
+    "name": "Petit K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4480,
+    "name": "Pere Ubu",
+    "genre": "Unknown"
+  },
+  {
+    "id": 100301,
+    "name": "Skatalites",
+    "genre": "Регги"
+  },
+  {
+    "id": 4098482,
+    "name": "Eartheater",
+    "genre": "Unknown"
+  },
+  {
+    "id": 86666,
+    "name": "Angelo Debarre",
+    "genre": "Unknown"
+  },
+  {
+    "id": 16774,
+    "name": "Son Of Dave",
+    "genre": "Блюз"
+  },
+  {
+    "id": 276477,
+    "name": "E",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13590653,
+    "name": "Esther Abrami",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4495428,
+    "name": "Victor Le Masne",
+    "genre": "Unknown"
+  },
+  {
+    "id": 134851962,
+    "name": "Clave Especial",
+    "genre": "Unknown"
+  },
+  {
+    "id": 76350152,
+    "name": "kostromin",
+    "genre": "Фолк"
+  },
+  {
+    "id": 8238326,
+    "name": "Voilaaa",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 101969182,
+    "name": "Sam Sauvage",
+    "genre": "Unknown"
+  },
+  {
+    "id": 645027,
+    "name": "I am Oak",
+    "genre": "Фолк"
+  },
+  {
+    "id": 143731,
+    "name": "Rico",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 980562,
+    "name": "Smoove & Turrell",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 1107927,
+    "name": "O - Olivier Marguerit",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2448,
+    "name": "John Hammond",
+    "genre": "Блюз"
+  },
+  {
+    "id": 4316837,
+    "name": "Пелагея",
+    "genre": "Фолк"
+  },
+  {
+    "id": 297323,
+    "name": "Wolfgang Haffner",
+    "genre": "Джаз"
+  },
+  {
+    "id": 483176,
+    "name": "the S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12252750,
+    "name": "АИГЕЛ",
+    "genre": "Альтернативная музыка"
+  },
+  {
+    "id": 95488192,
+    "name": "Midas the Jagaban",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 14597475,
+    "name": "Aaron Frazer",
+    "genre": "Блюз"
+  },
+  {
+    "id": 7354,
+    "name": "Mezzoforte",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 177930417,
+    "name": "Mau P",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5172800,
+    "name": "Tanya Stewner",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 998740,
+    "name": "Izo FitzRoy",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 4776263,
+    "name": "Moh! Kouyaté",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 119883,
+    "name": "J.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 71349,
+    "name": "Lucky Ali",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 4532852,
+    "name": "The Allergies",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 5843215,
+    "name": "Ephemerals",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 311969,
+    "name": "A & K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 152182,
+    "name": "Gerald Toto",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 5396884,
+    "name": "Hélène Bohy",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 86556,
+    "name": "Paradisio",
+    "genre": "Латино"
+  },
+  {
+    "id": 54666162,
+    "name": "Oracle Sisters",
+    "genre": "Фолк"
+  },
+  {
+    "id": 7307038,
+    "name": "Mikolai Stroinski",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 8896874,
+    "name": "WizTheMc",
+    "genre": "Unknown"
+  },
+  {
+    "id": 249452,
+    "name": "Blues Company",
+    "genre": "Блюз"
+  },
+  {
+    "id": 471288,
+    "name": "Jan Lundgren",
+    "genre": "Джаз"
+  },
+  {
+    "id": 4615515,
+    "name": "Александр Новиков",
+    "genre": "Блюз"
+  },
+  {
+    "id": 5671,
+    "name": "Incredible Bongo Band",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 5014942,
+    "name": "Sonya Belousova",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 115993,
+    "name": "Theodor Bastard",
+    "genre": "Фолк"
+  },
+  {
+    "id": 10343292,
+    "name": "Dragons - Auf zu neuen Ufern",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 11303768,
+    "name": "Эрика Лундмоен",
+    "genre": "R&B"
+  },
+  {
+    "id": 4347196,
+    "name": "Kris R.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 87703312,
+    "name": "Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 324597,
+    "name": "Dyke & The Blazers",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 268603,
+    "name": "Papik",
+    "genre": "Джаз"
+  },
+  {
+    "id": 12383998,
+    "name": "Yutaka Yamada",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 394661,
+    "name": "Cedric Burnside",
+    "genre": "Блюз"
+  },
+  {
+    "id": 180567,
+    "name": "Q",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6896721,
+    "name": "Pat Kalla",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 79805,
+    "name": "C & C Music Factory",
+    "genre": "Unknown"
+  },
+  {
+    "id": 15232767,
+    "name": "Mekhman",
+    "genre": "Поп"
+  },
+  {
+    "id": 9282082,
+    "name": "Отава Ё",
+    "genre": "Фолк"
+  },
+  {
+    "id": 13398821,
+    "name": "Hafex",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 7632910,
+    "name": "Mbongwana Star",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 1097110,
+    "name": "Sara K.",
+    "genre": "Блюз"
+  },
+  {
+    "id": 4435386,
+    "name": "David Rawlings",
+    "genre": "Фолк"
+  },
+  {
+    "id": 866423,
+    "name": "The Brooks",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 173508,
+    "name": "H",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11874061,
+    "name": "Die Fuchsbande",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 10112084,
+    "name": "Jeangu Macrooy",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 984071,
+    "name": "Michelle Simonal",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 11719093,
+    "name": "детские песни",
+    "genre": "Классика"
+  },
+  {
+    "id": 4614317,
+    "name": "Наташа Королёва",
+    "genre": "Фолк"
+  },
+  {
+    "id": 53038562,
+    "name": "Kizuna AI",
+    "genre": "Азиатская музыка"
+  },
+  {
+    "id": 100190,
+    "name": "Aversion",
+    "genre": "Unknown"
+  },
+  {
+    "id": 465261,
+    "name": "Percival",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 2754,
+    "name": "Die Streuner",
+    "genre": "Фолк"
+  },
+  {
+    "id": 5513402,
+    "name": "Harvey Sutherland",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 14096141,
+    "name": "Le M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7587,
+    "name": "Amazonics",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 58789412,
+    "name": "Petronella Apfelmus",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 804340,
+    "name": "Charles B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5795853,
+    "name": "Le R",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5469454,
+    "name": "T & Sugah",
+    "genre": "Unknown"
+  },
+  {
+    "id": 97725312,
+    "name": "Bastard!",
+    "genre": "Танцевальная музыка"
+  },
+  {
+    "id": 368563,
+    "name": "u",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5230922,
+    "name": "Snight B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 74094212,
+    "name": "Ollane",
+    "genre": "R&B"
+  },
+  {
+    "id": 91322,
+    "name": "Y",
+    "genre": "Unknown"
+  },
+  {
+    "id": 54568,
+    "name": "S-tone Inc",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 55243,
+    "name": "T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 661465,
+    "name": "Bernie Marsden",
+    "genre": "Блюз"
+  },
+  {
+    "id": 12773891,
+    "name": "DJ Tárico",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 469994,
+    "name": "Kamchatka",
+    "genre": "Блюз"
+  },
+  {
+    "id": 54606152,
+    "name": "Tim & Struppi",
+    "genre": "Детская музыка"
+  },
+  {
+    "id": 54639442,
+    "name": "GA-20",
+    "genre": "Блюз"
+  },
+  {
+    "id": 91348,
+    "name": "N",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1267790,
+    "name": "Le D",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5193283,
+    "name": "Sugaray Rayford",
+    "genre": "Блюз"
+  },
+  {
+    "id": 2332741,
+    "name": "SeeYa",
+    "genre": "Латино"
+  },
+  {
+    "id": 1521908,
+    "name": "Marc Kiss",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 6375392,
+    "name": "Midori Edamame",
+    "genre": "Классика"
+  },
+  {
+    "id": 425590,
+    "name": "Bob Corritore",
+    "genre": "Блюз"
+  },
+  {
+    "id": 5112499,
+    "name": "Aquarela Do Brasil",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 6555487,
+    "name": "Грай",
+    "genre": "Фолк"
+  },
+  {
+    "id": 80231302,
+    "name": "Edita",
+    "genre": "Unknown"
+  },
+  {
+    "id": 143595,
+    "name": "Evelyn Glennie",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 103543712,
+    "name": "STR4TA",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 5185294,
+    "name": "Semitoo",
+    "genre": "Фильмы/Игры"
+  },
+  {
+    "id": 242460,
+    "name": "Anthony Rolfe Johnson",
+    "genre": "Классика"
+  },
+  {
+    "id": 9463,
+    "name": "W",
+    "genre": "Unknown"
+  },
+  {
+    "id": 153396,
+    "name": "J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 108715072,
+    "name": "X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5170036,
+    "name": "T & G Factory",
+    "genre": "Unknown"
+  },
+  {
+    "id": 125459,
+    "name": "Uma Mohan",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 412792,
+    "name": "a B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 103323732,
+    "name": "Star Feminine Band",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 5858508,
+    "name": "Ché Aimee Dorval",
+    "genre": "Блюз"
+  },
+  {
+    "id": 4803751,
+    "name": "Le H",
+    "genre": "Unknown"
+  },
+  {
+    "id": 148902,
+    "name": "Céline Frisch",
+    "genre": "Классика"
+  },
+  {
+    "id": 66486,
+    "name": "Archie Bell & The Drells",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 9891914,
+    "name": "Penny and Sparrow",
+    "genre": "Фолк"
+  },
+  {
+    "id": 14713207,
+    "name": "Wiz Ofuasia",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 614949,
+    "name": "B.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12664669,
+    "name": "Le M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 184989,
+    "name": "Lebo M.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1466384,
+    "name": "A & Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2013771,
+    "name": "Kristjan Järvi",
+    "genre": "Классика"
+  },
+  {
+    "id": 164525067,
+    "name": "Queen D",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4795265,
+    "name": "Hi-Gloss",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 71373,
+    "name": "Le K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 79769,
+    "name": "Ned Doheny",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 5677707,
+    "name": "Neptune Safari",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 68699,
+    "name": "Aly Keïta",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 5955558,
+    "name": "Marti Nikko",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 64171902,
+    "name": "Aldorande",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 50493352,
+    "name": "Blues Cousins",
+    "genre": "Блюз"
+  },
+  {
+    "id": 79568602,
+    "name": "Le N",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1617263,
+    "name": "R & B Fitness Crew",
+    "genre": "Unknown"
+  },
+  {
+    "id": 366793,
+    "name": "D & G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 129886,
+    "name": "Sona",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 335328,
+    "name": "The X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7913688,
+    "name": "Le P",
+    "genre": "Unknown"
+  },
+  {
+    "id": 92142,
+    "name": "The K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 64311562,
+    "name": "M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 452687,
+    "name": "F & G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 393625,
+    "name": "Y & T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 74699,
+    "name": "D",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5168234,
+    "name": "Ø",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6119356,
+    "name": "Miller Blue",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 74901,
+    "name": "T & T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 74005232,
+    "name": "Rayowa",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 14341199,
+    "name": "Dino James",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 3085131,
+    "name": "Miguel Lopes",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 445162,
+    "name": "Kavita Seth",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 345806,
+    "name": "D & A",
+    "genre": "Unknown"
+  },
+  {
+    "id": 67368,
+    "name": "H & Claire",
+    "genre": "Unknown"
+  },
+  {
+    "id": 75986562,
+    "name": "Московский Казачий Хор",
+    "genre": "Фолк"
+  },
+  {
+    "id": 7174488,
+    "name": "Zélé le Bombardier",
+    "genre": "Африканская музыка"
+  },
+  {
+    "id": 10984302,
+    "name": "Baltic Sea Philharmonic",
+    "genre": "Классика"
+  },
+  {
+    "id": 1493079,
+    "name": "Nova Bossa Ltd.",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 1029336,
+    "name": "the G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 2305101,
+    "name": "Prabhu Nam Kaur",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 1230689,
+    "name": "R & B Urban All Stars",
+    "genre": "Unknown"
+  },
+  {
+    "id": 124878,
+    "name": "Holly Wilson",
+    "genre": "Бразильская музыка"
+  },
+  {
+    "id": 195108,
+    "name": "C",
+    "genre": "Unknown"
+  },
+  {
+    "id": 81619452,
+    "name": "WITH U",
+    "genre": "Unknown"
+  },
+  {
+    "id": 330273,
+    "name": "Le F",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4088438,
+    "name": "C & R",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11408672,
+    "name": "Satyaa & Pari",
+    "genre": "Индийская музыка"
+  },
+  {
+    "id": 92920,
+    "name": "The K.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3124201,
+    "name": "F & F",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14596031,
+    "name": "Le V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1598928,
+    "name": "A B & The Sea",
+    "genre": "Unknown"
+  },
+  {
+    "id": 504960,
+    "name": "the I",
+    "genre": "Unknown"
+  },
+  {
+    "id": 75583232,
+    "name": "Le S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 89749502,
+    "name": "X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1243580,
+    "name": "D.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6945289,
+    "name": "Astèr Fekre",
+    "genre": "Soul & Funk"
+  },
+  {
+    "id": 1239771,
+    "name": "Edith",
+    "genre": "Unknown"
+  },
+  {
+    "id": 993114,
+    "name": "L'N",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6014250,
+    "name": "O.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 85769482,
+    "name": "F",
+    "genre": "Unknown"
+  },
+  {
+    "id": 162917887,
+    "name": "Le D",
+    "genre": "Unknown"
+  },
+  {
+    "id": 134602742,
+    "name": "Le N'",
+    "genre": "Unknown"
+  },
+  {
+    "id": 201674,
+    "name": "M & M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1258698,
+    "name": "K & J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6689359,
+    "name": "Le Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 230376355,
+    "name": "Le D",
+    "genre": "Unknown"
+  },
+  {
+    "id": 454102,
+    "name": "Les X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 82285852,
+    "name": "V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 78798632,
+    "name": "L (INFINITE)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1581239,
+    "name": "W & D",
+    "genre": "Unknown"
+  },
+  {
+    "id": 864006,
+    "name": "The Q",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10926208,
+    "name": "Bushy B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 88587552,
+    "name": "Le G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1490917,
+    "name": "P",
+    "genre": "Unknown"
+  },
+  {
+    "id": 114129712,
+    "name": "L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 388680,
+    "name": "H & F",
+    "genre": "Unknown"
+  },
+  {
+    "id": 84944002,
+    "name": "Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 284342171,
+    "name": "Le G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 57351422,
+    "name": "Le J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 183214,
+    "name": "U & Me",
+    "genre": "Unknown"
+  },
+  {
+    "id": 98336682,
+    "name": "M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5008155,
+    "name": "B & T Express",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12797737,
+    "name": "Ö",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1131075,
+    "name": "V.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5439706,
+    "name": "K!",
+    "genre": "Unknown"
+  },
+  {
+    "id": 354910,
+    "name": "S & L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6771217,
+    "name": "La R",
+    "genre": "Unknown"
+  },
+  {
+    "id": 875887,
+    "name": "the V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49206752,
+    "name": "H' & Them",
+    "genre": "Unknown"
+  },
+  {
+    "id": 204026627,
+    "name": "H",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1157437,
+    "name": "G.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 205282,
+    "name": "M & G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14548677,
+    "name": "La M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 442224,
+    "name": "the B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4266601,
+    "name": "F & G Sound",
+    "genre": "Unknown"
+  },
+  {
+    "id": 122750132,
+    "name": "The X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1084984,
+    "name": "K.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 57055772,
+    "name": "LE X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 258063182,
+    "name": "Le Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 133153452,
+    "name": "Y (GOLDEN CHILD)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4001941,
+    "name": "G & Swing",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12922721,
+    "name": "LE B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11287,
+    "name": "C & M Productions",
+    "genre": "Unknown"
+  },
+  {
+    "id": 114129692,
+    "name": "L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1101429,
+    "name": "R & B Blues",
+    "genre": "Unknown"
+  },
+  {
+    "id": 81560202,
+    "name": "R'",
+    "genre": "Unknown"
+  },
+  {
+    "id": 90528112,
+    "name": "Le T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5309338,
+    "name": "B'",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1495874,
+    "name": "G & G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 85776332,
+    "name": "S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 649065,
+    "name": "A.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4206370,
+    "name": "Q & Q",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5237492,
+    "name": "The C",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1425811,
+    "name": "M & H Band",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1527790,
+    "name": "R & K African Sounds",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6884367,
+    "name": "W & Whale",
+    "genre": "Unknown"
+  },
+  {
+    "id": 74130002,
+    "name": "A & C",
+    "genre": "Unknown"
+  },
+  {
+    "id": 80280622,
+    "name": "Le W.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11046266,
+    "name": "K & G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1101555,
+    "name": "R & B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5554904,
+    "name": "An G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4060512,
+    "name": "J & V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13243463,
+    "name": "Q & The Moonstones",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1252527,
+    "name": "L's",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10106724,
+    "name": "W (Where The Story Ends)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 119128122,
+    "name": "G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 126357822,
+    "name": "La V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3596351,
+    "name": "K & K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 140183632,
+    "name": "S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 164631817,
+    "name": "X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 78529122,
+    "name": "K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 151576412,
+    "name": "-V-",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13481751,
+    "name": "Edits",
+    "genre": "Unknown"
+  },
+  {
+    "id": 48856691,
+    "name": "LA N",
+    "genre": "Unknown"
+  },
+  {
+    "id": 89748712,
+    "name": "X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 292203451,
+    "name": "Y",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10474565,
+    "name": "La B",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5256119,
+    "name": "Le C",
+    "genre": "Unknown"
+  },
+  {
+    "id": 65981072,
+    "name": "O & the Mo",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10104276,
+    "name": "T & P",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1052155,
+    "name": "U & I",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12216630,
+    "name": "(T-T)b",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1563649,
+    "name": "\"O\"",
+    "genre": "Unknown"
+  },
+  {
+    "id": 176525997,
+    "name": "La C",
+    "genre": "Unknown"
+  },
+  {
+    "id": 56293202,
+    "name": "J & The Causeways",
+    "genre": "Unknown"
+  },
+  {
+    "id": 297708011,
+    "name": "Le S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 363535,
+    "name": "(((S)))",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7192212,
+    "name": "La X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 311038,
+    "name": "B & W",
+    "genre": "Unknown"
+  },
+  {
+    "id": 116477242,
+    "name": "Le J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8217476,
+    "name": "L (iZReal)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 80683762,
+    "name": "Le L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49538162,
+    "name": "Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10574043,
+    "name": "Z & Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10651783,
+    "name": "The Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 79192512,
+    "name": "Medit",
+    "genre": "Unknown"
+  },
+  {
+    "id": 267713462,
+    "name": "Le U",
+    "genre": "Unknown"
+  },
+  {
+    "id": 82285912,
+    "name": "V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14548717,
+    "name": "La V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 216906505,
+    "name": "X & Ivy",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10011226,
+    "name": "The A!",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7996802,
+    "name": "a & e sounds",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5864714,
+    "name": "La G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4176554,
+    "name": "J & Zona Industrial",
+    "genre": "Unknown"
+  },
+  {
+    "id": 118796132,
+    "name": "L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 52760582,
+    "name": "La L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 178441,
+    "name": "M & The Congregation",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4322224,
+    "name": "R & M Beat",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1017739,
+    "name": "w.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 89749462,
+    "name": "X",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4096686,
+    "name": "G!",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11308784,
+    "name": "La S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5344213,
+    "name": "S & M Band",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12501888,
+    "name": "J & The Rest",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13958103,
+    "name": "L & V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 211389787,
+    "name": "La N",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12797735,
+    "name": "O",
+    "genre": "Unknown"
+  },
+  {
+    "id": 305298041,
+    "name": " -V-",
+    "genre": "Unknown"
+  },
+  {
+    "id": 261321681,
+    "name": "Le V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1709090,
+    "name": "E & L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 244114892,
+    "name": "Le L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6048182,
+    "name": "M & D Production",
+    "genre": "Unknown"
+  },
+  {
+    "id": 259805861,
+    "name": "Y",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14104883,
+    "name": "A & T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 182011027,
+    "name": "Le H",
+    "genre": "Unknown"
+  },
+  {
+    "id": 312338191,
+    "name": "The L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 118796142,
+    "name": "L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5545803,
+    "name": "The M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 227150075,
+    "name": "La M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 104627292,
+    "name": "N(VIXX)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5417199,
+    "name": "R & R",
+    "genre": "Unknown"
+  },
+  {
+    "id": 82285862,
+    "name": "V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4205233,
+    "name": "X & Hell",
+    "genre": "Unknown"
+  },
+  {
+    "id": 151391942,
+    "name": "I & I Crew",
+    "genre": "Unknown"
+  },
+  {
+    "id": 85776342,
+    "name": "S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 7890300,
+    "name": "La Z",
+    "genre": "Unknown"
+  },
+  {
+    "id": 133751552,
+    "name": "L'D",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5565461,
+    "name": "A K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 140723912,
+    "name": "Le Q",
+    "genre": "Unknown"
+  },
+  {
+    "id": 115525992,
+    "name": "The S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1073667,
+    "name": "T.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 275018991,
+    "name": "The T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 82285802,
+    "name": "V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4778077,
+    "name": "B & B And Choir",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1168185,
+    "name": "e.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 3532611,
+    "name": "G & T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1126181,
+    "name": "L",
+    "genre": "Unknown"
+  },
+  {
+    "id": 50546442,
+    "name": "The Y",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14337901,
+    "name": "B & the Hive",
+    "genre": "Unknown"
+  },
+  {
+    "id": 269261002,
+    "name": "Le J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 14347977,
+    "name": "La J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 127938862,
+    "name": "O",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5126946,
+    "name": "P.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 6540485,
+    "name": "A S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1067280,
+    "name": "V!",
+    "genre": "Unknown"
+  },
+  {
+    "id": 106590352,
+    "name": "Le y",
+    "genre": "Unknown"
+  },
+  {
+    "id": 8908782,
+    "name": "A & N",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5959594,
+    "name": "The M & R Masters",
+    "genre": "Unknown"
+  },
+  {
+    "id": 158923642,
+    "name": "V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 86370262,
+    "name": "A. & D. Radanovi",
+    "genre": "Unknown"
+  },
+  {
+    "id": 189513,
+    "name": "A & P Project",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1474356,
+    "name": "I & Fused",
+    "genre": "Unknown"
+  },
+  {
+    "id": 291881591,
+    "name": "Le J",
+    "genre": "Unknown"
+  },
+  {
+    "id": 99220322,
+    "name": "L(桃籽）",
+    "genre": "Unknown"
+  },
+  {
+    "id": 98336642,
+    "name": "M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 49540882,
+    "name": "X & O",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9692680,
+    "name": "-Z-",
+    "genre": "Unknown"
+  },
+  {
+    "id": 80229722,
+    "name": "Edita",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5227863,
+    "name": "D'",
+    "genre": "Unknown"
+  },
+  {
+    "id": 11229028,
+    "name": "H & Dash",
+    "genre": "Unknown"
+  },
+  {
+    "id": 9910258,
+    "name": "Versions",
+    "genre": "Unknown"
+  },
+  {
+    "id": 115526032,
+    "name": "The S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 131530782,
+    "name": "S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 82680692,
+    "name": "X & Yde",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10383896,
+    "name": "A & E Project",
+    "genre": "Unknown"
+  },
+  {
+    "id": 300050001,
+    "name": ".c",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1544884,
+    "name": "D & S",
+    "genre": "Unknown"
+  },
+  {
+    "id": 85769442,
+    "name": "F",
+    "genre": "Unknown"
+  },
+  {
+    "id": 431960,
+    "name": "The F",
+    "genre": "Unknown"
+  },
+  {
+    "id": 249587542,
+    "name": "G & the Big Beat Revolution",
+    "genre": "Unknown"
+  },
+  {
+    "id": 12792381,
+    "name": "G & G Music Factory",
+    "genre": "Unknown"
+  },
+  {
+    "id": 4019299,
+    "name": "J. & B. Orchestra",
+    "genre": "Unknown"
+  },
+  {
+    "id": 13130141,
+    "name": "L & B Project",
+    "genre": "Unknown"
+  },
+  {
+    "id": 84427602,
+    "name": "-P-",
+    "genre": "Unknown"
+  },
+  {
+    "id": 258435332,
+    "name": "V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 274683621,
+    "name": "LE V",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10048570,
+    "name": "Y (BOKKA)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 10894050,
+    "name": "The Y & Anton Ray",
+    "genre": "Unknown"
+  },
+  {
+    "id": 364012,
+    "name": "F & M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 293890311,
+    "name": "Le G",
+    "genre": "Unknown"
+  },
+  {
+    "id": 86625342,
+    "name": "H & K",
+    "genre": "Unknown"
+  },
+  {
+    "id": 86159882,
+    "name": "I & Thou",
+    "genre": "Unknown"
+  },
+  {
+    "id": 64852372,
+    "name": "J(x)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 91425822,
+    "name": "M",
+    "genre": "Unknown"
+  },
+  {
+    "id": 1563916,
+    "name": "'O'",
+    "genre": "Unknown"
+  },
+  {
+    "id": 166918,
+    "name": "P & P Old Man Power",
+    "genre": "Unknown"
+  },
+  {
+    "id": 188430777,
+    "name": "S(AINT)",
+    "genre": "Unknown"
+  },
+  {
+    "id": 241236891,
+    "name": "Le T",
+    "genre": "Unknown"
+  },
+  {
+    "id": 191786907,
+    "name": "T & P Co.",
+    "genre": "Unknown"
+  },
+  {
+    "id": 5815776,
+    "name": "L'z",
+    "genre": "Unknown"
+  }
+]

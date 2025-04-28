@@ -1,141 +1,123 @@
 import random
+import asyncio
+import aiohttp
 from flask import session
-from utils.deezer import fetch_tracks, fetch_option_tracks, fetch_tracks_by_country
+from utils.deezer import load_artists, get_artist_top_tracks
+
+
+async def fetch_track_with_preview(artist_id, difficulty):
+    async with aiohttp.ClientSession() as session:
+        tracks = await get_artist_top_tracks(session, artist_id, limit=20)
+        if not tracks:
+            return None
+
+        sorted_tracks = sorted(tracks, key=lambda x: x["rank"], reverse=True)
+
+        if difficulty == 'easy':
+            track = random.choice(sorted_tracks[:5]) if len(sorted_tracks) >= 5 else sorted_tracks[
+                0] if sorted_tracks else None
+        elif difficulty == 'medium':
+            mid_start = min(5, len(sorted_tracks))
+            mid_end = min(10, len(sorted_tracks))
+            track = random.choice(sorted_tracks[mid_start:mid_end]) if mid_end > mid_start else sorted_tracks[
+                0] if sorted_tracks else None
+        else:  # hard
+            low_start = min(10, len(sorted_tracks))
+            track = random.choice(sorted_tracks[low_start:]) if len(sorted_tracks) > low_start else sorted_tracks[
+                0] if sorted_tracks else None
+
+        return track
+
 
 def select_track_and_options(difficulty, style='any', country=None):
-    """Выбор трека и вариантов ответа."""
-    # Если указана страна, используем /chart/{countryId}, иначе /search
-    if country:
-        # Получаем треки из чартов страны
-        tracks = fetch_tracks_by_country(difficulty, country, target_count=10)
-    else:
-        # Определяем диапазон index для правильного трека
-        index_ranges = {
-            'easy': (0, 50),
-            'medium': (200, 300),
-            'hard': (500, 600)
-        }
-        index_start, index_end = index_ranges.get(difficulty, (500, 600))
-        index = random.randint(index_start, index_end)
-        # Получаем треки через /search
-        tracks = fetch_tracks(difficulty, style=style, index=index, target_count=10)
+    if 'used_track_ids' not in session:
+        session['used_track_ids'] = []
+    if 'used_artists' not in session or not isinstance(session['used_artists'], dict):
+        session['used_artists'] = {'easy': [], 'medium': [], 'hard': []}
+    if 'last_artist_index' not in session or not isinstance(session['last_artist_index'], dict):
+        session['last_artist_index'] = {'easy': 0, 'medium': 0, 'hard': 0}
 
-    if len(tracks) < 4:
-        print(f"[{difficulty.upper()}] Не удалось найти достаточно треков для выбора")
+    used_track_ids = set(session['used_track_ids'])
+    used_artists = set(session['used_artists'][difficulty])
+    last_index = session['last_artist_index'][difficulty]
+
+    all_artists = load_artists(genre=style)
+    if not all_artists:
         return None, []
 
-    # Получаем списки использованных треков и исполнителей из сессии
-    used_track_ids = set(session.get('used_track_ids', []))
-    used_artists = set(session.get('used_artists', []))
+    if difficulty == 'easy':
+        artist_pool = all_artists[:100]
+    elif difficulty == 'medium':
+        artist_pool = all_artists[:1000]
+    else:  # hard
+        artist_pool = all_artists[100:]
 
-    # Фильтруем треки, исключая уже использованные
-    available_tracks = [
-        track for track in tracks
-        if track['id'] not in used_track_ids and track['artist']['name'] not in used_artists
+    available_artists = [artist for artist in artist_pool if artist['name'] not in used_artists]
+    if len(available_artists) < 4:
+        print(f"[{difficulty.upper()}] Недостаточно доступных артистов: {len(available_artists)}")
+        return None, []
+
+    selected_artists = []
+    current_index = last_index
+    attempts = 0
+    max_attempts = len(available_artists)
+
+    while len(selected_artists) < 4 and attempts < max_attempts:
+        if current_index >= len(artist_pool):
+            current_index = 0
+        artist = artist_pool[current_index]
+        if artist['name'] not in used_artists:
+            selected_artists.append(artist)
+            print(f"Выбран артист: {artist['name']} (жанр: {artist['genre']}, индекс: {current_index})")
+        current_index += 1
+        attempts += 1
+
+    if len(selected_artists) < 4:
+        print(f"Не удалось найти достаточно артистов: найдено {len(selected_artists)} из 4")
+        return None, []
+
+    session['last_artist_index'][difficulty] = current_index
+
+    correct_artist = random.choice(selected_artists)
+    correct_track = asyncio.run(fetch_track_with_preview(correct_artist['id'], difficulty))
+
+    if not correct_track or "preview" not in correct_track or not correct_track["preview"]:
+        print(f"Не удалось найти трек с превью для {correct_artist['name']}")
+        return None, []
+
+    correct_track['artist'] = {'name': correct_artist['name']}
+    print(
+        f"Правильный трек: {correct_track['title']} от {correct_artist['name']}, Preview URL: {correct_track['preview']}")
+
+    tracks = [correct_track]
+    other_artists = [artist for artist in selected_artists if artist['name'] != correct_artist['name']]
+
+    fake_track_titles = [
+        "Dreamy Nights", "Echoes of Tomorrow", "Silent Waves", "Golden Horizon",
+        "Midnight Breeze", "Starlit Journey", "Whispers in the Dark", "Fading Lights"
     ]
 
-    # Если доступных треков мало, очищаем историю
-    if len(available_tracks) < 4:
-        print(f"[{difficulty.upper()}] Недостаточно доступных треков, очищаем историю")
-        used_track_ids.clear()
-        used_artists.clear()
-        session['used_track_ids'] = list(used_track_ids)
-        session['used_artists'] = list(used_artists)
-        available_tracks = tracks
+    for artist in other_artists:
+        fake_track = {
+            'id': f"fake_{artist['id']}_{random.randint(1000, 9999)}",
+            'title': random.choice(fake_track_titles),
+            'artist': {'name': artist['name']},
+            'preview': None
+        }
+        tracks.append(fake_track)
+        print(f"Фейковый трек: {fake_track['title']} от {artist['name']}")
 
-    if not available_tracks:
-        print(f"[{difficulty.upper()}] После фильтрации не осталось доступных треков")
-        return None, []
-
-    # Сортируем доступные треки по rank и выбираем трек с максимальным rank
-    available_tracks.sort(key=lambda x: x.get('rank', 0), reverse=True)
-    correct_track = available_tracks[0]
-    correct_artist = correct_track['artist']['name']
-    print(f"[{difficulty.upper()}] Выбран правильный трек: {correct_track['title']} - {correct_artist} (rank: {correct_track.get('rank', 0)})")
-
-    # Обновляем историю использованных треков и исполнителей
-    used_track_ids.add(correct_track['id'])
-    used_artists.add(correct_artist)
-
-    # Определяем диапазон index для вариантов ответа
-    option_index_ranges = {
-        'easy': (200, 300),
-        'medium': (500, 600),
-        'hard': (800, 900)
-    }
-    option_index_start, index_end = option_index_ranges.get(difficulty, (800, 900))
-    option_index = random.randint(option_index_start, index_end)
-
-    # Получаем треки для вариантов ответа
-    option_tracks = fetch_option_tracks(
-        used_track_ids,
-        used_artists,
-        style=style,
-        index=option_index,
-        target_count=3
-    )
-
-    if len(option_tracks) < 3:
-        print(f"[{difficulty.upper()}] Не удалось найти достаточно треков для вариантов ответа: {len(option_tracks)} треков")
-        return None, []
-
-    # Формируем варианты ответа
-    options = []
-    selected_artists = {correct_artist}
-    allow_same_artist = False
-
-    for track in option_tracks:
-        artist = track['artist']['name']
-        if len(options) < 3 and (artist not in selected_artists or allow_same_artist):
-            options.append({
-                'id': track['id'],
-                'title': track['title'],
-                'artist': artist,
-                'preview_url': track['preview']
-            })
-            selected_artists.add(artist)
-            used_track_ids.add(track['id'])
-            used_artists.add(artist)
-
-    if len(options) < 3:
-        print(f"[{difficulty.upper()}] Не удалось выбрать 3 варианта ответа с разными исполнителями: {len(options)} вариантов, пробуем разрешить совпадение исполнителей")
-        allow_same_artist = True
-        selected_artists = {correct_artist}
-        options = []
-        for track in option_tracks:
-            artist = track['artist']['name']
-            if len(options) < 3:
-                options.append({
-                    'id': track['id'],
-                    'title': track['title'],
-                    'artist': artist,
-                    'preview_url': track['preview']
-                })
-                selected_artists.add(artist)
-                used_track_ids.add(track['id'])
-                used_artists.add(artist)
-
-    if len(options) < 3:
-        print(f"[{difficulty.upper()}] Не удалось выбрать 3 варианта ответа даже с совпадением исполнителей: {len(options)} вариантов")
-        return None, []
-
-    options.append({
-        'id': correct_track['id'],
-        'title': correct_track['title'],
-        'artist': correct_artist,
-        'preview_url': correct_track['preview']
-    })
-
+    options = tracks
     random.shuffle(options)
 
+    used_track_ids.add(correct_track['id'])
+    used_artists.add(correct_artist['name'])
+    for track in options:
+        used_track_ids.add(track['id'])
+        used_artists.add(track['artist']['name'])
+        print(f"Добавлен трек в used_track_ids: {track['id']} ({track['title']} от {track['artist']['name']})")
+
     session['used_track_ids'] = list(used_track_ids)
-    session['used_artists'] = list(used_artists)
+    session['used_artists'][difficulty] = list(used_artists)
 
-    formatted_correct_track = {
-        'id': correct_track['id'],
-        'title': correct_track['title'],
-        'artist': correct_artist,
-        'preview_url': correct_track['preview']
-    }
-
-    return formatted_correct_track, options
+    return correct_track, options

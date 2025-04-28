@@ -10,7 +10,6 @@
 </head>
 <body>
     <div class="container">
-        <!-- Заголовок -->
         <header class="header">
             <a href="{{ url_for('index') }}">
                 <h1 class="text-3xl font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
@@ -29,10 +28,7 @@
                 {% endif %}
             </div>
         </header>
-
-        <!-- Основной контейнер с фильтрами, контентом и боковой панелью -->
         <div class="content-wrapper">
-            <!-- Блок фильтров слева -->
             <div class="filters block-background p-6">
                 <h2 class="text-xl font-semibold mb-4">Фильтры</h2>
                 <form id="filter-form" method="GET" action="">
@@ -63,13 +59,9 @@
                     <button type="submit" class="apply-btn">Применить фильтры</button>
                 </form>
             </div>
-
-            <!-- Основной контент по центру -->
             <div class="main-content" id="main-content">
                 {% block content %}{% endblock %}
             </div>
-
-            <!-- Боковая панель справа (таблица лидеров и чат) -->
             <div class="sidebar" id="sidebar">
                 {% if leaders %}
                     <div class="block-background p-6 mb-6" id="leaderboard">
@@ -128,8 +120,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Полноэкранный чат -->
         <div id="chat-fullscreen" class="chat-fullscreen" style="display: none;">
             <div class="chat-fullscreen-header">
                 <button onclick="toggleChatFullscreen()" class="text-gray-400 hover:text-gray-300">
@@ -156,8 +146,6 @@
                 </form>
             {% endif %}
         </div>
-
-        <!-- Полноэкранная таблица лидеров -->
         <div id="leaderboard-fullscreen" class="leaderboard-fullscreen" style="display: none;">
             <div class="flex justify-between items-center mb-4">
                 <button onclick="toggleLeaderboardFullscreen()" class="text-gray-400 hover:text-gray-300">

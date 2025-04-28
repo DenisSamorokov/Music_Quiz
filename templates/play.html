@@ -19,6 +19,11 @@
             </div>
         </div>
 
+        <div id="loading" class="flex justify-center items-center mb-4" style="display: none;">
+            <div class="loader"></div>
+            <p class="ml-2 text-gray-400">Загрузка...</p>
+        </div>
+
         {% if track and options %}
         <div class="block-background p-6 mb-8">
             <div class="flex justify-center items-center mb-4">
@@ -44,6 +49,7 @@
                     <div class="bar"></div>
                 </div>
             </div>
+            <p id="audio-error" style="color: red; display: none;">Не удалось воспроизвести аудио. Нажмите на плеер или выберите другой трек.</p>
         </div>
 
         <form id="guess-form" method="POST">
@@ -54,7 +60,7 @@
                 <div class="grid grid-cols-2 gap-4 max-w-lg mx-auto">
                     {% for option in options %}
                         <label class="option-card p-4 rounded-lg cursor-pointer">
-                            <input type="radio" name="guess" value="{{ option.id }}" class="hidden" required onchange="document.getElementById('guess-form').submit()">
+                            <input type="radio" name="guess" value="{{ option.id }}" class="hidden" required>
                             <div class="flex items-center">
                                 <div class="w-10 h-10 bg-gray-700 rounded flex items-center justify-center mr-3">
                                     <span class="font-bold">{{ loop.index | replace('1', 'A') | replace('2', 'B') | replace('3', 'C') | replace('4', 'D') }}</span>
@@ -70,7 +76,18 @@
             </div>
         </form>
 
-        <!-- Модальное окно для тайм-аута -->
+        <div id="result-modal" class="modal" style="display: none;">
+            <div class="modal-content block-background">
+                <h2 id="result-title" class="text-xl font-semibold mb-4"></h2>
+                <p id="result-answer" class="mb-4"></p>
+                <div class="space-x-4">
+                    <a id="next-button" href="{{ url_for('play', difficulty=difficulty, language=language, style=style) }}" class="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-center">
+                        Дальше
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div id="timeout-modal" class="modal" style="display: none;">
             <div class="modal-content block-background">
                 <h2 class="text-xl font-semibold mb-4">Время истекло!</h2>
@@ -87,18 +104,39 @@
             const equalizer = document.getElementById('equalizer');
             const timerDisplay = document.getElementById('timer');
             const timeoutModal = document.getElementById('timeout-modal');
+            const resultModal = document.getElementById('result-modal');
+            const resultTitle = document.getElementById('result-title');
+            const resultAnswer = document.getElementById('result-answer');
+            const errorElement = document.getElementById('audio-error');
+            const form = document.getElementById('guess-form');
+            const options = document.querySelectorAll('input[name="guess"]');
             let duration = {{ duration }};
             let timeLeft = duration;
-
-            audio.play();
-            playBtn.innerHTML = '<i class="fas fa-pause"></i>';
-            equalizer.classList.remove('paused');
+            document.addEventListener('DOMContentLoaded', () => {
+                document.getElementById('loading').style.display = 'flex';
+            });
+            window.addEventListener('load', () => {
+                document.getElementById('loading').style.display = 'none';
+            });
+            audio.play().then(() => {
+                playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                equalizer.classList.remove('paused');
+            }).catch(error => {
+                console.log("Ошибка автопроигрывания:", error);
+                errorElement.style.display = 'block';
+                playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                equalizer.classList.add('paused');
+            });
 
             playBtn.addEventListener('click', () => {
                 if (audio.paused) {
-                    audio.play();
-                    playBtn.innerHTML = '<i class="fas fa-pause"></i>';
-                    equalizer.classList.remove('paused');
+                    audio.play().then(() => {
+                        playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                        equalizer.classList.remove('paused');
+                    }).catch(error => {
+                        console.log("Ошибка воспроизведения:", error);
+                        errorElement.style.display = 'block';
+                    });
                 } else {
                     audio.pause();
                     playBtn.innerHTML = '<i class="fas fa-play"></i>';
@@ -126,10 +164,39 @@
                 if (timeLeft <= 0) {
                     clearInterval(timer);
                     audio.pause();
-                    // Показываем модальное окно
                     timeoutModal.style.display = 'flex';
                 }
             }, 1000);
+
+            // Добавляем класс selected к .option-card при выборе
+            options.forEach(option => {
+                option.addEventListener('change', () => {
+                    // Удаляем класс selected у всех .option-card
+                    document.querySelectorAll('.option-card').forEach(card => {
+                        card.classList.remove('selected');
+                    });
+                    // Добавляем класс selected к выбранному .option-card
+                    option.closest('.option-card').classList.add('selected');
+
+                    const formData = new FormData(form);
+                    fetch(form.action, {
+                        method: 'POST',
+                        body: formData
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        clearInterval(timer);
+                        audio.pause();
+                        resultTitle.textContent = data.correct ? 'Правильно!' : 'Неправильно';
+                        resultTitle.className = `text-xl font-semibold mb-4 ${data.correct ? 'correct' : ''}`;
+                        resultAnswer.textContent = `Ответ: ${data.track.title} от ${data.track.artist}`;
+                        resultModal.style.display = 'flex';
+                    })
+                    .catch(error => {
+                        console.error('Ошибка при отправке формы:', error);
+                    });
+                });
+            });
         </script>
         {% endif %}
     </div>
