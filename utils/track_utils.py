@@ -5,6 +5,7 @@ from utils.deezer import load_artists
 import eventlet
 from eventlet.green import urllib
 import logging
+from flask import Flask, current_app, session
 
 # Настройка логирования
 logging.basicConfig(filename='game.log', level=logging.WARNING, format='%(asctime)s [%(levelname)s] %(message)s')
@@ -119,140 +120,146 @@ def fetch_multiple_tracks(artists, difficulty):
 
 def select_track_and_options(session, difficulty, style='any', country=None):
     start_time = time.time()
-    # Инициализация сессии
-    session.setdefault('used_track_ids', [])
-    session.setdefault('used_artists', {'easy': [], 'medium': [], 'hard': []})
-    session.setdefault('last_artist_index', {'easy': 0, 'medium': 0, 'hard': 0})
-    session.setdefault('failed_artists', [])
 
-    used_track_ids = set(session['used_track_ids'][-100:])
-    used_artists = set(session['used_artists'][difficulty][-100:])
-    failed_artists = session['failed_artists'][-100:]
-    last_index = session['last_artist_index'][difficulty]
+    # Get the Flask application context
+    app = current_app._get_current_object()  # Correctly get the application object
 
-    print(f"[{difficulty.upper()}] Загружаем артистов для жанра: {style}")
-    all_artists = load_artists(genre=style)
-    if not all_artists:
-        logger.warning(f"[{difficulty.upper()}] Нет артистов для жанра {style}, fallback на any")
-        all_artists = load_artists(genre="any")
-        style = "any"
+    with app.app_context(): # Now operations like db and session will work
 
-    if all_artists:
-        print(f"[{difficulty.upper()}] Первые 3 артиста: {[a['name'] + ' (id=' + str(a['id']) + ')' for a in all_artists[:3]]}")
+        # Инициализация сессии
+        session.setdefault('used_track_ids', [])
+        session.setdefault('used_artists', {'easy': [], 'medium': [], 'hard': []})
+        session.setdefault('last_artist_index', {'easy': 0, 'medium': [], 'hard': 0})
+        session.setdefault('failed_artists', [])
 
-    if style.lower() != 'dance':
-        filtered_artists = [a for a in all_artists if not str(a['id']).startswith('unknown_')]
-        if filtered_artists:
-            all_artists = filtered_artists
-            print(f"[{difficulty.upper()}] После фильтрации осталось артистов: {len(all_artists)}")
+        used_track_ids = set(session['used_track_ids'][-100:])
+        used_artists = set(session['used_artists'][difficulty][-100:])
+        failed_artists = session['failed_artists'][-100:]
+        last_index = session['last_artist_index'][difficulty]
+
+        print(f"[{difficulty.upper()}] Загружаем артистов для жанра: {style}")
+        all_artists = load_artists(genre=style)
+        if not all_artists:
+            logger.warning(f"[{difficulty.upper()}] Нет артистов для жанра {style}, fallback на any")
+            all_artists = load_artists(genre="any")
+            style = "any"
+
+        if all_artists:
+            print(f"[{difficulty.upper()}] Первые 3 артиста: {[a['name'] + ' (id=' + str(a['id']) + ')' for a in all_artists[:3]]}")
+
+        if style.lower() != 'dance':
+            filtered_artists = [a for a in all_artists if not str(a['id']).startswith('unknown_')]
+            if filtered_artists:
+                all_artists = filtered_artists
+                print(f"[{difficulty.upper()}] После фильтрации осталось артистов: {len(all_artists)}")
+            else:
+                logger.warning(f"[{difficulty.upper()}] Нет артистов с корректными id для жанра {style}, используем всех")
         else:
-            logger.warning(f"[{difficulty.upper()}] Нет артистов с корректными id для жанра {style}, используем всех")
-    else:
-        print(f"[{difficulty.upper()}] Жанр Dance: используем всех артистов без фильтрации unknown_*")
+            print(f"[{difficulty.upper()}] Жанр Dance: используем всех артистов без фильтрации unknown_*")
 
-    if not all_artists:
-        logger.error(f"[{difficulty.upper()}] Нет доступных артистов после фильтрации")
-        return None, []
+        if not all_artists:
+            logger.error(f"[{difficulty.upper()}] Нет доступных артистов после фильтрации")
+            return None, []
 
-    random.shuffle(all_artists)
-    if difficulty == 'easy':
-        artist_pool = all_artists[:100]
-    elif difficulty == 'medium':
-        artist_pool = all_artists[:1000]
-    else:
-        artist_pool = all_artists if len(all_artists) <= 100 else all_artists[100:]
+        random.shuffle(all_artists)
+        if difficulty == 'easy':
+            artist_pool = all_artists[:100]
+        elif difficulty == 'medium':
+            artist_pool = all_artists[:1000]
+        else:
+            artist_pool = all_artists if len(all_artists) <= 100 else all_artists[100:]
 
-    all_possible_artists = load_artists(genre="any") if style != "any" else load_artists(genre=None)
-    all_possible_artists = [a for a in all_possible_artists if not str(a['id']).startswith('unknown_')]
-    available_other_artists = [a for a in all_possible_artists if a['name'] not in [artist['name'] for artist in artist_pool]]
+        all_possible_artists = load_artists(genre="any") if style != "any" else load_artists(genre=None)
+        all_possible_artists = [a for a in all_possible_artists if not str(a['id']).startswith('unknown_')]
+        available_other_artists = [a for a in all_possible_artists if a['name'] not in [artist['name'] for artist in artist_pool]]
 
-    available_artists = [artist for artist in artist_pool if artist['name'] not in used_artists]
-    if len(available_artists) < 4:
-        print(f"[{difficulty.upper()}] Недостаточно доступных артистов: {len(available_artists)}. Сбрасываем сессию.")
-        session['used_artists'][difficulty] = []
-        session['used_track_ids'] = []
-        used_artists = set()
-        available_artists = artist_pool
+        available_artists = [artist for artist in artist_pool if artist['name'] not in used_artists]
+        if len(available_artists) < 4:
+            print(f"[{difficulty.upper()}] Недостаточно доступных артистов: {len(available_artists)}. Сбрасываем сессию.")
+            session['used_artists'][difficulty] = []
+            session['used_track_ids'] = []
+            used_artists = set()
+            available_artists = artist_pool
 
-    correct_track = None
-    correct_artist = None
-    max_attempts_correct = min(10, len(available_artists))
-    attempted_artists = []
-    for attempt in range(max_attempts_correct):
-        if not available_artists:
-            break
-        correct_artist = random.choice(available_artists)
-        attempted_artists.append(correct_artist['name'])
-        print(f"[{difficulty.upper()}] Попытка {attempt + 1}: Проверяем артиста {correct_artist['name']} (id={correct_artist['id']})")
-        correct_track = fetch_track_with_preview(correct_artist['id'], difficulty)
-        if correct_track and correct_track.get('preview'):
-            correct_track['artist'] = {'name': correct_artist['name']}
-            correct_track['id'] = f"track_{correct_track['id']}_{correct_artist['id']}"
-            break
-        logger.warning(f"[{difficulty.upper()}] Не удалось найти трек с валидным превью для {correct_artist['name']}")
-        failed_artists.append(correct_artist['name'])
-        available_artists = [a for a in available_artists if a['name'] != correct_artist['name']]
         correct_track = None
         correct_artist = None
-
-    if not correct_track:
-        print(f"[{difficulty.upper()}] Fallback: пробуем артистов из всех жанров")
-        all_artists = load_artists(genre="any")
-        filtered_artists = [a for a in all_artists if not str(a['id']).startswith('unknown_')]
-        if filtered_artists:
-            all_artists = filtered_artists
-        random.shuffle(all_artists)
-        artist_pool = all_artists[:100] if difficulty == 'easy' else all_artists[:1000] if difficulty == 'medium' else all_artists
-        available_artists = [artist for artist in artist_pool if artist['name'] not in used_artists]
+        max_attempts_correct = min(10, len(available_artists))
+        attempted_artists = []
         for attempt in range(max_attempts_correct):
             if not available_artists:
                 break
             correct_artist = random.choice(available_artists)
             attempted_artists.append(correct_artist['name'])
-            print(f"[{difficulty.upper()}] Fallback, попытка {attempt + 1}: Проверяем артиста {correct_artist['name']} (id={correct_artist['id']})")
+            print(f"[{difficulty.upper()}] Попытка {attempt + 1}: Проверяем артиста {correct_artist['name']} (id={correct_artist['id']})")
             correct_track = fetch_track_with_preview(correct_artist['id'], difficulty)
             if correct_track and correct_track.get('preview'):
                 correct_track['artist'] = {'name': correct_artist['name']}
                 correct_track['id'] = f"track_{correct_track['id']}_{correct_artist['id']}"
                 break
-            logger.warning(f"[{difficulty.upper()}] Не удалось найти трек с валидным превью для {correct_artist['name']} (fallback)")
+            logger.warning(f"[{difficulty.upper()}] Не удалось найти трек с валидным превью для {correct_artist['name']}")
             failed_artists.append(correct_artist['name'])
             available_artists = [a for a in available_artists if a['name'] != correct_artist['name']]
             correct_track = None
             correct_artist = None
 
-    if not correct_track or not correct_artist:
-        logger.error(f"[{difficulty.upper()}] Не удалось найти артиста с треком после попыток: {attempted_artists}")
-        session['used_track_ids'] = []
-        session['failed_artists'] = failed_artists
-        return None, []
+        if not correct_track:
+            print(f"[{difficulty.upper()}] Fallback: пробуем артистов из всех жанров")
+            all_artists = load_artists(genre="any")
+            filtered_artists = [a for a in all_artists if not str(a['id']).startswith('unknown_')]
+            if filtered_artists:
+                all_artists = filtered_artists
+            random.shuffle(all_artists)
+            artist_pool = all_artists[:100] if difficulty == 'easy' else all_artists[:1000] if difficulty == 'medium' else all_artists
+            available_artists = [artist for artist in artist_pool if artist['name'] not in used_artists]
+            for attempt in range(max_attempts_correct):
+                if not available_artists:
+                    break
+                correct_artist = random.choice(available_artists)
+                attempted_artists.append(correct_artist['name'])
+                print(f"[{difficulty.upper()}] Fallback, попытка {attempt + 1}: Проверяем артиста {correct_artist['name']} (id={correct_artist['id']})")
+                correct_track = fetch_track_with_preview(correct_artist['id'], difficulty)
+                if correct_track and correct_track.get('preview'):
+                    correct_track['artist'] = {'name': correct_artist['name']}
+                    correct_track['id'] = f"track_{correct_track['id']}_{correct_artist['id']}"
+                    break
+                logger.warning(f"[{difficulty.upper()}] Не удалось найти трек с валидным превью для {correct_artist['name']} (fallback)")
+                failed_artists.append(correct_artist['name'])
+                available_artists = [a for a in available_artists if a['name'] != correct_artist['name']]
+                correct_track = None
+                correct_artist = None
 
-    print(f"[{difficulty.upper()}] Правильный трек: {correct_track['title']} от {correct_artist['name']}, Preview URL: {correct_track['preview']}")
+        if not correct_track or not correct_artist:
+            logger.error(f"[{difficulty.upper()}] Не удалось найти артиста с треком после попыток: {attempted_artists}")
+            session['used_track_ids'] = []
+            session['failed_artists'] = failed_artists
+            return None, []
 
-    incorrect_artists = random.sample(available_other_artists, min(3, len(available_other_artists))) if available_other_artists else []
-    incorrect_tracks = []
-    if incorrect_artists:
-        incorrect_tracks = fetch_multiple_tracks(incorrect_artists, difficulty)
+        print(f"[{difficulty.upper()}] Правильный трек: {correct_track['title']} от {correct_artist['name']}, Preview URL: {correct_track['preview']}")
 
-    if len(incorrect_tracks) < 3:
-        logger.warning(f"[{difficulty.upper()}] Не удалось найти достаточно неправильных артистов: {len(incorrect_tracks)}")
-        session['failed_artists'] = failed_artists
-        return None, []
+        incorrect_artists = random.sample(available_other_artists, min(3, len(available_other_artists))) if available_other_artists else []
+        incorrect_tracks = []
+        if incorrect_artists:
+            incorrect_tracks = fetch_multiple_tracks(incorrect_artists, difficulty)
 
-    options = [correct_track] + incorrect_tracks[:3]
-    random.shuffle(options)
+        if len(incorrect_tracks) < 3:
+            logger.warning(f"[{difficulty.upper()}] Не удалось найти достаточно неправильных артистов: {len(incorrect_tracks)}")
+            session['failed_artists'] = failed_artists
+            return None, []
 
-    used_artists.add(correct_artist['name'])
-    for track in incorrect_tracks:
-        used_artists.add(track['artist']['name'])
-    for track in options:
-        used_track_ids.add(track['id'])
-        print(f"[{difficulty.upper()}] Добавлен трек в used_track_ids: {track['id']} ({track['title']} от {track['artist']['name']})")
+        options = [correct_track] + incorrect_tracks[:3]
+        random.shuffle(options)
 
-    session['used_track_ids'] = list(used_track_ids)[-100:]
-    session['used_artists'][difficulty] = list(used_artists)[-100:]
-    session['last_artist_index'][difficulty] = last_index
-    session['failed_artists'] = failed_artists[-100:]
+        used_artists.add(correct_artist['name'])
+        for track in incorrect_tracks:
+            used_artists.add(track['artist']['name'])
+        for track in options:
+            used_track_ids.add(track['id'])
+            print(f"[{difficulty.upper()}] Добавлен трек в used_track_ids: {track['id']} ({track['title']} от {track['artist']['name']})")
 
-    print(f"[{difficulty.upper()}] Общее время выбора треков: {time.time() - start_time:.2f} сек")
-    return correct_track, options
+        session['used_track_ids'] = list(used_track_ids)[-100:]
+        session['used_artists'][difficulty] = list(used_artists)[-100:]
+        session['last_artist_index'][difficulty] = last_index
+        session['failed_artists'] = failed_artists[-100:]
+
+        print(f"[{difficulty.upper()}] Общее время выбора треков: {time.time() - start_time:.2f} сек")
+        return correct_track, options

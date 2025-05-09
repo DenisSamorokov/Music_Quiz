@@ -7,6 +7,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime
 import requests
 import eventlet
+from eventlet import GreenPool
 import logging
 
 # Настройка логирования
@@ -47,7 +48,7 @@ def init_routes(app: Flask, socketio=None):
         try:
             # Выполняем асинхронный вызов через eventlet с контекстом приложения
             with app.app_context():
-                track, options = eventlet.spawn(select_track_and_options, session, difficulty, style=style).wait()
+                track, options = select_track_and_options(session, difficulty, style=style)
                 session.modified = True  # Явно отмечаем сессию как изменённую
         except Exception as e:
             logger.error(f"Ошибка выбора трека: {str(e)}")
@@ -114,7 +115,7 @@ def init_routes(app: Flask, socketio=None):
         try:
             # Выполняем асинхронный вызов через eventlet с контекстом приложения
             with app.app_context():
-                correct_track, options = eventlet.spawn(select_track_and_options, session, difficulty, style).wait()
+                correct_track, options = select_track_and_options(session, difficulty, style)
                 session.modified = True  # Явно отмечаем сессию как изменённую
             if not correct_track:
                 logger.error("Не удалось загрузить трек для предзагрузки")
