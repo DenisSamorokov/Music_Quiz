@@ -52,6 +52,7 @@ body {
 .custom-player {
     position: relative;
     display: flex;
+    flex-direction: row; /* Гарантируем горизонтальное расположение */
     align-items: center;
     justify-content: center;
     background: linear-gradient(90deg, rgba(124,58,237,0.8) 0%, rgba(236,72,153,0.8) 100%);
@@ -74,9 +75,10 @@ body {
 }
 
 .equalizer {
-    display: flex;
+    display: flex !important;
     gap: 4px;
     margin-left: 1rem;
+    border: 1px solid red; /* Отладка: красная рамка для проверки */
 }
 
 .bar {
@@ -113,7 +115,6 @@ body {
     background: rgba(255, 255, 255, 0.1);
 }
 
-/* Применяем стиль ко всему блоку .option-card, когда он выбран */
 .option-card.selected {
     background: linear-gradient(90deg, rgba(124,58,237,0.8) 0%, rgba(236,72,153,0.8) 100%);
 }
@@ -145,7 +146,7 @@ body {
 }
 
 .modal-content h2.correct {
-    color: #28a745; /* Зелёный цвет для слова "Правильно" */
+    color: #28a745;
 }
 
 .modal-content p {

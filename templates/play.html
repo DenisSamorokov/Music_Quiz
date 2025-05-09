@@ -3,7 +3,7 @@
 {% block title %}Игра{% endblock %}
 
 {% block content %}
-    <div class="text-center">
+    <div class="main-content text-center">
         <div class="block-background p-6 mb-6">
             <h2 class="text-xl font-semibold mb-4">Выберите сложность</h2>
             <div class="flex justify-center space-x-4">
@@ -107,6 +107,7 @@
     <script>
         let currentFetch = null;
         let nextTrack = null;
+        let equalizerTimeout = null;
 
         const audio = document.getElementById('audio-player');
         const playBtn = document.getElementById('play-btn');
@@ -134,6 +135,7 @@
                 clearInterval(timer);
                 timer = null;
             }
+            console.log('Стили эквалайзера:', getComputedStyle(equalizer).display, getComputedStyle(equalizer).flexDirection);
             startTimer();
             document.addEventListener('click', tryPlayAudio, { once: true });
         });
@@ -154,6 +156,8 @@
                         clearInterval(timer);
                         timer = null;
                         audio.pause();
+                        equalizer.style.display = 'none';
+                        console.log('Эквалайзер скрыт из-за истечения времени');
                         timeoutModal.style.display = 'flex';
                     }
                 }, 1000);
@@ -182,6 +186,14 @@
 
         function tryPlayAudio() {
             console.log('Попытка воспроизведения аудио:', audio.src);
+            equalizer.style.display = 'block';
+            console.log('Эквалайзер отображен, стили:', getComputedStyle(equalizer).display);
+            equalizerTimeout = setTimeout(() => {
+                if (audio.paused) {
+                    equalizer.style.display = 'none';
+                    console.log('Эквалайзер скрыт после 2 секунд (таймаут)');
+                }
+            }, 2000);
             fetch(audio.src, { method: 'GET', mode: 'cors' })
                 .then(response => {
                     console.log('Проверка доступности:', response.status);
@@ -194,20 +206,27 @@
                 .catch(error => {
                     console.error('CORS или сетевая ошибка:', error.message, audio.src);
                     errorElement.style.display = 'block';
+                    equalizer.style.display = 'none';
+                    console.log('Эквалайзер скрыт из-за ошибки CORS/сети');
+                    clearTimeout(equalizerTimeout);
                 })
                 .finally(() => {
                     console.log('Загрузка аудио');
                     audio.load();
-                    equalizer.style.display = 'block'; // Показываем эквалайзер при попытке
                     audio.play().then(() => {
                         console.log('Аудио воспроизводится:', audio.src);
                         playBtn.innerHTML = '<i class="fas fa-pause"></i>';
                         errorElement.style.display = 'none';
+                        equalizer.style.display = 'block';
+                        console.log('Эквалайзер отображен при воспроизведении');
+                        clearTimeout(equalizerTimeout);
                         preloadNextTrack();
                     }).catch(error => {
                         console.error('Ошибка воспроизведения:', error.name, error.message, audio.src);
                         errorElement.style.display = 'block';
                         equalizer.style.display = 'none';
+                        console.log('Эквалайзер скрыт из-за ошибки воспроизведения');
+                        clearTimeout(equalizerTimeout);
                     });
                 });
         }
@@ -215,6 +234,14 @@
         playBtn.addEventListener('click', () => {
             console.log('Клик по кнопке воспроизведения, текущее состояние:', audio.paused ? 'пауза' : 'воспроизведение');
             if (audio.paused) {
+                equalizer.style.display = 'block';
+                console.log('Эквалайзер отображен (кнопка), стили:', getComputedStyle(equalizer).display);
+                equalizerTimeout = setTimeout(() => {
+                    if (audio.paused) {
+                        equalizer.style.display = 'none';
+                        console.log('Эквалайзер скрыт после 2 секунд (таймаут, кнопка)');
+                    }
+                }, 2000);
                 fetch(audio.src, { method: 'GET', mode: 'cors' })
                     .then(response => {
                         console.log('Проверка доступности (кнопка):', response.status);
@@ -226,19 +253,26 @@
                     .catch(error => {
                         console.error('CORS или сетевая ошибка (кнопка):', error.message, audio.src);
                         errorElement.style.display = 'block';
+                        equalizer.style.display = 'none';
+                        console.log('Эквалайзер скрыт из-за ошибки CORS/сети (кнопка)');
+                        clearTimeout(equalizerTimeout);
                     })
                     .finally(() => {
                         console.log('Попытка воспроизведения (кнопка)');
-                        equalizer.style.display = 'block'; // Показываем эквалайзер при попытке
                         audio.play().then(() => {
                             console.log('Аудио воспроизводится (кнопка):', audio.src);
                             playBtn.innerHTML = '<i class="fas fa-pause"></i>';
                             errorElement.style.display = 'none';
+                            equalizer.style.display = 'block';
+                            console.log('Эквалайзер отображен при воспроизведении (кнопка)');
+                            clearTimeout(equalizerTimeout);
                             if (!nextTrack) preloadNextTrack();
                         }).catch(error => {
                             console.error('Ошибка воспроизведения (кнопка):', error.name, error.message, audio.src);
                             errorElement.style.display = 'block';
                             equalizer.style.display = 'none';
+                            console.log('Эквалайзер скрыт из-за ошибки воспроизведения (кнопка)');
+                            clearTimeout(equalizerTimeout);
                         });
                     });
             } else {
@@ -246,6 +280,8 @@
                 audio.pause();
                 playBtn.innerHTML = '<i class="fas fa-play"></i>';
                 equalizer.style.display = 'none';
+                console.log('Эквалайзер скрыт при паузе');
+                clearTimeout(equalizerTimeout);
             }
         });
 
@@ -256,6 +292,8 @@
                 audio.currentTime = 0;
                 playBtn.innerHTML = '<i class="fas fa-play"></i>';
                 equalizer.style.display = 'none';
+                console.log('Эквалайзер скрыт из-за превышения длительности');
+                clearTimeout(equalizerTimeout);
             }
         });
 
@@ -263,12 +301,16 @@
             console.log('Аудио завершено');
             playBtn.innerHTML = '<i class="fas fa-play"></i>';
             equalizer.style.display = 'none';
+            console.log('Эквалайзер скрыт при завершении аудио');
+            clearTimeout(equalizerTimeout);
         });
 
         audio.addEventListener('error', (e) => {
             console.error('Ошибка аудио:', e.target.error.code, e.target.error.message, audio.src);
             errorElement.style.display = 'block';
             equalizer.style.display = 'none';
+            console.log('Эквалайзер скрыт из-за ошибки аудио');
+            clearTimeout(equalizerTimeout);
         });
 
         options.forEach(option => {
@@ -283,6 +325,9 @@
                     timer = null;
                 }
                 audio.pause();
+                equalizer.style.display = 'none';
+                console.log('Эквалайзер скрыт при выборе варианта');
+                clearTimeout(equalizerTimeout);
 
                 resultLoading.style.display = 'flex';
                 resultModal.style.display = 'flex';
@@ -337,6 +382,7 @@
             if (timer) {
                 clearInterval(timer);
             }
+            clearTimeout(equalizerTimeout);
         });
     </script>
 {% endblock %}
