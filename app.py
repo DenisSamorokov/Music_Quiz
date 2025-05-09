@@ -4,10 +4,12 @@ from flask_login import LoginManager
 import os
 from models.models import init_db, User, db
 from routes.routes import init_routes
+from flask_cors import CORS  # Import the CORS extension
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'your-secret-key')
 app.config['SESSION_TYPE'] = 'filesystem'
+CORS(app)  # Добавьте эту строку
 
 if os.getenv('DATABASE_URL'):
     app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL').replace("postgres://", "postgresql://")

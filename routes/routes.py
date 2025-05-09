@@ -7,7 +7,6 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime
 import requests
 import eventlet
-from eventlet import GreenPool
 import logging
 
 # Настройка логирования
@@ -15,6 +14,13 @@ logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s 
 logger = logging.getLogger(__name__)
 
 def init_routes(app: Flask, socketio=None):
+    def check_deezer_api():
+        try:
+            response = requests.get("https://api.deezer.com/ping", timeout=5)
+            return response.status_code == 200
+        except requests.RequestException:
+            return False
+
     @app.route('/')
     def index():
         leaders = User.query.order_by(User.score.desc()).limit(5).all()
@@ -31,6 +37,7 @@ def init_routes(app: Flask, socketio=None):
             flash("Неверный уровень сложности. Выберите easy, medium или hard.", "error")
             return redirect(url_for('index'))
 
+        # Инициализация данных сессии
         if 'used_artists' not in session or not isinstance(session['used_artists'], dict):
             session['used_artists'] = {'easy': [], 'medium': [], 'hard': []}
         if difficulty not in session['used_artists']:
@@ -45,10 +52,21 @@ def init_routes(app: Flask, socketio=None):
             session['used_track_ids'] = []
         session['used_track_ids'] = session['used_track_ids'][-100:]
 
+        if not check_deezer_api():
+            logger.error("Deezer API недоступен")
+            flash("Сервис Deezer недоступен. Попробуйте позже.", "error")
+            return redirect(url_for('index'))
+
         try:
-            # Выполняем асинхронный вызов через eventlet с контекстом приложения
+            # Создаём копию данных сессии
+            session_data = dict(session)
+            # Выполняем асинхронный вызов через eventlet
             with app.app_context():
-                track, options = select_track_and_options(session, difficulty, style=style)
+                track, options, updated_session_data = eventlet.spawn(
+                    select_track_and_options, session_data, difficulty, style=style
+                ).wait()
+                # Обновляем сессию
+                session.update(updated_session_data)
                 session.modified = True  # Явно отмечаем сессию как изменённую
         except Exception as e:
             logger.error(f"Ошибка выбора трека: {str(e)}")
@@ -112,10 +130,20 @@ def init_routes(app: Flask, socketio=None):
 
     @app.route('/preload/<difficulty>/<style>')
     def preload(difficulty, style):
+        if not check_deezer_api():
+            logger.error("Deezer API недоступен для предзагрузки")
+            return jsonify({'error': 'Сервис Deezer недоступен'}), 503
+
         try:
-            # Выполняем асинхронный вызов через eventlet с контекстом приложения
+            # Создаём копию данных сессии
+            session_data = dict(session)
+            # Выполняем асинхронный вызов через eventlet
             with app.app_context():
-                correct_track, options = select_track_and_options(session, difficulty, style)
+                correct_track, options, updated_session_data = eventlet.spawn(
+                    select_track_and_options, session_data, difficulty, style
+                ).wait()
+                # Обновляем сессию
+                session.update(updated_session_data)
                 session.modified = True  # Явно отмечаем сессию как изменённую
             if not correct_track:
                 logger.error("Не удалось загрузить трек для предзагрузки")
