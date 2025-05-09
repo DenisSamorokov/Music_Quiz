@@ -1,34 +1,61 @@
-from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
+from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify, make_response, Response
 from flask_login import login_user, login_required, logout_user, current_user
 from flask_socketio import emit
 from models.models import User, Message, db
 from utils.track_utils import select_track_and_options
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime
+import requests
+import eventlet
+import logging
+
+# Настройка логирования
+logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
+logger = logging.getLogger(__name__)
 
 def init_routes(app: Flask, socketio=None):
     @app.route('/')
     def index():
         leaders = User.query.order_by(User.score.desc()).limit(5).all()
         messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
-        genres = ["any", "Pop", "Rock", "Hip-Hop/Rap", "Electronic", "Jazz", "Classical"]
-        return render_template('index.html', leaders=leaders, messages=messages, genres=genres)
+        if 'selected_style' not in session:
+            session['selected_style'] = 'any'
+        return render_template('index.html', leaders=leaders, messages=messages)
 
     @app.route('/play/<difficulty>', methods=['GET', 'POST'])
     @login_required
     def play(difficulty):
+        valid_difficulties = ['easy', 'medium', 'hard']
+        if difficulty not in valid_difficulties:
+            flash("Неверный уровень сложности. Выберите easy, medium или hard.", "error")
+            return redirect(url_for('index'))
+
+        if 'used_artists' not in session or not isinstance(session['used_artists'], dict):
+            session['used_artists'] = {'easy': [], 'medium': [], 'hard': []}
+        if difficulty not in session['used_artists']:
+            session['used_artists'][difficulty] = []
+        session['used_artists'][difficulty] = session['used_artists'][difficulty][-100:]
+
         style = request.args.get('style', 'any')
-        language = request.args.get('language', 'ru')
-        country = request.args.get('country', None)
+        session['selected_style'] = style
+        logger.info(f"Игра: difficulty={difficulty}, style={style}")
 
         if 'used_track_ids' not in session:
             session['used_track_ids'] = []
-        if 'used_artists' not in session or not isinstance(session['used_artists'], dict):
-            session['used_artists'] = {'easy': [], 'medium': [], 'hard': []}
+        session['used_track_ids'] = session['used_track_ids'][-100:]
 
-        track, options = select_track_and_options(difficulty, style=style, country=country)
+        try:
+            # Выполняем асинхронный вызов через eventlet с контекстом приложения
+            with app.app_context():
+                track, options = eventlet.spawn(select_track_and_options, session, difficulty, style=style).wait()
+                session.modified = True  # Явно отмечаем сессию как изменённую
+        except Exception as e:
+            logger.error(f"Ошибка выбора трека: {str(e)}")
+            flash("Не удалось загрузить трек. Попробуйте снова.", "error")
+            return redirect(url_for('index'))
+
         if not track or len(options) < 4:
-            print(f"[{difficulty.upper()}] Не удалось выбрать трек или варианты ответа")
+            logger.warning(f"[{difficulty.upper()}] Не удалось выбрать трек или варианты ответа")
             flash("Не удалось найти достаточно треков. Попробуйте другой уровень сложности или жанр.", "error")
             return redirect(url_for('index'))
 
@@ -59,15 +86,69 @@ def init_routes(app: Flask, socketio=None):
                 'id': opt['id'],
                 'title': opt['title'],
                 'artist': opt['artist']['name'],
-                'preview_url': opt.get('preview', None)
+                'preview_url': opt.get('preview', None)  # preview_url может отсутствовать
             }
             for opt in options
         ]
 
-        print(f"Preview URL для трека: {track_for_template['preview_url']}")
+        logger.info(f"Preview URL для трека: {track_for_template['preview_url']}")
 
-        return render_template('play.html', track=track_for_template, options=options_for_template,
-                               difficulty=difficulty, duration=duration, style=style, language=language)
+        response = make_response(render_template('play.html', track=track_for_template, options=options_for_template,
+                                                difficulty=difficulty, duration=duration, style=style))
+        response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+        return response
+
+    @app.route('/proxy/<path:url>')
+    def proxy(url):
+        try:
+            response = requests.get(url, headers={'Origin': 'http://127.0.0.1:5000'}, timeout=5)
+            response.raise_for_status()
+            logger.info(f"Прокси успех: {url}, статус: {response.status_code}")
+            return Response(response.content, content_type=response.headers.get('Content-Type'))
+        except requests.RequestException as e:
+            logger.error(f"Ошибка прокси: {str(e)}")
+            return Response("Ошибка загрузки аудио", status=500)
+
+    @app.route('/preload/<difficulty>/<style>')
+    def preload(difficulty, style):
+        try:
+            # Выполняем асинхронный вызов через eventlet с контекстом приложения
+            with app.app_context():
+                correct_track, options = eventlet.spawn(select_track_and_options, session, difficulty, style).wait()
+                session.modified = True  # Явно отмечаем сессию как изменённую
+            if not correct_track:
+                logger.error("Не удалось загрузить трек для предзагрузки")
+                return jsonify({'error': 'Не удалось загрузить трек'}), 500
+            logger.info(f"Предзагрузка трека: {correct_track['title']}")
+            return jsonify({
+                'track': {
+                    'id': correct_track['id'],
+                    'title': correct_track['title'],
+                    'artist': correct_track['artist']['name'],
+                    'preview_url': correct_track['preview']
+                },
+                'options': [
+                    {
+                        'id': opt['id'],
+                        'title': opt['title'],
+                        'artist': opt['artist']['name'],
+                        'preview_url': opt.get('preview', None)  # preview_url может отсутствовать
+                    } for opt in options
+                ]
+            })
+        except Exception as e:
+            logger.error(f"Ошибка предзагрузки: {str(e)}")
+            return jsonify({'error': 'Не удалось загрузить трек'}), 500
+
+    @app.route('/set_filter', methods=['POST'])
+    @login_required
+    def set_filter():
+        data = request.get_json()
+        style = data.get('style', 'any')
+        session['selected_style'] = style
+        session['game_state'] = 'new'
+        logger.info(f"Фильтр установлен: style={style}")
+        return jsonify({'status': 'success', 'style': style})
 
     @app.route('/reset-session', methods=['POST'])
     @login_required
@@ -76,7 +157,9 @@ def init_routes(app: Flask, socketio=None):
         session['used_track_ids'] = []
         session['used_artists'] = {'easy': [], 'medium': [], 'hard': []}
         session['last_artist_index'] = {'easy': 0, 'medium': 0, 'hard': 0}
-        flash("История использованных треков сброшена.", "success")
+        session['failed_artists'] = []
+        session['selected_style'] = 'any'
+        flash("История использованных треков и фильтры сброшены.", "success")
         return redirect(url_for('index'))
 
     @app.route('/leaderboard')
@@ -100,6 +183,8 @@ def init_routes(app: Flask, socketio=None):
             user = User.query.filter_by(username=username).first()
             if user and check_password_hash(user.password, password):
                 login_user(user)
+                session['selected_style'] = 'any'
+                logger.info(f"Пользователь вошёл: {username}")
                 return redirect(url_for('index'))
             else:
                 flash('Неверное имя пользователя или пароль.', 'error')
@@ -117,12 +202,15 @@ def init_routes(app: Flask, socketio=None):
                 db.session.add(user)
                 db.session.commit()
                 flash('Регистрация успешна! Войдите в систему.', 'success')
+                logger.info(f"Пользователь зарегистрирован: {username}")
                 return redirect(url_for('login'))
         return render_template('register.html')
 
     @app.route('/logout')
     @login_required
     def logout():
+        session['selected_style'] = 'any'
+        logger.info(f"Пользователь вышел: {current_user.username}")
         logout_user()
         return redirect(url_for('index'))
 
@@ -145,6 +233,7 @@ def init_routes(app: Flask, socketio=None):
         )
         db.session.add(message)
         db.session.commit()
+        logger.info(f"Сообщение в чате от {current_user.username}: {data['message']}")
         emit('chat_message', {
             'username': message.username,
             'message': message.message,

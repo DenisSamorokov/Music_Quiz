@@ -1,21 +1,60 @@
 import asyncio
 import aiohttp
 import json
+import os
 from pathlib import Path
 
-ARTISTS_FILE = Path("artists.json")
+GENRES_DIR = Path("genres")
+ALL_ARTISTS_FILE = Path("artists_with_tracks.json")
 
 def load_artists(genre=None):
-    if not ARTISTS_FILE.exists():
-        return []
-    try:
-        with open(ARTISTS_FILE, "r", encoding="utf-8") as f:
-            artists = json.load(f)
-        if genre and genre != "any":
-            artists = [artist for artist in artists if artist.get("genre") == genre]
-        return artists
-    except (json.JSONDecodeError, IOError):
-        return []
+    artists = []
+    if genre and genre != "any":
+        # Загружаем артистов из файла жанра
+        file_path = GENRES_DIR / f"{genre}.json"
+        if not file_path.exists():
+            print(f"Файл для жанра {genre} не найден.")
+            return []
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                genre_artists = json.load(f)
+                # Преобразуем структуру для совместимости, исключая артистов без треков
+                artists = [
+                    {
+                        "id": artist.get("id", f"unknown_{idx}"),
+                        "name": artist["name"],
+                        "genre": genre,
+                        "tracks": artist["tracks"]
+                    }
+                    for idx, artist in enumerate(genre_artists)
+                    if artist.get("tracks", [])  # Проверяем, что tracks не пустой
+                ]
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Ошибка при загрузке {file_path}: {e}")
+            return []
+    else:
+        # Загружаем всех артистов из artists_with_tracks.json
+        if not ALL_ARTISTS_FILE.exists():
+            print(f"Файл {ALL_ARTISTS_FILE} не найден.")
+            return []
+        try:
+            with open(ALL_ARTISTS_FILE, "r", encoding="utf-8") as f:
+                all_artists = json.load(f)
+                # Преобразуем структуру для совместимости, исключая артистов без треков
+                artists = [
+                    {
+                        "id": artist.get("id", f"unknown_{idx}"),
+                        "name": artist["name"],
+                        "genre": ", ".join(artist.get("genres", ["unknown"])),
+                        "tracks": artist["tracks"]
+                    }
+                    for idx, artist in enumerate(all_artists)
+                    if artist.get("tracks", [])  # Проверяем, что tracks не пустой
+                ]
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Ошибка при загрузке {ALL_ARTISTS_FILE}: {e}")
+            return []
+    return artists
 
 async def fetch(session, url):
     try:
@@ -38,11 +77,12 @@ async def get_artist_top_tracks(session, artist_id, limit=20):
     for track in tracks:
         if "preview" in track and track["preview"]:
             try:
-                async with session.head(track["preview"]) as response:
-                    if response.status == 200:
+                async with session.head(track["preview"], headers={'Origin': 'http://127.0.0.1:5000'}) as response:
+                    content_type = response.headers.get('Content-Type', '')
+                    if response.status == 200 and 'audio' in content_type.lower():
                         valid_tracks.append(track)
                     else:
-                        print(f"Превью недоступно: {track['preview']} (статус: {response.status})")
+                        print(f"Превью недоступно: {track['preview']} (статус: {response.status}, Content-Type: {content_type})")
             except Exception as e:
                 print(f"Ошибка проверки превью {track['preview']}: {e}")
         else:
