@@ -27,6 +27,7 @@ def init_routes(app: Flask, socketio=None):
         messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
         if 'selected_style' not in session:
             session['selected_style'] = 'any'
+        logger.debug(f"Index: leaders = {[(leader.username, leader.score) for leader in leaders]}")
         return render_template('index.html', leaders=leaders, messages=messages)
 
     @app.route('/play/<difficulty>', methods=['GET', 'POST'])
@@ -57,6 +58,12 @@ def init_routes(app: Flask, socketio=None):
             flash("Сервис Deezer недоступен. Попробуйте позже.", "error")
             return redirect(url_for('index'))
 
+        # Получаем лидеров и сообщения
+        leaders = User.query.order_by(User.score.desc()).limit(5).all()
+        messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
+        logger.debug(f"Play: leaders = {[(leader.username, leader.score) for leader in leaders]}")
+        logger.debug(f"Play: messages = {[(msg.username, msg.message) for msg in messages]}")
+
         try:
             # Создаём копию данных сессии
             session_data = dict(session)
@@ -71,12 +78,12 @@ def init_routes(app: Flask, socketio=None):
         except Exception as e:
             logger.error(f"Ошибка выбора трека: {str(e)}")
             flash("Не удалось загрузить трек. Попробуйте снова.", "error")
-            return redirect(url_for('index'))
+            return render_template('index.html', leaders=leaders, messages=messages)
 
         if not track or len(options) < 4:
             logger.warning(f"[{difficulty.upper()}] Не удалось выбрать трек или варианты ответа")
             flash("Не удалось найти достаточно треков. Попробуйте другой уровень сложности или жанр.", "error")
-            return redirect(url_for('index'))
+            return render_template('index.html', leaders=leaders, messages=messages)
 
         duration = {'easy': 30, 'medium': 20, 'hard': 10}.get(difficulty, 30)
         if request.method == 'POST':
@@ -113,7 +120,8 @@ def init_routes(app: Flask, socketio=None):
         logger.info(f"Preview URL для трека: {track_for_template['preview_url']}")
 
         response = make_response(render_template('play.html', track=track_for_template, options=options_for_template,
-                                                difficulty=difficulty, duration=duration, style=style))
+                                                difficulty=difficulty, duration=duration, style=style,
+                                                leaders=leaders, messages=messages))
         response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
         return response
 
@@ -195,6 +203,7 @@ def init_routes(app: Flask, socketio=None):
     def leaderboard():
         leaders = User.query.order_by(User.score.desc()).limit(10).all()
         messages = Message.query.order_by(Message.timestamp.desc()).limit(3).all()
+        logger.debug(f"Leaderboard: leaders = {[(leader.username, leader.score) for leader in leaders]}")
         return render_template('leaderboard.html', leaders=leaders, messages=messages)
 
     @app.route('/chat')
@@ -202,6 +211,7 @@ def init_routes(app: Flask, socketio=None):
     def chat():
         leaders = User.query.order_by(User.score.desc()).limit(5).all()
         messages = Message.query.order_by(Message.timestamp.desc()).all()
+        logger.debug(f"Chat: leaders = {[(leader.username, leader.score) for leader in leaders]}")
         return render_template('chat.html', messages=messages, leaders=leaders)
 
     @app.route('/login', methods=['GET', 'POST'])
